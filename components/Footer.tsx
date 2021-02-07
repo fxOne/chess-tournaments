@@ -8,6 +8,10 @@ export default function Footer(): ReactElement {
       <br />
       <Link href="/about">About this page</Link>
       <br />
+      Sozial Links (twitter/insta ...)
+      <br />
+      Email Newsletter?
+      <br />
       {'>>>>>'}Footer end
     </footer>
   );
