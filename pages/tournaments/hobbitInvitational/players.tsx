@@ -1,13 +1,6 @@
-import Footer from '../../../components/Footer';
-import Menu from '../../../components/Tournaments/hobbitInvitational/Menu';
+import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import { ReactElement } from 'react';
 
 export default function Players(): ReactElement {
-  return (
-    <div>
-      <Menu />
-      List of Player with picture and Elo (short Bio?)
-      <Footer />
-    </div>
-  );
+  return <HobbitsPageFrame title={'Players'}>List of Player with picture and Elo (short Bio?)</HobbitsPageFrame>;
 }

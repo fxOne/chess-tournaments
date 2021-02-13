@@ -1,17 +1,12 @@
-import Footer from '../../../components/Footer';
-import Head from 'next/head';
+import Hero from '../../../components/Tournaments/hobbitInvitational/Hero';
+import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import Link from 'next/link';
-import Menu from '../../../components/Tournaments/hobbitInvitational/Menu';
 import { ReactElement } from 'react';
 
 export default function Home(): ReactElement {
   return (
-    <div>
-      <Head>
-        <title>Create Next App</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
-      <Menu />
+    <HobbitsPageFrame>
+      <Hero />
       Main tournament page
       <br />
       Intro
@@ -23,7 +18,6 @@ export default function Home(): ReactElement {
       </Link>
       <br />
       News?
-      <Footer />
-    </div>
+    </HobbitsPageFrame>
   );
 }

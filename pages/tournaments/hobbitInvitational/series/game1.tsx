@@ -1,11 +1,9 @@
-import Footer from '../../../../components/Footer';
-import Menu from '../../../../components/Tournaments/hobbitInvitational/Menu';
+import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import { ReactElement } from 'react';
 
 export default function Game1(): ReactElement {
   return (
-    <div>
-      <Menu />
+    <HobbitsPageFrame title={'Game 1'}>
       A vs B
       <br />
       Date
@@ -33,7 +31,6 @@ export default function Game1(): ReactElement {
           <td>1&frac12;</td>
         </tr>
       </table>
-      <Footer />
-    </div>
+    </HobbitsPageFrame>
   );
 }

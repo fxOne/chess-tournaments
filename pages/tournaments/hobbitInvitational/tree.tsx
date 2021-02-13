@@ -1,15 +1,12 @@
-import Footer from '../../../components/Footer';
+import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import Link from 'next/link';
-import Menu from '../../../components/Tournaments/hobbitInvitational/Menu';
 import { ReactElement } from 'react';
 
 export default function Tree(): ReactElement {
   return (
-    <div>
-      <Menu />
+    <HobbitsPageFrame title={'Tree'}>
       game tree with
       <Link href="series/game1">Link to series</Link>
-      <Footer />
-    </div>
+    </HobbitsPageFrame>
   );
 }

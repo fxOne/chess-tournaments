@@ -1,4 +1,5 @@
-import Document, { DocumentContext, DocumentInitialProps } from 'next/document';
+import Document, { DocumentContext, DocumentInitialProps, Head, Html, Main, NextScript } from 'next/document';
+import { ReactElement } from 'react';
 import { ServerStyleSheet } from 'styled-components';
 
 export default class MyDocument extends Document {
@@ -25,5 +26,21 @@ export default class MyDocument extends Document {
     } finally {
       sheet.seal();
     }
+  }
+
+  render(): ReactElement {
+    return (
+      <Html lang={'de'}>
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta httpEquiv="Content-Language" content="de" />
+          <link rel="preconnect" href="https://fonts.gstatic.com" />
+        </Head>
+        <body>
+          <Main />
+          <NextScript />
+        </body>
+      </Html>
+    );
   }
 }
