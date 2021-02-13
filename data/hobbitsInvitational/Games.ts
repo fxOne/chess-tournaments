@@ -1,24 +1,6 @@
-export interface Game {
-  lichessUrl: string;
-  userIdWhite: number;
-  userIdBlack: number;
-  result: 0 | 0.5 | 1;
-}
+import { Matches } from '../Interfaces';
 
-export interface Series {
-  games: Game[];
-}
-
-export interface Match {
-  id: number;
-  date: string;
-  series: Series[];
-  player1: number | null;
-  player2: number | null;
-  videoUrl: string;
-}
-
-export const matches: Record<number, Match> = {
+export const matches: Matches = {
   1: {
     date: '20.01.2021',
     id: 1,

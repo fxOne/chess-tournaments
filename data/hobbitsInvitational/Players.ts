@@ -1,10 +1,6 @@
-export interface Player {
-  name: string;
-  id: number;
-  title: 'GM' | 'IM';
-}
+import { Players } from '../Interfaces';
 
-export const players: Record<number, Player> = {
+export const players: Players = {
   1: {
     id: 1,
     name: 'Nico Georgiadis',
