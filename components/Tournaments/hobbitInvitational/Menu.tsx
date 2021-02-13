@@ -11,7 +11,7 @@ interface Props {
 
 export default function Menu({ fixed, onDark }: Props): ReactElement {
   return (
-    <PageMenu fixed={fixed} onDark={onDark}>
+    <PageMenu fixed={fixed} dark={onDark}>
       <ContentContainer>
         <nav>
           <Flex justifyContent={'space-between'} alignItems={'center'}>
