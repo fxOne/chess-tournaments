@@ -4,9 +4,14 @@ import Link from 'next/link';
 import PageMenu from '../../ui/PageMenu';
 import { ReactElement } from 'react';
 
-export default function Menu(): ReactElement {
+interface Props {
+  fixed?: boolean;
+  onDark?: boolean;
+}
+
+export default function Menu({ fixed, onDark }: Props): ReactElement {
   return (
-    <PageMenu>
+    <PageMenu fixed={fixed} onDark={onDark}>
       <ContentContainer>
         <nav>
           <Flex justifyContent={'space-between'} alignItems={'center'}>

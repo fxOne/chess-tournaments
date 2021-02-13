@@ -5,7 +5,7 @@ import { ReactElement } from 'react';
 
 export default function Home(): ReactElement {
   return (
-    <HobbitsPageFrame>
+    <HobbitsPageFrame withHeroArea>
       <Hero />
       Main tournament page
       <br />
