@@ -46,7 +46,6 @@ function calculateY(
     } else if (y2 === null && y1 !== null) {
       result = y1 + matchHeight;
     }
-    console.log(y1, y2, result);
   }
 
   return result;
@@ -95,4 +94,23 @@ export function calculateSvgSize(brackets: MatchPositionList): Size {
   height += matchHeight;
 
   return { height, width };
+}
+
+export function calculatePoints(match: Match, playerId?: number): number | null {
+  let result: number | null = null;
+
+  if (playerId && match.series.length) {
+    result = 0;
+    for (const serie of match.series) {
+      for (const game of serie.games) {
+        if (game.userIdWhite === playerId) {
+          result += game.result;
+        } else if (game.userIdBlack === playerId) {
+          result += 1 - game.result;
+        }
+      }
+    }
+  }
+
+  return result;
 }
