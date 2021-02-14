@@ -13,7 +13,7 @@ interface MatchProps {
 }
 
 export const matchHeight = 60;
-export const matchWidth = 270;
+export const matchWidth = 265;
 
 export default function Match({ match, player1, player2, x = 0, y = 0 }: MatchProps): ReactElement {
   return (

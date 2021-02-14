@@ -13,6 +13,7 @@ interface MatchPosition {
   player2: Player | null;
   x: number;
   y: number;
+  predecessors: MatchPredecessors;
 }
 
 type MatchPositionList = Map<number, MatchPosition>;
@@ -22,6 +23,16 @@ function getYFromPositionList(id: number | null, positionList: MatchPositionList
     const position = positionList.get(id);
     if (position) {
       return position.y;
+    }
+  }
+  return null;
+}
+
+function getXFromPositionList(id: number | null, positionList: MatchPositionList): number | null {
+  if (id) {
+    const position = positionList.get(id);
+    if (position) {
+      return position.x;
     }
   }
   return null;
@@ -68,12 +79,58 @@ export function calculateBracketPositions(
         match,
         player1,
         player2,
+        predecessors,
         x: round * widthWithSpace,
         y: calculateY(round, matchNr, predecessors, results),
       });
     }
   }
   return results;
+}
+
+interface LinePoint {
+  x1: number;
+  x2: number;
+  y1: number;
+  y2: number;
+}
+
+export function calculateLines(positionList: MatchPositionList): LinePoint[] {
+  const result: LinePoint[] = [];
+
+  for (const [, { predecessors, x, y }] of positionList) {
+    if (predecessors) {
+      const line1 = createLinePoint(positionList, x, y, predecessors[0]);
+      const line2 = createLinePoint(positionList, x, y, predecessors[1]);
+      if (line1) {
+        result.push(line1);
+      }
+      if (line2) {
+        result.push(line2);
+      }
+    }
+  }
+
+  return result;
+}
+
+function createLinePoint(
+  positionList: MatchPositionList,
+  x: number,
+  y: number,
+  predecessor: number | null,
+): LinePoint | null {
+  if (predecessor) {
+    const x1 = getXFromPositionList(predecessor, positionList)! + matchWidth;
+    const y1 = getYFromPositionList(predecessor, positionList)! + matchHeight * 0.5;
+    return {
+      x1,
+      y1,
+      x2: x,
+      y2: y + matchHeight * 0.5,
+    };
+  }
+  return null;
 }
 
 interface Size {
