@@ -27,10 +27,11 @@ export interface Match {
 
 export type Matches = Record<number, Match>;
 
+export type PlayerTitle = 'GM' | 'IM';
 export interface Player {
   name: string;
   id: number;
-  title: 'GM' | 'IM';
+  title: PlayerTitle;
 }
 
 export type Players = Record<number, Player>;

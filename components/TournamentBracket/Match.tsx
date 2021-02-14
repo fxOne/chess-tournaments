@@ -1,6 +1,6 @@
 import { Match as MatchInterface, Player } from '../../data/Interfaces';
+import PlayerMatch, { height, width } from './PlayerMatch';
 
-import PlayerMatch from './PlayerMatch';
 import { ReactElement } from 'react';
 import { calculatePoints } from './Calculations';
 
@@ -12,8 +12,8 @@ interface MatchProps {
   y?: number;
 }
 
-export const matchHeight = 60;
-export const matchWidth = 265;
+export const matchHeight = height * 2;
+export const matchWidth = width;
 
 export default function Match({ match, player1, player2, x = 0, y = 0 }: MatchProps): ReactElement {
   return (

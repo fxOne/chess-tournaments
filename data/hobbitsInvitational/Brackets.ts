@@ -15,7 +15,7 @@ export const brackets: Bracket[][] = [
       predecessors: null,
     },
     {
-      matchId: 4,
+      matchId: 6,
       predecessors: null,
     },
     {
@@ -23,7 +23,7 @@ export const brackets: Bracket[][] = [
       predecessors: null,
     },
     {
-      matchId: 6,
+      matchId: 4,
       predecessors: null,
     },
   ],
@@ -37,12 +37,12 @@ export const brackets: Bracket[][] = [
       predecessors: [3, 2],
     },
     {
-      matchId: 9,
-      predecessors: [4, 5],
+      matchId: 10,
+      predecessors: [5, 6],
     },
     {
-      matchId: 10,
-      predecessors: [6, null],
+      matchId: 9,
+      predecessors: [4, null],
     },
   ],
   [

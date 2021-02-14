@@ -200,8 +200,8 @@ export const matches: Matches = {
   10: {
     date: '14.02.2021',
     id: 10,
-    player1: 12,
-    player2: 14,
+    player1: 14,
+    player2: 12,
     series: [],
     videoUrl: '',
   },
@@ -1296,8 +1296,8 @@ export const matches: Matches = {
   9: {
     date: 'unbekannt',
     id: 9,
-    player1: 8,
-    player2: 10,
+    player1: 10,
+    player2: 8,
     series: [],
     videoUrl: '',
   },
