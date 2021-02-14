@@ -1,7 +1,9 @@
 export interface Bracket {
   matchId: number;
-  predecessors: null | [number, number];
+  predecessors: MatchPredecessors;
 }
+
+export type MatchPredecessors = null | [number | null, number | null];
 
 export interface Game {
   lichessUrl: string;
