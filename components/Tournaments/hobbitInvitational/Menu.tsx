@@ -20,9 +20,9 @@ export default function Menu({ fixed, onDark }: Props): ReactElement {
             <Flex>
               <Link href="/tournaments/hobbitInvitational">Tournament Home (about?)</Link>
               <br />
-              <Link href="/tournaments/hobbitInvitational/players">Players</Link>
+              <Link href="/tournaments/hobbitInvitational/players">Spieler</Link>
               <br />
-              <Link href="/tournaments/hobbitInvitational/tree">Tree</Link>
+              <Link href="/tournaments/hobbitInvitational/pairings">Paarungen</Link>
             </Flex>
           </Flex>
         </nav>

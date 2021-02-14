@@ -6,9 +6,9 @@ import { brackets } from '../../../data/hobbitsInvitational/Brackets';
 import { matches } from '../../../data/hobbitsInvitational/Games';
 import { players } from '../../../data/hobbitsInvitational/Players';
 
-export default function Tree(): ReactElement {
+export default function Pairings(): ReactElement {
   return (
-    <HobbitsPageFrame title={'Tree'}>
+    <HobbitsPageFrame title={'Paarungen'}>
       <TournamentBracket brackets={brackets} players={players} matches={matches} />
       game tree with
       <Link href="series/game1">Link to series</Link>
