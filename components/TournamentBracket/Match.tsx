@@ -11,6 +11,9 @@ interface MatchProps {
   y?: number;
 }
 
+export const height = 60;
+export const width = 270;
+
 export default function Match({ match, player1, player2, x = 0, y = 0 }: MatchProps): ReactElement {
   return (
     <g id={`match-${match.id}`} transform={`translate(${x}, ${y})`}>
