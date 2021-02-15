@@ -1,13 +1,13 @@
-import { PlayerTitle } from '../../data/Interfaces';
+import { PlayerTitle as PlayerTitleInterface } from '../../data/Interfaces';
 import styled from 'styled-components';
 
 interface TitleProps {
-  title: PlayerTitle;
+  title: PlayerTitleInterface;
 }
 
-const Title = styled.div<TitleProps>`
+const PlayerTitle = styled.span<TitleProps>`
   color: ${({ title }) => (title === 'GM' ? 'gold' : 'red')};
   fill: ${({ title }) => (title === 'GM' ? 'gold' : 'red')};
 `;
 
-export default Title;
+export default PlayerTitle;
