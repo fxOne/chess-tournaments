@@ -3,6 +3,7 @@ import PlayerMatch, { height, width } from './PlayerMatch';
 
 import { ReactElement } from 'react';
 import { calculatePoints } from './Calculations';
+import { routing } from '../../routing';
 
 interface MatchProps {
   match: MatchInterface;
@@ -16,10 +17,21 @@ export const matchHeight = height * 2;
 export const matchWidth = width;
 
 export default function Match({ match, player1, player2, x = 0, y = 0 }: MatchProps): ReactElement {
+  const hasGames = match.series.length > 0;
   return (
     <g id={`match-${match.id}`} transform={`translate(${x}, ${y})`}>
-      <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
-      <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={30} />
+      {hasGames && (
+        <a href={routing.tournaments.hobbitInvitational.series.games(match.id)}>
+          <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
+          <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={30} />
+        </a>
+      )}
+      {!hasGames && (
+        <>
+          <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
+          <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={30} />
+        </>
+      )}
     </g>
   );
 }
