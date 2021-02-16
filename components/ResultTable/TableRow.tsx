@@ -1,39 +1,67 @@
 import { Game, Player } from '../../data/Interfaces';
+import { ReactElement, ReactNode } from 'react';
 
 import DisplayPlayer from '../DisplayPlayer';
-import { ReactElement } from 'react';
+import styled from 'styled-components';
 
-function printNumber(number: number): string {
-  /*  let result = Math.floor(number).toString();
-  if (number % 1 === 0.5) {
-    result += '&frac12;';
+const Row = styled.tr`
+  height: 1.5em;
+`;
+
+const NameField = styled.td`
+  background-color: lightgray;
+`;
+
+const GameField = styled.td<{ isWhite: boolean; isWinner: boolean }>`
+  color: ${({ isWhite, isWinner }) => (isWinner ? 'green' : isWhite ? 'black' : 'white')};
+  background-color: ${({ isWhite }) => (isWhite ? 'white' : '#732e2e')};
+  width: 1.5em;
+  text-align: center;
+  a {
+    color: inherit;
   }
-  return result;*/
-  return number.toString();
+`;
+
+const ResultField = styled.td<{ isWinner: boolean }>`
+  width: 2.5em;
+  text-align: right;
+  background-color: #d1e4f6;
+  color: ${({ isWinner }) => (isWinner ? 'green' : 'red')};
+`;
+
+function printNumber(number: number): ReactNode {
+  const result = Math.floor(number);
+  if (number % 1 === 0.5) {
+    return <>{result ? result : ''}&frac12;</>;
+  }
+  return result;
 }
 
 interface TableRowProps {
   player: Player;
   games: Game[];
+  sum: number;
+  isWinner: boolean;
 }
-export default function TableRow({ player, games }: TableRowProps): ReactElement {
+
+export default function TableRow({ player, games, sum, isWinner }: TableRowProps): ReactElement {
   return (
-    <tr>
-      <td>
+    <Row>
+      <NameField>
         <DisplayPlayer player={player} />
-      </td>
-      {games.map(({ userIdWhite, result }, i) => {
-        const playerResult = player.id === userIdWhite ? result : 1 - result;
-        return <td key={i}>{printNumber(playerResult)}</td>;
+      </NameField>
+      {games.map(({ userIdWhite, result, lichessUrl }, i) => {
+        const isWhite = player.id === userIdWhite;
+        const playerResult = isWhite ? result : 1 - result;
+        return (
+          <GameField key={i} isWhite={isWhite} isWinner={playerResult === 1}>
+            <a href={lichessUrl} target="_black" rel="noreferrer">
+              {printNumber(playerResult)}
+            </a>
+          </GameField>
+        );
       })}
-      <td>
-        {printNumber(
-          games.reduce<number>((sum, { userIdWhite, result }) => {
-            const playerResult = player.id === userIdWhite ? result : 1 - result;
-            return sum + playerResult;
-          }, 0),
-        )}
-      </td>
-    </tr>
+      <ResultField isWinner={isWinner}>{printNumber(sum)}</ResultField>
+    </Row>
   );
 }
