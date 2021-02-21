@@ -1,3 +1,4 @@
+import Flex from './ui/Flex';
 import { Player } from '../data/Interfaces';
 import PlayerTitle from './ui/PlayerTitle';
 import { ReactElement } from 'react';
@@ -12,8 +13,11 @@ export default function DisplayPlayer({ player }: DisplayPlayerProps): ReactElem
   }
 
   return (
-    <span>
-      <PlayerTitle title={player.title}>{player.title}</PlayerTitle> {player.name}
-    </span>
+    <Flex alignItems={'center'}>
+      <PlayerTitle title={player.title} rightMargin>
+        {player.title}
+      </PlayerTitle>{' '}
+      {player.name}
+    </Flex>
   );
 }

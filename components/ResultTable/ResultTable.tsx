@@ -7,6 +7,9 @@ import styled from 'styled-components';
 
 const Table = styled.table`
   border-collapse: collapse;
+  border: inset 1px solid #ddd;
+  border-radius: 4px;
+  overflow: hidden;
 `;
 
 interface ResultTableProps {

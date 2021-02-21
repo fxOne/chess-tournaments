@@ -1,12 +1,14 @@
 import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from 'next';
 import { Match, Players } from '../../../../data/Interfaces';
 
-import DisplayPlayer from '../../../../components/DisplayPlayer';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
+import MatchDetails from '../../../../components/Match/MatchDetailts';
+import MatchHeader from '../../../../components/Match/MatchHeader';
 import { ReactElement } from 'react';
 import ResultTable from '../../../../components/ResultTable/ResultTable';
 import { matches } from '../../../../data/hobbitsInvitational/Games';
 import { players } from '../../../../data/hobbitsInvitational/Players';
+import styled from 'styled-components';
 
 interface GameProps {
   match: Match;
@@ -42,6 +44,34 @@ export async function getStaticPaths(): Promise<GetStaticPathsResult> {
   };
 }
 
+const MatchesContainer = styled.div`
+  display: grid;
+  grid-template-columns: max-content;
+  grid-row-gap: 2rem;
+  padding: 4rem 0 2rem 0;
+  margin: 0 auto;
+  width: auto;
+  justify-content: center;
+`;
+
+const MatchTypeContainer = styled.div`
+  font-size: 1.4rem;
+`;
+
+const Header = styled.h2`
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #0897ff;
+  margin-bottom: 0.5rem;
+  margin-top: 2.5rem;
+`;
+
+const Hint = styled.div`
+  font-size: 0.8rem;
+  color: #aaa;
+  text-align: center;
+`;
+
 export default function Game({ match, players }: GameProps): ReactElement {
   const player1Id = match.player1;
   const player2Id = match.player2;
@@ -50,35 +80,27 @@ export default function Game({ match, players }: GameProps): ReactElement {
 
   return (
     <HobbitsPageFrame title={'Game 1'}>
-      <div>
-        <DisplayPlayer player={player1} />
-        {' gegen '}
-        <DisplayPlayer player={player2} />
-      </div>
-      <div>{match.date}</div>
-      {match.videoUrl && (
-        <div>
-          <a href={match.videoUrl} target="_blank" rel="noreferrer">
-            Partiekommentierung
-          </a>
-        </div>
-      )}
+      <MatchHeader player1={player1} player2={player2} />
+      <MatchDetails match={match} />
+
       {player1 && player2 && match.series.length === 3 && (
-        <div>
-          Result(on result click open lichess in new tab)
-          <div>
-            5 + 1
-            <ResultTable player1={player1} player2={player2} serie={match.series[0]} />
-          </div>{' '}
-          <div>
-            3 + 1
-            <ResultTable player1={player1} player2={player2} serie={match.series[1]} />
-          </div>{' '}
-          <div>
-            1 + 1
-            <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
-          </div>
-        </div>
+        <>
+          <MatchesContainer>
+            <MatchTypeContainer>
+              <Header>5 + 1</Header>
+              <ResultTable player1={player1} player2={player2} serie={match.series[0]} />
+            </MatchTypeContainer>{' '}
+            <MatchTypeContainer>
+              <Header>3 + 1</Header>
+              <ResultTable player1={player1} player2={player2} serie={match.series[1]} />
+            </MatchTypeContainer>{' '}
+            <MatchTypeContainer>
+              <Header>1 + 1</Header>
+              <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
+            </MatchTypeContainer>
+          </MatchesContainer>
+          <Hint>Click the table results to view matches on lichess</Hint>
+        </>
       )}
     </HobbitsPageFrame>
   );

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 interface TitleProps {
   title: PlayerTitleInterface;
+  rightMargin?: boolean;
 }
 
 const titleColors = {
@@ -13,8 +14,9 @@ const titleColors = {
 const PlayerTitle = styled.tspan<TitleProps>`
   color: ${({ title }) => titleColors[title] ?? 'black'};
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 0.8em;
   fill: currentColor;
+  margin-right: ${({ rightMargin }) => (rightMargin ? '.5rem' : 'auto')};
 `;
 
 export default PlayerTitle;
