@@ -13,7 +13,7 @@ interface Props extends PageFrameProps {
 export default function HobbitsPageFrame({ children, contentDescription, landingPage, title }: Props): ReactElement {
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
-      <Menu fixed onDark />
+      <Menu onDark />
       <Hero bigHeroContainer={landingPage} />
       <ContentContainer>{children}</ContentContainer>
       <Footer />

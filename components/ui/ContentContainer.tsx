@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 interface ContentContainerProps {
+  fullHeight?: boolean;
   noContainerSpacing?: boolean;
 }
 
@@ -11,6 +12,7 @@ const ContentContainer = styled.div<ContentContainerProps>`
   padding: 0 2rem;
   flex-grow: 1;
   width: 100%;
+  height: ${({ fullHeight }) => (fullHeight ? '100%' : 'auto')};
 `;
 
 export default ContentContainer;
