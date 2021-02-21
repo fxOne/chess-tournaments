@@ -55,7 +55,7 @@ export default function TableRow({ player, games, sum, isWinner }: TableRowProps
         const playerResult = isWhite ? result : 1 - result;
         return (
           <GameField key={i} isWhite={isWhite} isWinner={playerResult === 1}>
-            <a href={lichessUrl} target="_black" rel="noreferrer">
+            <a href={lichessUrl} target="_blank" rel="noreferrer">
               {printNumber(playerResult)}
             </a>
           </GameField>
