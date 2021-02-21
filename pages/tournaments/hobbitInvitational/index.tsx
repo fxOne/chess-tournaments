@@ -1,7 +1,8 @@
+import Button from '../../../components/ui/Button';
 import FormRow from '../../../components/ui/FormRow';
 import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
-import Link from 'next/link';
 import { ReactElement } from 'react';
+import { routing } from '../../../routing';
 
 export default function Home(): ReactElement {
   return (
@@ -53,18 +54,15 @@ export default function Home(): ReactElement {
           <>
             Eliminierung Turnier mit jeweils 3 Runden:
             <ul>
-              <li>70 Minuten 5 Minuten + 1 Sekunde pro zug</li>
-              <li>60 Minuten 3 Minuten + 1 Sekunde pro zug</li>
-              <li>30 Minuten 1 Minuten + 1 Sekunde pro zug</li>
+              <li>70 Minuten 5 Minuten + 1 Sekunde pro Zug</li>
+              <li>60 Minuten 3 Minuten + 1 Sekunde pro Zug</li>
+              <li>30 Minuten 1 Minuten + 1 Sekunde pro Zug</li>
             </ul>
             Die laufende Partie nach Ablauf der Zeit zählt mit. Sieger mit den meisten Punkten kommt weiter.
           </>
         }
       />
-
-      <Link href="/tournaments/hobbitInvitational/tree">
-        <>{'-->'} go to tree</>
-      </Link>
+      <Button text="Zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
     </HobbitsPageFrame>
   );
 }

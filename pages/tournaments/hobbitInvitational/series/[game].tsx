@@ -1,6 +1,7 @@
 import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from 'next';
 import { Match, Players } from '../../../../data/Interfaces';
 
+import Button from '../../../../components/ui/Button';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import MatchDetails from '../../../../components/Match/MatchDetailts';
 import MatchHeader from '../../../../components/Match/MatchHeader';
@@ -9,6 +10,7 @@ import { ReactElement } from 'react';
 import ResultTable from '../../../../components/ResultTable/ResultTable';
 import { matches } from '../../../../data/hobbitsInvitational/Games';
 import { players } from '../../../../data/hobbitsInvitational/Players';
+import { routing } from '../../../../routing';
 import styled from 'styled-components';
 
 interface GameProps {
@@ -84,7 +86,6 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <MatchHeader player1={player1} player2={player2} />
       <MatchResult player1={player1} player2={player2} series={match.series} />
       <MatchDetails match={match} />
-
       {player1 && player2 && match.series.length === 3 && (
         <>
           <MatchesContainer>
@@ -104,6 +105,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
           <Hint>Click the table results to view matches on lichess</Hint>
         </>
       )}
+      <Button text="Zurück zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
     </HobbitsPageFrame>
   );
 }
