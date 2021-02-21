@@ -72,10 +72,12 @@ export default function Menu({ onDark }: Props): ReactElement {
         <PageMenuContentWrapper sticky={entry && !inView} dark={onDark}>
           <ContentContainer noContainerSpacing fullHeight>
             <Flex justifyContent={'space-between'} alignItems={'center'} fullHeight>
-              <div>Chess Tournaments</div>
+              <div>
+                <img src="/logo.svg" alt="chess tournaments logo" height="60px" />
+              </div>
 
               <Flex>
-                <Link href={routing.tournaments.hobbitInvitational.index}>Tournament Home (about?)</Link>
+                <Link href={routing.tournaments.hobbitInvitational.index}>Hobbits Invitational</Link>
                 <br />
                 <Link href={routing.tournaments.hobbitInvitational.players}>Spieler</Link>
                 <br />
