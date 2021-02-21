@@ -28,6 +28,7 @@ export default function Hero({ bigHeroContainer }: HeroContainerProps): ReactEle
     <HeroContainer bigHeroContainer={bigHeroContainer}>
       <HeroImage>
         <Image
+          loading={'eager'}
           src={'/hero-chess-figures.png'}
           alt={'Schachfiguren auf einem Schachbrett'}
           layout={'fill'}
