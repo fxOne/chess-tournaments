@@ -1,11 +1,21 @@
 import { ReactElement, ReactNode } from 'react';
+
 import Head from 'next/head';
+import styled from 'styled-components';
 
 export interface PageFrameProps {
   children: ReactNode;
   contentDescription?: string;
   title?: string;
 }
+
+const PageContent = styled.div`
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+  display: flex;
+  align-items: stretch;
+  flex-direction: column;
+`;
 
 export default function PageFrame({ children, contentDescription, title }: PageFrameProps): ReactElement {
   return (
@@ -18,7 +28,7 @@ export default function PageFrame({ children, contentDescription, title }: PageF
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      {children}
+      <PageContent>{children}</PageContent>
     </>
   );
 }

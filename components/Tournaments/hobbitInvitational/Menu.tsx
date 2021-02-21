@@ -13,7 +13,7 @@ interface Props {
 export default function Menu({ fixed, onDark }: Props): ReactElement {
   return (
     <PageMenu fixed={fixed} dark={onDark}>
-      <ContentContainer>
+      <ContentContainer noContainerSpacing>
         <nav>
           <Flex justifyContent={'space-between'} alignItems={'center'}>
             <div>Chess Tournaments</div>

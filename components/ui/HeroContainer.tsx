@@ -9,6 +9,7 @@ const HeroContainer = styled.div<HeroContainerProps>`
   position: relative;
   min-height: ${(props) => (props.bigHeroContainer ? '800px' : '500px')};
   overflow: hidden;
+  flex-shrink: 0;
 `;
 
 export default HeroContainer;

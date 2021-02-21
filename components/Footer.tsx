@@ -1,19 +1,35 @@
+import ContentContainer from './ui/ContentContainer';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import { routing } from '../routing';
+import styled from 'styled-components';
 
+const FooterWrapper = styled.footer`
+  background-color: #323232;
+  color: #fff;
+  flex-shrink: 0;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+
+  a {
+    color: #fff;
+  }
+`;
+
+const FooterGrid = styled.div`
+  display: flex;
+  justify-content: space-between;
+`;
 export default function Footer(): ReactElement {
   return (
-    <footer>
-      {'>>>>>'}Footer start
-      <br />
-      <Link href={routing.about}>About this page</Link>
-      <br />
-      Sozial Links (twitter/insta ...)
-      <br />
-      Email Newsletter?
-      <br />
-      {'>>>>>'}Footer end
-    </footer>
+    <FooterWrapper>
+      <ContentContainer noContainerSpacing>
+        <FooterGrid>
+          <Link href={routing.about}>About this page</Link>
+          <div>Sozial Links (twitter/insta ...)</div>
+          <div>Email Newsletter?</div>
+        </FooterGrid>
+      </ContentContainer>
+    </FooterWrapper>
   );
 }

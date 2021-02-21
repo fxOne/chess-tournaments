@@ -1,4 +1,6 @@
 import PageFrame, { PageFrameProps } from '../../PageFrame';
+
+import ContentContainer from '../../ui/ContentContainer';
 import Footer from '../../Footer';
 import Hero from './Hero';
 import Menu from './Menu';
@@ -13,7 +15,7 @@ export default function HobbitsPageFrame({ children, contentDescription, landing
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
       <Menu fixed onDark />
       <Hero bigHeroContainer={landingPage} />
-      {children}
+      <ContentContainer>{children}</ContentContainer>
       <Footer />
     </PageFrame>
   );
