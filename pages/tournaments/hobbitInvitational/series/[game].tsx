@@ -4,6 +4,7 @@ import { Match, Players } from '../../../../data/Interfaces';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import MatchDetails from '../../../../components/Match/MatchDetailts';
 import MatchHeader from '../../../../components/Match/MatchHeader';
+import MatchResult from '../../../../components/Match/MatchResult';
 import { ReactElement } from 'react';
 import ResultTable from '../../../../components/ResultTable/ResultTable';
 import { matches } from '../../../../data/hobbitsInvitational/Games';
@@ -81,6 +82,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
   return (
     <HobbitsPageFrame title={'Game 1'}>
       <MatchHeader player1={player1} player2={player2} />
+      <MatchResult player1={player1} player2={player2} series={match.series} />
       <MatchDetails match={match} />
 
       {player1 && player2 && match.series.length === 3 && (

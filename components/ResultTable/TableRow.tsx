@@ -52,6 +52,13 @@ interface TableRowProps {
   isWinner: boolean;
 }
 
+function generateLichessGameUrl(lichessUrl: string, isWhite: boolean): string {
+  if (isWhite) {
+    return lichessUrl;
+  }
+  return lichessUrl + '/black';
+}
+
 export default function TableRow({ player, games, sum, isWinner }: TableRowProps): ReactElement {
   return (
     <Row>
@@ -63,7 +70,7 @@ export default function TableRow({ player, games, sum, isWinner }: TableRowProps
         const playerResult = isWhite ? result : 1 - result;
         return (
           <GameField key={i} isWhite={isWhite} isWinner={playerResult === 1}>
-            <a href={lichessUrl} target="_blank" rel="noreferrer">
+            <a href={generateLichessGameUrl(lichessUrl, isWhite)} target="_blank" rel="noreferrer">
               {printNumber(playerResult)}
             </a>
           </GameField>

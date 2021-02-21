@@ -3,7 +3,7 @@ import { Player } from '../../data/Interfaces';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 
-const Header = styled.h1`
+export const Header = styled.h1`
   display: flex;
   align-items: center;
   font-size: 2rem;
