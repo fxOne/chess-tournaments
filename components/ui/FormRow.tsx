@@ -7,9 +7,9 @@ interface FromRow {
 
 export default function FormRow({ title, description }: FromRow): ReactElement {
   return (
-    <div>
+    <>
       <div>{title}</div>
       <div>{description}</div>
-    </div>
+    </>
   );
 }
