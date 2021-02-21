@@ -32,6 +32,9 @@ export interface Player {
   name: string;
   id: number;
   title: PlayerTitle;
+  elo: number;
+  image: string | null;
+  yearOfBirth: number;
 }
 
 export type Players = Record<number, Player>;

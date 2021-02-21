@@ -57,7 +57,7 @@ export default function Home(): ReactElement {
               <li>60 Minuten 3 Minuten + 1 Sekunde pro zug</li>
               <li>30 Minuten 1 Minuten + 1 Sekunde pro zug</li>
             </ul>
-            Die letzte Partie nach Ablauf der Zeit zählt mit. Sieger mit den meisten Punkten kommt weiter.
+            Die laufende Partie nach Ablauf der Zeit zählt mit. Sieger mit den meisten Punkten kommt weiter.
           </>
         }
       />
