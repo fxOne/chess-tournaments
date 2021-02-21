@@ -389,7 +389,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     id: 12,
     player1: 12,
-    player2: null,
+    player2: 10,
     series: [],
     videoUrl: '',
   },
@@ -751,12 +751,192 @@ export const matches: Matches = {
     videoUrl: 'https://www.youtube.com/watch?v=JTzGX65SkPI',
   },
   4: {
-    date: 'unbekannt',
+    date: '17.01.2021',
     id: 4,
     player1: 10,
     player2: 11,
-    series: [],
-    videoUrl: 'https://www.youtube.com/watch?v=JTzGX65SkPI',
+    series: [
+      //#region 5+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/rbfqkSmF',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Wm4zwisT',
+            result: 0,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/5ZfEX45W',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/7lnCgxyg',
+            result: 0,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Bmor8wKK',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/XOmOX588',
+            result: 0.5,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/IDVHVYF0',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+        ],
+      },
+      //#endregion
+      //#region 3+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/CJusNF91',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/IjJ0l8yf',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/eQTgiGMt',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/GcjPZy0e',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/ZkhXvl9l',
+            result: 0,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/UDH5TqxT',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/reI5OptN',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+        ],
+      },
+      //#endregion
+      //#region 1+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/mv1B3aqc',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/wXMM1cXB',
+            result: 0,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Ny4f2Fu8',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/ROXZe3sf',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/9Tyy76ym',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/nY8pHgX1',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/2kyCrp1R',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/mhjA3e3w',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Ny4f2Fu8',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Vf36or8e',
+            result: 0.5,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/nR4NM1NX',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 11,
+          },
+          {
+            lichessUrl: 'https://lichess.org/w9v2lvLt',
+            result: 1,
+            userIdBlack: 11,
+            userIdWhite: 10,
+          },
+        ],
+      },
+
+      //#endregion
+    ],
+    videoUrl: null,
   },
   5: {
     date: '24.01.2021',
@@ -1466,11 +1646,184 @@ export const matches: Matches = {
     videoUrl: 'https://www.twitch.tv/videos/900844050',
   },
   9: {
-    date: 'unbekannt',
+    date: '21.02.2021',
     id: 9,
     player1: 10,
     player2: 8,
-    series: [],
-    videoUrl: '',
+    series: [
+      //#region 5+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/kSG3NY2t',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/ouN8bzHf',
+            result: 0.5,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/Rr7AggST',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/1vT7vad8',
+            result: 1,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/lKaRZKqI',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/AtJZxvdH',
+            result: 1,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/hJ28n4sC',
+            result: 0.5,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+        ],
+      },
+      //#endregion
+      //#region 3+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/Xu90wzEc',
+            result: 1,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/7My1y9Ly',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/h5j6aYgI',
+            result: 0,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/WkYUgeQJ',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/wD2ll4DX',
+            result: 1,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/Hyh0S3xi',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/atD9OmqM',
+            result: 0,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+        ],
+      },
+      //#endregion
+      //#region 1+1
+      {
+        games: [
+          {
+            lichessUrl: 'https://lichess.org/mVwVi0NJ',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/MbcnACZx',
+            result: 0,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/MsvZBqfY',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/mLlk0Wpk',
+            result: 0,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/H3i6TVXF',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/B8K3ahec',
+            result: 1,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/24xRh566',
+            result: 1,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/wr32HTaj',
+            result: 0.5,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+          {
+            lichessUrl: 'https://lichess.org/lD4aS7cr',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+          {
+            lichessUrl: 'https://lichess.org/2FxRgzJ9',
+            result: 0.5,
+            userIdBlack: 8,
+            userIdWhite: 10,
+          },
+
+          {
+            lichessUrl: 'https://lichess.org/zPq3EUSl',
+            result: 0,
+            userIdBlack: 10,
+            userIdWhite: 8,
+          },
+        ],
+      },
+      //#endregion
+    ],
+    videoUrl: 'https://www.twitch.tv/videos/923040928',
   },
 };

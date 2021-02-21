@@ -3,6 +3,7 @@ import { Match, Players } from '../../../../data/Interfaces';
 
 import Button from '../../../../components/ui/Button';
 import Center from '../../../../components/ui/Center';
+import Hint from '../../../../components/ui/Hint';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import MatchDetails from '../../../../components/Match/MatchDetailts';
 import MatchHeader from '../../../../components/Match/MatchHeader';
@@ -70,12 +71,6 @@ const Header = styled.h2`
   margin-top: 2.5rem;
 `;
 
-const Hint = styled.div`
-  font-size: 0.8rem;
-  color: #aaa;
-  text-align: center;
-`;
-
 export default function Game({ match, players }: GameProps): ReactElement {
   const player1Id = match.player1;
   const player2Id = match.player2;
@@ -103,7 +98,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
               <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
             </MatchTypeContainer>
           </MatchesContainer>
-          <Hint>Click the table results to view matches on lichess</Hint>
+          <Hint>Klicke auf die Ergebnisse um die Partien auf lichess.org anzuschauen</Hint>
         </>
       )}
       <br />

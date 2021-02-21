@@ -59,7 +59,7 @@ function calculateY(
     }
   }
 
-  return result;
+  return result + 1;
 }
 
 export function calculateBracketPositions(
@@ -80,7 +80,7 @@ export function calculateBracketPositions(
         player1,
         player2,
         predecessors,
-        x: round * widthWithSpace,
+        x: round * widthWithSpace + 1,
         y: calculateY(round, matchNr, predecessors, results),
       });
     }
@@ -147,8 +147,8 @@ export function calculateSvgSize(brackets: MatchPositionList): Size {
     height = Math.max(height, y);
   }
 
-  width += matchWidth;
-  height += matchHeight;
+  width += matchWidth + 2;
+  height += matchHeight + 2;
 
   return { height, width };
 }

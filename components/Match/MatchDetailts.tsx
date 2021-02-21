@@ -53,18 +53,20 @@ export default function MatchDetails({ match }: Props): ReactElement {
         </Icon>
         <div>{match.date}</div>
       </Flex>
-      <Divider />
 
       {match.videoUrl && (
-        <Flex alignItems={'center'}>
-          <Icon>
-            {match.videoUrl.includes('youtube') && <>{ytIcon}</>}
-            {match.videoUrl.includes('twitch') && <>{twitchIcon}</>}
-          </Icon>
-          <a href={match.videoUrl} target="_blank" rel="noreferrer">
-            Partiekommentierung
-          </a>
-        </Flex>
+        <>
+          <Divider />
+          <Flex alignItems={'center'}>
+            <Icon>
+              {match.videoUrl.includes('youtube') && <>{ytIcon}</>}
+              {match.videoUrl.includes('twitch') && <>{twitchIcon}</>}
+            </Icon>
+            <a href={match.videoUrl} target="_blank" rel="noreferrer">
+              Partiekommentierung
+            </a>
+          </Flex>
+        </>
       )}
     </Flex>
   );

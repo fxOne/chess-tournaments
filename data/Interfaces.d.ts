@@ -22,7 +22,7 @@ export interface Match {
   series: Series[];
   player1: number | null;
   player2: number | null;
-  videoUrl: string;
+  videoUrl: string | null;
 }
 
 export type Matches = Record<number, Match>;
