@@ -18,8 +18,8 @@ const NameField = styled.td`
 
 const GameField = styled.td<{ isWhite: boolean; isWinner: boolean }>`
   ${({ isWhite, isWinner }) => css`
-    color: ${isWinner ? (isWhite ? 'green' : '#98fa57') : isWhite ? 'black' : 'white'};
-    background-color: ${isWhite ? 'white' : '#383636'};
+    color: ${isWinner ? 'green' : isWhite ? '#222' : '#EEE'};
+    background-color: ${isWhite ? '#EAD9BB' : '#be9e7f'};
   `}
   width: 1.5em;
   text-align: center;
