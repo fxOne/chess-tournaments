@@ -1,12 +1,10 @@
-import Hero from '../../../components/Tournaments/hobbitInvitational/Hero';
 import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 
 export default function Home(): ReactElement {
   return (
-    <HobbitsPageFrame withHeroArea>
-      <Hero />
+    <HobbitsPageFrame landingPage>
       Main tournament page
       <br />
       Intro

@@ -1,5 +1,6 @@
+import HeroContainer, { HeroContainerProps } from '../../ui/HeroContainer';
 import React, { ReactElement } from 'react';
-import HeroContainer from '../../ui/HeroContainer';
+
 import Image from 'next/image';
 import styled from 'styled-components';
 
@@ -22,16 +23,16 @@ const HeroImage = styled.div`
   }
 `;
 
-export default function Hero(): ReactElement {
+export default function Hero({ bigHeroContainer }: HeroContainerProps): ReactElement {
   return (
-    <HeroContainer>
+    <HeroContainer bigHeroContainer={bigHeroContainer}>
       <HeroImage>
         <Image
           src={'/hero-chess-figures.png'}
           alt={'Schachfiguren auf einem Schachbrett'}
           layout={'fill'}
           objectFit={'cover'}
-          objectPosition={'50% 50%'}
+          objectPosition={'50% 70%'}
         />
       </HeroImage>
     </HeroContainer>
