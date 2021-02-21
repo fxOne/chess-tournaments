@@ -10,13 +10,41 @@ interface PlayerCardProps {
 
 const Card = styled.div`
   width: 300px;
-  margin: 10px;
+  margin: 0.5rem;
   background-color: #eee;
   min-height: 347px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-end;
 `;
 
 const Content = styled.div`
-  padding: 10px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.3rem;
+`;
+
+const InfoGrid = styled.div`
+  font-size: 1rem;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-column-gap: 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  justify-content: center;
+`;
+
+const Label = styled.div`
+  display: grid;
+  align-items: center;
+  grid-template-columns: max-content max-content;
+  grid-gap: 0.5rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
 `;
 
 export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
@@ -36,8 +64,16 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
       )}
       <Content>
         <DisplayPlayer player={player} />
-        <div>Rating: {player.elo}</div>
-        <div>Jahrgang: {player.yearOfBirth}</div>
+        <InfoGrid>
+          <Label>
+            <div>Rating</div>
+            <div>{player.elo}</div>
+          </Label>
+          <Label>
+            <div>Jahrgang</div>
+            <div>{player.yearOfBirth}</div>
+          </Label>
+        </InfoGrid>
       </Content>
     </Card>
   );

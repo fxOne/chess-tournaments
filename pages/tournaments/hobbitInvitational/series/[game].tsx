@@ -2,6 +2,7 @@ import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } fro
 import { Match, Players } from '../../../../data/Interfaces';
 
 import Button from '../../../../components/ui/Button';
+import Center from '../../../../components/ui/Center';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import MatchDetails from '../../../../components/Match/MatchDetailts';
 import MatchHeader from '../../../../components/Match/MatchHeader';
@@ -105,7 +106,12 @@ export default function Game({ match, players }: GameProps): ReactElement {
           <Hint>Click the table results to view matches on lichess</Hint>
         </>
       )}
-      <Button text="Zurück zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
+      <br />
+      <br />
+      <br />
+      <Center>
+        <Button text="Zurück zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
+      </Center>
     </HobbitsPageFrame>
   );
 }
