@@ -5,9 +5,16 @@ interface TitleProps {
   title: PlayerTitleInterface;
 }
 
-const PlayerTitle = styled.span<TitleProps>`
-  color: ${({ title }) => (title === 'GM' ? 'gold' : 'red')};
-  fill: ${({ title }) => (title === 'GM' ? 'gold' : 'red')};
+const titleColors = {
+  GM: '#d59020',
+  IM: '#d52c20',
+};
+
+const PlayerTitle = styled.tspan<TitleProps>`
+  color: ${({ title }) => titleColors[title] ?? 'black'};
+  font-weight: bold;
+  font-size: 1rem;
+  fill: currentColor;
 `;
 
 export default PlayerTitle;

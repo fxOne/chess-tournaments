@@ -1,4 +1,5 @@
 import { Player } from '../../data/Interfaces';
+import PlayerScore from '../ui/PlayerScore';
 import PlayerTitle from '../ui/PlayerTitle';
 import { ReactElement } from 'react';
 
@@ -8,7 +9,9 @@ interface PlayerMatchProps {
   y?: number;
 }
 
-export const height = 30;
+export const height = 40;
+const strokeWidth = 1;
+const heightWithStroke = 40 + 2 * strokeWidth;
 const textWidth = 250;
 const pointsWidth = 45;
 const titleWidth = 30;
@@ -17,19 +20,47 @@ export const width = textWidth + pointsWidth;
 export default function PlayerMatch({ player, points, y = 0 }: PlayerMatchProps): ReactElement {
   return (
     <g transform={`translate(0, ${y})`}>
-      <rect x="0" y="0" width={textWidth} height={height} fill="#C4C4C4" stroke="black" />
-      <rect x={textWidth} y="0" width={pointsWidth} height={height} fill="#C4C4C4" stroke="black" />
+      <rect x="0" y="0" width={textWidth} height={height} fill="#FFF" stroke="#888" strokeWidth={strokeWidth} />
+      <rect
+        x={textWidth}
+        y="0"
+        width={pointsWidth}
+        height={height}
+        fill="#EEE"
+        stroke="#888"
+        strokeWidth={strokeWidth}
+      />
       {player && (
-        <PlayerTitle as={'text'} title={player.title} x="5" y="24" width={titleWidth} height={height - 2}>
+        <PlayerTitle
+          title={player.title}
+          as={'text'}
+          x="5"
+          y={heightWithStroke / 2}
+          width={titleWidth}
+          height={height}
+          alignmentBaseline={'middle'}
+        >
           {player.title}
         </PlayerTitle>
       )}
-      <text x={titleWidth + 10} y="24" width={textWidth - titleWidth - 10} height={height - 2}>
+      <text
+        x={titleWidth + 10}
+        y={heightWithStroke / 2}
+        width={textWidth - titleWidth - 10}
+        alignmentBaseline={'middle'}
+      >
         {player?.name}
       </text>
-      <text x={textWidth + pointsWidth - 5} y="24" width="43" height={height - 2} textAnchor={'end'}>
+      <PlayerScore
+        as={'text'}
+        x={textWidth + pointsWidth - 5}
+        y={heightWithStroke / 2}
+        width="43"
+        textAnchor={'end'}
+        alignmentBaseline={'middle'}
+      >
         {points}
-      </text>
+      </PlayerScore>
     </g>
   );
 }
