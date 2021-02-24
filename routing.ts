@@ -1,5 +1,6 @@
 export const routing = {
   about: '/about',
+  imprint: '/imprint',
   tournaments: {
     hobbitInvitational: {
       index: '/tournaments/hobbitInvitational',
