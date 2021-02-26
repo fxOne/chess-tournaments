@@ -1,9 +1,9 @@
-import Button from '../../../components/ui/Button';
-import Center from '../../../components/ui/Center';
-import FormRow from '../../../components/ui/FormRow';
-import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
+import Button from '../../../../components/ui/Button';
+import Center from '../../../../components/ui/Center';
+import FormRow from '../../../../components/ui/FormRow';
+import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import { ReactElement } from 'react';
-import { routing } from '../../../routing';
+import { routing } from '../../../../routing';
 import styled from 'styled-components';
 
 const FormGrid = styled.div`
@@ -100,7 +100,7 @@ export default function Home(): ReactElement {
       <br />
 
       <Center>
-        <Button text="Zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
+        <Button text="Zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
       </Center>
     </HobbitsPageFrame>
   );

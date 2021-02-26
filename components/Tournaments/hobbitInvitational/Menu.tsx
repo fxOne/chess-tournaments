@@ -77,11 +77,11 @@ export default function Menu({ onDark }: Props): ReactElement {
               </div>
 
               <Flex>
-                <Link href={routing.tournaments.hobbitInvitational.index}>Hobbits Invitational</Link>
+                <Link href={routing.de.tournaments.hobbitInvitational.index}>Hobbits Invitational</Link>
                 <br />
-                <Link href={routing.tournaments.hobbitInvitational.players}>Spieler</Link>
+                <Link href={routing.de.tournaments.hobbitInvitational.players}>Spieler</Link>
                 <br />
-                <Link href={routing.tournaments.hobbitInvitational.pairings}>Paarungen</Link>
+                <Link href={routing.de.tournaments.hobbitInvitational.pairings}>Paarungen</Link>
               </Flex>
             </Flex>
           </ContentContainer>

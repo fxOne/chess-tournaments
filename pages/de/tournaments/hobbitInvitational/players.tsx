@@ -1,9 +1,9 @@
-import Flex from '../../../components/ui/Flex';
-import HobbitsPageFrame from '../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
-import { Player } from '../../../data/Interfaces';
-import PlayerCard from '../../../components/ui/PlayerCard';
+import Flex from '../../../../components/ui/Flex';
+import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
+import { Player } from '../../../../data/Interfaces';
+import PlayerCard from '../../../../components/ui/PlayerCard';
 import { ReactElement } from 'react';
-import { players } from '../../../data/hobbitsInvitational/Players';
+import { players } from '../../../../data/hobbitsInvitational/Players';
 import styled from 'styled-components';
 
 function calcAvg(players: Player[]): number {

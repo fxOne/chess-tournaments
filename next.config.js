@@ -2,9 +2,14 @@ module.exports = {
   async redirects() {
     return [
       {
-        destination: '/tournaments/hobbitInvitational',
+        destination: '/de/tournaments/hobbitInvitational',
         permanent: false,
         source: '/',
+      },
+      {
+        destination: '/de/tournaments/hobbitInvitational',
+        permanent: false,
+        source: '/tournaments/hobbitInvitational',
       },
     ];
   },

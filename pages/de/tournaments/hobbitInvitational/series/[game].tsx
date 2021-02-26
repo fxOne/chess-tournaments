@@ -1,18 +1,18 @@
 import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from 'next';
-import { Match, Players } from '../../../../data/Interfaces';
+import { Match, Players } from '../../../../../data/Interfaces';
 
-import Button from '../../../../components/ui/Button';
-import Center from '../../../../components/ui/Center';
-import Hint from '../../../../components/ui/Hint';
-import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
-import MatchDetails from '../../../../components/Match/MatchDetailts';
-import MatchHeader from '../../../../components/Match/MatchHeader';
-import MatchResult from '../../../../components/Match/MatchResult';
+import Button from '../../../../../components/ui/Button';
+import Center from '../../../../../components/ui/Center';
+import Hint from '../../../../../components/ui/Hint';
+import HobbitsPageFrame from '../../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
+import MatchDetails from '../../../../../components/Match/MatchDetailts';
+import MatchHeader from '../../../../../components/Match/MatchHeader';
+import MatchResult from '../../../../../components/Match/MatchResult';
 import { ReactElement } from 'react';
-import ResultTable from '../../../../components/ResultTable/ResultTable';
-import { matches } from '../../../../data/hobbitsInvitational/Games';
-import { players } from '../../../../data/hobbitsInvitational/Players';
-import { routing } from '../../../../routing';
+import ResultTable from '../../../../../components/ResultTable/ResultTable';
+import { matches } from '../../../../../data/hobbitsInvitational/Games';
+import { players } from '../../../../../data/hobbitsInvitational/Players';
+import { routing } from '../../../../../routing';
 import styled from 'styled-components';
 
 interface GameProps {
@@ -105,7 +105,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <br />
       <br />
       <Center>
-        <Button text="Zurück zu den Paarungen" target={routing.tournaments.hobbitInvitational.pairings} />
+        <Button text="Zurück zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
       </Center>
     </HobbitsPageFrame>
   );

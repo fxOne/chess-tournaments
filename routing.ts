@@ -1,14 +1,16 @@
 export const routing = {
-  about: '/about',
-  imprint: '/imprint',
-  tournaments: {
-    hobbitInvitational: {
-      index: '/tournaments/hobbitInvitational',
-      pairings: '/tournaments/hobbitInvitational/pairings',
-      players: '/tournaments/hobbitInvitational/players',
-      series: {
-        games(gameId: number): string {
-          return `/tournaments/hobbitInvitational/series/${gameId}`;
+  de: {
+    about: '/de/about',
+    imprint: '/de/imprint',
+    tournaments: {
+      hobbitInvitational: {
+        index: '/de/tournaments/hobbitInvitational',
+        pairings: '/de/tournaments/hobbitInvitational/pairings',
+        players: '/de/tournaments/hobbitInvitational/players',
+        series: {
+          games(gameId: number): string {
+            return `/de/tournaments/hobbitInvitational/series/${gameId}`;
+          },
         },
       },
     },

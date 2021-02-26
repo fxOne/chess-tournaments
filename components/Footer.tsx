@@ -25,9 +25,9 @@ export default function Footer(): ReactElement {
     <FooterWrapper>
       <ContentContainer noContainerSpacing>
         <FooterGrid>
-          <Link href={routing.about}>Über uns</Link>
+          <Link href={routing.de.about}>Über uns</Link>
           <div>Sozial Links (twitter/insta ...)</div>
-          <Link href={routing.imprint}>Impressum</Link>
+          <Link href={routing.de.imprint}>Impressum</Link>
         </FooterGrid>
       </ContentContainer>
     </FooterWrapper>
