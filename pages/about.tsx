@@ -16,7 +16,7 @@ export default function About(): ReactElement {
         <h1>Chess Tournaments</h1>
         <p>
           Die Idee zu Chess Tournament ist mir beim Hobbits Invitational Turnier gekommen. Das Hobbits Invitational
-          Turnier ist ein Einladungsturnier der Chesshobits99 Adrian Gschnitzer und Marco Riehl an dem 13 deutsche
+          Turnier ist ein Einladungsturnier der Chesshobits99 Adrian Gschnitzer und Marco Riehle an dem 13 deutsche
           Großmeister teilnahmen. Leider hatte dieses Turnier keine eigene Webseite um sich die Ergebnisse anzuschauen.
         </p>
         <p>

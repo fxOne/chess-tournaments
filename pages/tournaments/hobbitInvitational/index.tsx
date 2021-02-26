@@ -36,7 +36,7 @@ export default function Home(): ReactElement {
         </a>
         .
       </p>
-      <p>Chesshobts99 ist ein Twitch Kanal von den Schachspielern IM Adrian Gschnitzer und FM Marco Riehl.</p>
+      <p>Chesshobts99 ist ein Twitch Kanal von den Schachspielern IM Adrian Gschnitzer und FM Marco Riehle.</p>
       <Header>Ausschreibung</Header>
       <FormGrid>
         <FormRow
@@ -62,7 +62,7 @@ export default function Home(): ReactElement {
           title={'Kommentatoren'}
           description={
             <>
-              IM Adrian Gschnitzer und FM Marco Riehl auf{' '}
+              IM Adrian Gschnitzer und FM Marco Riehle auf{' '}
               <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
                 Chesshobits99
               </a>
