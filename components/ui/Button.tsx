@@ -9,7 +9,7 @@ interface ButtonProps {
 
 const ButtonComponent = styled.div`
   padding: 0.78571429em 1.5em 0.78571429em;
-  background-color: #21ba45;
+  background-color: #0897ff;
   color: #fff;
   box-shadow: 0 0 0 0 rgb(34 36 38 / 15%) inset;
   display: inline-block;
