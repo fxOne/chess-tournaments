@@ -1,6 +1,6 @@
-import HeroContainer, { HeroContainerProps } from '../../ui/HeroContainer';
-import React, { ReactElement } from 'react';
+import React, { ReactElement, ReactNode } from 'react';
 
+import HeroContainer from '../../ui/HeroContainer';
 import Image from 'next/image';
 import styled from 'styled-components';
 
@@ -23,7 +23,12 @@ const HeroImage = styled.div`
   }
 `;
 
-export default function Hero({ bigHeroContainer }: HeroContainerProps): ReactElement {
+interface HeroProps {
+  bigHeroContainer?: boolean;
+  children?: ReactNode;
+}
+
+export default function Hero({ bigHeroContainer, children }: HeroProps): ReactElement {
   return (
     <HeroContainer bigHeroContainer={bigHeroContainer}>
       <HeroImage>
@@ -35,6 +40,7 @@ export default function Hero({ bigHeroContainer }: HeroContainerProps): ReactEle
           objectFit={'cover'}
           objectPosition={'50% 70%'}
         />
+        {children}
       </HeroImage>
     </HeroContainer>
   );

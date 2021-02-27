@@ -28,9 +28,9 @@ const Header = styled.h2`
 export default function Home(): ReactElement {
   return (
     <HobbitsPageFrame landingPage>
-      <h1>Hobbits Invitational 2020</h1>
+      <h1>Hobbits Invitational 2021</h1>
       <p>
-        Das Hobbits Invitational 2020 ist ein Einladungsturnier für deutsche GMs und IMs von den{' '}
+        Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den{' '}
         <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
           Chesshobits99
         </a>
