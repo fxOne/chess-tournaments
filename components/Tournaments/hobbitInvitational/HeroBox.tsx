@@ -9,7 +9,7 @@ const HeroContainerBox = styled.div`
   z-index: 1;
   top: calc(50% + 2.5rem);
   transform: translateY(-50%);
-  left: 20vw;
+  left: 2rem;
   padding: 0.5rem 1rem;
   border-radius: 8px;
 `;

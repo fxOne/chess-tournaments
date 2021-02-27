@@ -20,6 +20,7 @@ interface Props extends PageFrameProps {
 
 const Header = styled.h1`
   margin: 0 0 0.5rem 2rem;
+  font-size: 1.5em;
 `;
 
 export default function HobbitsPageFrame({
