@@ -1,6 +1,7 @@
 import { ReactElement, ReactNode } from 'react';
 
 import Image from 'next/image';
+import InlineLogo from './InlineLogo';
 import styled from 'styled-components';
 
 interface Twitter {
@@ -28,12 +29,6 @@ const Card = styled.div`
 
 const Info = styled.div`
   padding: 1rem 1.5rem;
-`;
-const InlineLogo = styled.img`
-  width: 1em;
-  height: 1em;
-  margin-right: 0.5em;
-  vertical-align: middle;
 `;
 
 export default function CreatorCard({ imageUrl, name, children, twitter }: CreatorCardProps): ReactElement {

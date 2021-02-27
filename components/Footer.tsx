@@ -1,4 +1,5 @@
 import ContentContainer from './ui/ContentContainer';
+import InlineLogo from './ui/InlineLogo';
 import Link from 'next/link';
 import { ReactElement } from 'react';
 import { routing } from '../routing';
@@ -26,7 +27,14 @@ export default function Footer(): ReactElement {
       <ContentContainer noContainerSpacing>
         <FooterGrid>
           <Link href={routing.de.about}>Über uns</Link>
-          <div>Sozial Links (twitter/insta ...)</div>
+          <div>
+            <a href="https://twitter.com/chess_tourney" target="_blank" rel="noreferrer">
+              <InlineLogo src="/twitter-logo.svg" alt="twitter logo"></InlineLogo>
+            </a>
+            <a href="https://www.instagram.com/chess_tourney" target="_blank" rel="noreferrer">
+              <InlineLogo src="/instagram-logo.svg" alt="instagram logo"></InlineLogo>
+            </a>
+          </div>
           <Link href={routing.de.imprint}>Impressum</Link>
         </FooterGrid>
       </ContentContainer>
