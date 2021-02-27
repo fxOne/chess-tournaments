@@ -1,5 +1,6 @@
 import { ReactElement, ReactNode } from 'react';
 
+import ContentContainer from '../../ui/ContentContainer';
 import styled from 'styled-components';
 
 const HeroContainerBox = styled.div`
@@ -18,5 +19,9 @@ interface HeroBoxProps {
 }
 
 export default function HeroBox({ children }: HeroBoxProps): ReactElement {
-  return <HeroContainerBox>{children}</HeroContainerBox>;
+  return (
+    <ContentContainer fullHeight noContainerSpacing>
+      <HeroContainerBox>{children}</HeroContainerBox>
+    </ContentContainer>
+  );
 }

@@ -1,5 +1,7 @@
 import PageFrame, { PageFrameProps } from '../../PageFrame';
 
+import Button from '../../ui/Button';
+import Center from '../../ui/Center';
 import ContentContainer from '../../ui/ContentContainer';
 import Flex from '../../ui/Flex';
 import Footer from '../../Footer';
@@ -8,16 +10,25 @@ import HeroBox from './HeroBox';
 import Image from 'next/image';
 import Menu from './Menu';
 import { ReactElement } from 'react';
+import { routing } from '../../../routing';
 import styled from 'styled-components';
 
 interface Props extends PageFrameProps {
   landingPage?: boolean;
+  showButton?: boolean;
 }
 
 const Header = styled.h1`
-  margin: 0 0 0 2rem;
+  margin: 0 0 0.5rem 2rem;
 `;
-export default function HobbitsPageFrame({ children, contentDescription, landingPage, title }: Props): ReactElement {
+
+export default function HobbitsPageFrame({
+  children,
+  contentDescription,
+  landingPage,
+  title,
+  showButton: showLink,
+}: Props): ReactElement {
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
       <Menu onDark />
@@ -29,10 +40,15 @@ export default function HobbitsPageFrame({ children, contentDescription, landing
               src={'/chessHobbitsLogo.png'}
               alt={'Chess Hobbits Logo'}
               layout={'fixed'}
-              width="100px"
-              height="100px"
+              width="125px"
+              height="120px"
             />
-            <Header>Hobbits Invitational 2021</Header>
+            <Center>
+              <Header>Hobbits Invitational 2021</Header>
+              {showLink && (
+                <Button text="Zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
+              )}
+            </Center>
           </Flex>
         </HeroBox>
       </Hero>

@@ -1,6 +1,7 @@
 import { ReactElement, ReactNode } from 'react';
 
 import Image from 'next/image';
+import InlineLogo from './InlineLogo';
 import styled from 'styled-components';
 
 interface Twitter {
@@ -50,6 +51,7 @@ export default function CreatorCard({ imageUrl, name, children, twitter }: Creat
         <div>{children}</div>
         {twitter && (
           <div>
+            <InlineLogo src="/twitter-logo.svg" alt="twitter logo" />
             <a href={twitter.url} target="_blank" rel="noreferrer">
               @{twitter.name}
             </a>
