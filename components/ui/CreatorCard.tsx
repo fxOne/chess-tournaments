@@ -29,6 +29,12 @@ const Card = styled.div`
 const Info = styled.div`
   padding: 1rem 1.5rem;
 `;
+const InlineLogo = styled.img`
+  width: 1em;
+  height: 1em;
+  margin-right: 0.5em;
+  vertical-align: middle;
+`;
 
 export default function CreatorCard({ imageUrl, name, children, twitter }: CreatorCardProps): ReactElement {
   return (
@@ -50,6 +56,7 @@ export default function CreatorCard({ imageUrl, name, children, twitter }: Creat
         <div>{children}</div>
         {twitter && (
           <div>
+            <InlineLogo src="/twitter-logo.svg" alt="twitter logo" />
             <a href={twitter.url} target="_blank" rel="noreferrer">
               @{twitter.name}
             </a>
