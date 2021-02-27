@@ -7,7 +7,7 @@ export interface HeroContainerProps {
 const HeroContainer = styled.div<HeroContainerProps>`
   width: 100%;
   position: relative;
-  min-height: ${(props) => (props.bigHeroContainer ? '800px' : '500px')};
+  min-height: ${(props) => (props.bigHeroContainer ? '50vh' : '30vh')};
   overflow: hidden;
   flex-shrink: 0;
 `;
