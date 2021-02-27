@@ -6,6 +6,11 @@ import Hero from '../../components/Tournaments/hobbitInvitational/Hero';
 import Menu from '../../components/Tournaments/hobbitInvitational/Menu';
 import PageFrame from '../../components/PageFrame';
 import { ReactElement } from 'react';
+import styled from 'styled-components';
+
+const CreatorContainer = styled.div`
+  margin-top: 5rem;
+`;
 
 export default function About(): ReactElement {
   return (
@@ -28,22 +33,24 @@ export default function About(): ReactElement {
           Mit dieser Webseite versuche ich diese Problem anzugehen und Turniere in einem einfachen und einheitlichem
           Design zu präsentieren.
         </p>
-        <Flex justifyContent="space-around">
-          <CreatorCard
-            twitter={{ name: 'fx__one', url: 'https://twitter.com/fx__one' }}
-            name="Dominic Buetow"
-            imageUrl="/creators/dominic.jpg"
-          >
-            Idee und Umsetzung
-          </CreatorCard>
-          <CreatorCard
-            twitter={{ name: 'griefcode', url: 'https://twitter.com/griefcode' }}
-            name="Michael Ketzer"
-            imageUrl=""
-          >
-            Design und Umsetzung
-          </CreatorCard>
-        </Flex>
+        <CreatorContainer>
+          <Flex justifyContent="space-around">
+            <CreatorCard
+              twitter={{ name: 'fx__one', url: 'https://twitter.com/fx__one' }}
+              name="Dominic Buetow"
+              imageUrl="/creators/dominic.jpg"
+            >
+              Idee und Umsetzung
+            </CreatorCard>
+            <CreatorCard
+              twitter={{ name: 'griefcode', url: 'https://twitter.com/griefcode' }}
+              name="Michael Ketzer"
+              imageUrl="/creators/michael.jpeg"
+            >
+              Design und Umsetzung
+            </CreatorCard>
+          </Flex>
+        </CreatorContainer>
       </ContentContainer>
       <Footer />
     </PageFrame>

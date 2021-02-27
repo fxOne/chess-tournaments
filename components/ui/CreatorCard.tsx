@@ -26,6 +26,10 @@ const Card = styled.div`
   justify-content: flex-end;
 `;
 
+const Info = styled.div`
+  padding: 1rem 1.5rem;
+`;
+
 export default function CreatorCard({ imageUrl, name, children, twitter }: CreatorCardProps): ReactElement {
   return (
     <Card>
@@ -41,15 +45,17 @@ export default function CreatorCard({ imageUrl, name, children, twitter }: Creat
           height="300px"
         />
       )}
-      <div>{name}</div>
-      <div>{children}</div>
-      {twitter && (
-        <div>
-          <a href={twitter.url} target="_blank" rel="noreferrer">
-            @{twitter.name}
-          </a>
-        </div>
-      )}
+      <Info>
+        <div>{name}</div>
+        <div>{children}</div>
+        {twitter && (
+          <div>
+            <a href={twitter.url} target="_blank" rel="noreferrer">
+              @{twitter.name}
+            </a>
+          </div>
+        )}
+      </Info>
     </Card>
   );
 }
