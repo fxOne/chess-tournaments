@@ -13,6 +13,7 @@ const ContentContainer = styled.div<ContentContainerProps>`
   flex-grow: 1;
   width: 100%;
   height: ${({ fullHeight }) => (fullHeight ? '100%' : 'auto')};
+  position: relative;
 `;
 
 export default ContentContainer;
