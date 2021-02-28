@@ -15,7 +15,7 @@ import styled from 'styled-components';
 
 interface Props extends PageFrameProps {
   landingPage?: boolean;
-  showButton?: boolean;
+  buttonText?: string;
 }
 
 const Header = styled.h1`
@@ -28,7 +28,7 @@ export default function HobbitsPageFrame({
   contentDescription,
   landingPage,
   title,
-  showButton: showLink,
+  buttonText,
 }: Props): ReactElement {
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
@@ -46,9 +46,7 @@ export default function HobbitsPageFrame({
             />
             <Center>
               <Header>Hobbits Invitational 2021</Header>
-              {showLink && (
-                <Button text="Zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
-              )}
+              {buttonText && <Button text={buttonText} target={routing.de.tournaments.hobbitInvitational.pairings} />}
             </Center>
           </Flex>
         </HeroBox>

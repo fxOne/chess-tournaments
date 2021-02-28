@@ -31,7 +31,7 @@ const Header = styled.h2`
 
 export default function Home(): ReactElement {
   return (
-    <HobbitsPageFrame landingPage showButton>
+    <HobbitsPageFrame landingPage buttonText="Zu den Paarungen">
       <h1>Hobbits Invitational 2021</h1>
       <p>
         Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den{' '}

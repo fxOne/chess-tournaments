@@ -1,5 +1,5 @@
 import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from 'next';
-import { Match, Players } from '../../../../../data/Interfaces';
+import { Match, Player, Players } from '../../../../../data/Interfaces';
 
 import Button from '../../../../../components/ui/Button';
 import Center from '../../../../../components/ui/Center';
@@ -71,6 +71,13 @@ const Header = styled.h2`
   margin-top: 2.5rem;
 `;
 
+function getTitle(player1: Player | null, player2: Player | null): string {
+  if (player1 && player2) {
+    return `${player1.name} vs ${player2.name}`;
+  }
+  return '';
+}
+
 export default function Game({ match, players }: GameProps): ReactElement {
   const player1Id = match.player1;
   const player2Id = match.player2;
@@ -78,7 +85,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
   const player2 = players[player2Id!] || null;
 
   return (
-    <HobbitsPageFrame title={'Game 1'}>
+    <HobbitsPageFrame title={getTitle(player1, player2)} buttonText="Zurück zu den Paarungen">
       <MatchHeader player1={player1} player2={player2} />
       <MatchResult player1={player1} player2={player2} series={match.series} />
       <MatchDetails match={match} />
