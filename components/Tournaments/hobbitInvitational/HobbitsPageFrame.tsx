@@ -16,6 +16,7 @@ import styled from 'styled-components';
 interface Props extends PageFrameProps {
   landingPage?: boolean;
   buttonText?: string;
+  extendedContainer?: boolean;
 }
 
 const Header = styled.h1`
@@ -33,6 +34,7 @@ export default function HobbitsPageFrame({
   landingPage,
   title,
   buttonText,
+  extendedContainer,
 }: Props): ReactElement {
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
@@ -55,7 +57,7 @@ export default function HobbitsPageFrame({
           </Flex>
         </HeroBox>
       </Hero>
-      <ContentContainer>{children}</ContentContainer>
+      <ContentContainer extendedContainer={extendedContainer}>{children}</ContentContainer>
       <Footer />
     </PageFrame>
   );

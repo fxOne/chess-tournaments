@@ -8,7 +8,11 @@ import { players } from '../../../../data/hobbitsInvitational/Players';
 
 export default function Pairings(): ReactElement {
   return (
-    <HobbitsPageFrame title={'Paarungen'} contentDescription="Paarungen des Turniers Hobbits Invitationals">
+    <HobbitsPageFrame
+      title={'Paarungen'}
+      contentDescription="Paarungen des Turniers Hobbits Invitationals"
+      extendedContainer
+    >
       <TournamentBracket brackets={brackets} players={players} matches={matches} />
       <br />
       <br />
