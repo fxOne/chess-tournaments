@@ -42,7 +42,7 @@ export default function HobbitsPageFrame({
           <Flex alignItems={'center'} mobileCol>
             <Image
               loading={'eager'}
-              src={'/chessHobbitsLogo.png'}
+              src={'/images/chessHobbitsLogo.png'}
               alt={'Chess Hobbits Logo'}
               layout={'fixed'}
               width="125px"

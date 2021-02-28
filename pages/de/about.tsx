@@ -38,14 +38,14 @@ export default function About(): ReactElement {
             <CreatorCard
               twitter={{ name: 'fx__one', url: 'https://twitter.com/fx__one' }}
               name="Dominic Buetow"
-              imageUrl="/creators/dominic.jpg"
+              imageUrl="/images/creators/dominic.jpg"
             >
               Idee und Umsetzung
             </CreatorCard>
             <CreatorCard
               twitter={{ name: 'griefcode', url: 'https://twitter.com/griefcode' }}
               name="Michael Ketzer"
-              imageUrl="/creators/michael.jpeg"
+              imageUrl="/images/creators/michael.jpeg"
             >
               Design und Umsetzung
             </CreatorCard>

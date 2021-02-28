@@ -51,7 +51,7 @@ export default function CreatorCard({ imageUrl, name, children, twitter }: Creat
         <div>{children}</div>
         {twitter && (
           <div>
-            <InlineLogo src="/twitter-logo.svg" alt="twitter logo" />
+            <InlineLogo src="/images/twitter-logo.svg" alt="twitter logo" />
             <a href={twitter.url} target="_blank" rel="noreferrer">
               @{twitter.name}
             </a>

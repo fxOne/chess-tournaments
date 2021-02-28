@@ -29,10 +29,10 @@ export default function Footer(): ReactElement {
           <Link href={routing.de.about}>Über uns</Link>
           <div>
             <a href="https://twitter.com/chess_tourney" target="_blank" rel="noreferrer">
-              <InlineLogo src="/twitter-logo.svg" alt="twitter logo"></InlineLogo>
+              <InlineLogo src="/images/twitter-logo.svg" alt="twitter logo"></InlineLogo>
             </a>
             <a href="https://www.instagram.com/chess_tourney" target="_blank" rel="noreferrer">
-              <InlineLogo src="/instagram-logo.svg" alt="instagram logo"></InlineLogo>
+              <InlineLogo src="/images/instagram-logo.svg" alt="instagram logo"></InlineLogo>
             </a>
           </div>
           <Link href={routing.de.imprint}>Impressum</Link>

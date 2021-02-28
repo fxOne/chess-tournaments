@@ -35,7 +35,7 @@ export default function Hero({ bigHeroContainer, children }: HeroProps): ReactEl
       <HeroImage>
         <Image
           loading={'eager'}
-          src={'/hero-chess-figures.png'}
+          src={'/images/hero-chess-figures.png'}
           alt={'Schachfiguren auf einem Schachbrett'}
           layout={'fill'}
           objectFit={'cover'}

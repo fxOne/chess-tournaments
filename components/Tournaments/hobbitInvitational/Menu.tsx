@@ -95,7 +95,7 @@ export default function Menu({ onDark }: Props): ReactElement {
           <ContentContainer noContainerSpacing fullHeight>
             <Flex justifyContent={'space-between'} alignItems={'center'} fullHeight>
               <div>
-                <img src="/logo.svg" alt="chess tournaments logo" height="60px" />
+                <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" />
               </div>
 
               <MenuContainer>
@@ -104,7 +104,9 @@ export default function Menu({ onDark }: Props): ReactElement {
                 <Link href={routing.de.tournaments.hobbitInvitational.pairings}>Paarungen</Link>
               </MenuContainer>
               <MenuContainerMobil>
-                {!menuOpen && <HamburgerMenu src="/hamburger-menu.svg" onClick={() => setMenuOpen((open) => !open)} />}
+                {!menuOpen && (
+                  <HamburgerMenu src="/images/hamburger-menu.svg" onClick={() => setMenuOpen((open) => !open)} />
+                )}
                 {menuOpen && (
                   <Flex direction="column">
                     <Link href={routing.de.tournaments.hobbitInvitational.index}>
