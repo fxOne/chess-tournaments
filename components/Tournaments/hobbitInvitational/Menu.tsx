@@ -1,9 +1,9 @@
+import { ReactElement, useState } from 'react';
 import styled, { css } from 'styled-components';
 
 import ContentContainer from '../../ui/ContentContainer';
 import Flex from '../../ui/Flex';
 import Link from 'next/link';
-import { ReactElement } from 'react';
 import { routing } from '../../../routing';
 import { useInView } from 'react-intersection-observer';
 
@@ -58,12 +58,34 @@ const PageMenuContentWrapper = styled.div<{
     `}
 `;
 
+const MenuContainer = styled.div`
+  display: flex;
+  @media screen and (max-width: 620px) {
+    display: none;
+  }
+`;
+
+const MenuContainerMobil = styled.div`
+  position: relative;
+  display: none;
+  @media screen and (max-width: 620px) {
+    display: flex;
+  }
+`;
+
+const HamburgerMenu = styled.img`
+  width: 1.5em;
+  height: 1.5em;
+  vertical-align: middle;
+`;
+
 interface Props {
   onDark?: boolean;
 }
 
 export default function Menu({ onDark }: Props): ReactElement {
   const [ref, inView, entry] = useInView();
+  const [menuOpen, setMenuOpen] = useState(false);
 
   return (
     <>
@@ -76,13 +98,27 @@ export default function Menu({ onDark }: Props): ReactElement {
                 <img src="/logo.svg" alt="chess tournaments logo" height="60px" />
               </div>
 
-              <Flex>
+              <MenuContainer>
                 <Link href={routing.de.tournaments.hobbitInvitational.index}>Hobbits Invitational</Link>
-                <br />
                 <Link href={routing.de.tournaments.hobbitInvitational.players}>Spieler</Link>
-                <br />
                 <Link href={routing.de.tournaments.hobbitInvitational.pairings}>Paarungen</Link>
-              </Flex>
+              </MenuContainer>
+              <MenuContainerMobil>
+                {!menuOpen && <HamburgerMenu src="/hamburger-menu.svg" onClick={() => setMenuOpen((open) => !open)} />}
+                {menuOpen && (
+                  <Flex direction="column">
+                    <Link href={routing.de.tournaments.hobbitInvitational.index}>
+                      <a onClick={() => setMenuOpen(false)}>Hobbits Invitational</a>
+                    </Link>
+                    <Link href={routing.de.tournaments.hobbitInvitational.players}>
+                      <a onClick={() => setMenuOpen(false)}>Spieler</a>
+                    </Link>
+                    <Link href={routing.de.tournaments.hobbitInvitational.pairings}>
+                      <a onClick={() => setMenuOpen(false)}>Paarungen</a>
+                    </Link>
+                  </Flex>
+                )}
+              </MenuContainerMobil>
             </Flex>
           </ContentContainer>
         </PageMenuContentWrapper>

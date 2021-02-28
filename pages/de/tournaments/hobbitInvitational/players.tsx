@@ -25,7 +25,7 @@ const EmptyCard = styled.div`
 `;
 
 export default function Players(): ReactElement {
-  const sortedPlayers = Object.values(players).sort((a, b) => a.name.localeCompare(b.name));
+  const sortedPlayers = Object.values(players).sort((a, b) => b.elo - a.elo);
   return (
     <HobbitsPageFrame title={'Spieler'} contentDescription="Teilnehmerliste des Turniers Hobbits Invitationals">
       <PlayerInfo>

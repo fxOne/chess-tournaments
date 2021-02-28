@@ -21,6 +21,10 @@ interface Props extends PageFrameProps {
 const Header = styled.h1`
   margin: 0 0 0.5rem 2rem;
   font-size: 1.5em;
+
+  @media screen and (max-width: 620px) {
+    margin: 0.5rem 0;
+  }
 `;
 
 export default function HobbitsPageFrame({
