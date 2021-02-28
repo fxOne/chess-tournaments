@@ -27,7 +27,7 @@ const EmptyCard = styled.div`
 export default function Players(): ReactElement {
   const sortedPlayers = Object.values(players).sort((a, b) => a.name.localeCompare(b.name));
   return (
-    <HobbitsPageFrame title={'Spieler'}>
+    <HobbitsPageFrame title={'Spieler'} contentDescription="Teilnehmerliste des Turniers Hobbits Invitationals">
       <PlayerInfo>
         <div>
           <div>Spieler: {sortedPlayers.length}</div>

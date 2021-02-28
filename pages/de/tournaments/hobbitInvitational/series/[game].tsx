@@ -10,6 +10,7 @@ import MatchHeader from '../../../../../components/Match/MatchHeader';
 import MatchResult from '../../../../../components/Match/MatchResult';
 import { ReactElement } from 'react';
 import ResultTable from '../../../../../components/ResultTable/ResultTable';
+import { calculateSeries } from '../../../../../components/ResultTable/Calculations';
 import { matches } from '../../../../../data/hobbitsInvitational/Games';
 import { players } from '../../../../../data/hobbitsInvitational/Players';
 import { routing } from '../../../../../routing';
@@ -78,6 +79,15 @@ function getTitle(player1: Player | null, player2: Player | null): string {
   return '';
 }
 
+function getContentDescription(match: Match, player1: Player | null, player2: Player | null): string {
+  if (player1 && player2) {
+    const resultPlayer1 = calculateSeries(match.series, player1.id);
+    const resultPlayer2 = calculateSeries(match.series, player2.id);
+    return `${player1.title} ${player1.name} (${resultPlayer1}) - (${resultPlayer2}) ${player2.title} ${player2.name}`;
+  }
+  return '';
+}
+
 export default function Game({ match, players }: GameProps): ReactElement {
   const player1Id = match.player1;
   const player2Id = match.player2;
@@ -85,7 +95,11 @@ export default function Game({ match, players }: GameProps): ReactElement {
   const player2 = players[player2Id!] || null;
 
   return (
-    <HobbitsPageFrame title={getTitle(player1, player2)} buttonText="Zurück zu den Paarungen">
+    <HobbitsPageFrame
+      title={getTitle(player1, player2)}
+      buttonText="Zurück zu den Paarungen"
+      contentDescription={getContentDescription(match, player1, player2)}
+    >
       <MatchHeader player1={player1} player2={player2} />
       <MatchResult player1={player1} player2={player2} series={match.series} />
       <MatchDetails match={match} />
