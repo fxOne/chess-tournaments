@@ -5,23 +5,33 @@ import styled from 'styled-components';
 
 const HeroContainerBox = styled.div`
   background-color: #ead9bbc7;
-  position: absolute;
-  z-index: 1;
-  top: calc(50% + 2.5rem);
-  transform: translateY(-50%);
-  left: 2rem;
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
   border-radius: 8px;
+  position: relative;
+  z-index: 1;
 `;
 
 interface HeroBoxProps {
   children: ReactNode;
 }
 
+const BoxContainer = styled.div`
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding-top: 5rem;
+
+  @media screen and (max-width: 620px) {
+    justify-content: center;
+  }
+`;
+
 export default function HeroBox({ children }: HeroBoxProps): ReactElement {
   return (
     <ContentContainer fullHeight noContainerSpacing>
-      <HeroContainerBox>{children}</HeroContainerBox>
+      <BoxContainer>
+        <HeroContainerBox>{children}</HeroContainerBox>
+      </BoxContainer>
     </ContentContainer>
   );
 }

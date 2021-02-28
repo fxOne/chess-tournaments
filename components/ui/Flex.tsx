@@ -1,4 +1,4 @@
-import styled, { CSSProperties } from 'styled-components';
+import styled, { CSSProperties, css } from 'styled-components';
 
 interface FlexProps {
   justifyContent?: CSSProperties['justifyContent'];
@@ -6,6 +6,7 @@ interface FlexProps {
   direction?: CSSProperties['flexDirection'];
   fullHeight?: boolean;
   wrap?: CSSProperties['flexWrap'];
+  mobileCol?: boolean;
 }
 
 const Flex = styled.div<FlexProps>`
@@ -15,6 +16,17 @@ const Flex = styled.div<FlexProps>`
   flex-direction: ${(props) => props.direction || 'row'};
   height: ${({ fullHeight }) => (fullHeight ? '100%' : 'auto')};
   flex-wrap: ${({ wrap }) => wrap || 'inherit'};
+
+  ${({ mobileCol }) =>
+    mobileCol &&
+    css`
+      @media screen and (max-width: 620px) {
+        & {
+          flex-direction: column;
+          align-items: center;
+        }
+      }
+    `}
 `;
 
 export default Flex;

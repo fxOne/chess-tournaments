@@ -10,6 +10,7 @@ const HeroContainer = styled.div<HeroContainerProps>`
   min-height: ${(props) => (props.bigHeroContainer ? '50vh' : '30vh')};
   overflow: hidden;
   flex-shrink: 0;
+  padding: 1rem 0;
 `;
 
 export default HeroContainer;

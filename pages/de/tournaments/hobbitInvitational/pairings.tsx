@@ -10,6 +10,8 @@ export default function Pairings(): ReactElement {
   return (
     <HobbitsPageFrame title={'Paarungen'}>
       <TournamentBracket brackets={brackets} players={players} matches={matches} />
+      <br />
+      <br />
       <Hint>Klicke auf eine Paarung mit Ergebnis um Details zu sehen</Hint>
     </HobbitsPageFrame>
   );

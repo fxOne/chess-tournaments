@@ -35,7 +35,7 @@ export default function HobbitsPageFrame({
       <Menu onDark />
       <Hero bigHeroContainer={landingPage}>
         <HeroBox>
-          <Flex alignItems={'center'}>
+          <Flex alignItems={'center'} mobileCol>
             <Image
               loading={'eager'}
               src={'/chessHobbitsLogo.png'}

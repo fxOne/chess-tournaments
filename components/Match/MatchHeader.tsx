@@ -10,6 +10,11 @@ export const Header = styled.h1`
   margin-bottom: 2rem;
   justify-content: center;
   font-weight: normal;
+
+  @media screen and (max-width: 620px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 const HeaderVs = styled.div`
@@ -17,6 +22,10 @@ const HeaderVs = styled.div`
   color: #aaa;
   font-size: 1.5rem;
   font-weight: normal;
+
+  @media screen and (max-width: 620px) {
+    margin: 1.5rem;
+  }
 `;
 
 interface Props {

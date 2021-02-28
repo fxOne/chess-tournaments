@@ -12,6 +12,10 @@ const FormGrid = styled.div`
   grid-row-gap: 2rem;
   grid-column-gap: 10rem;
   font-size: 1.1rem;
+
+  @media screen and (max-width: 620px) {
+    grid-template-columns: 1fr;
+  }
 `;
 
 const Divider = styled.div`

@@ -31,7 +31,7 @@ const PageMenuContentWrapper = styled.div<{
   top: 0;
   left: 0;
   right: 0;
-  height: 2.5rem;
+  height: 5rem;
   z-index: 10;
   padding: 1rem 0;
   color: ${({ dark }) => (dark ? '#fff' : '#222')};

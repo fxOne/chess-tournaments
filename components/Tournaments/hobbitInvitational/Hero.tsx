@@ -11,6 +11,7 @@ const HeroImage = styled.div`
   bottom: 0;
   right: -5rem;
   left: -5rem;
+  padding: 0 5rem;
 
   &:after {
     position: absolute;
@@ -40,8 +41,8 @@ export default function Hero({ bigHeroContainer, children }: HeroProps): ReactEl
           objectFit={'cover'}
           objectPosition={'50% 70%'}
         />
-        {children}
       </HeroImage>
+      {children}
     </HeroContainer>
   );
 }

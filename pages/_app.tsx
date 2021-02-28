@@ -1,4 +1,5 @@
 import { ThemeProvider, createGlobalStyle } from 'styled-components';
+
 import { AppProps } from 'next/dist/next-server/lib/router/router';
 import { ReactElement } from 'react';
 
@@ -9,6 +10,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-size: 20px;
     font-family: 'Roboto', sans-serif;
+  }
+
+  * {
+    box-sizing: border-box;
   }
 `;
 

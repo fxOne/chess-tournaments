@@ -4,12 +4,18 @@ import { calculateBracketPositions, calculateLines, calculateSvgSize } from './C
 
 import Line from './Line';
 import Match from './Match';
+import styled from 'styled-components';
 
 interface TournemantBracketProps {
   brackets: Bracket[][];
   matches: Matches;
   players: Players;
 }
+
+const Wrapper = styled.div`
+  width: 100%;
+  overflow-x: scroll;
+`;
 
 export default function TournamentBracket({ brackets, matches, players }: TournemantBracketProps): ReactElement {
   const { bracketPositions, height, lines, width } = useMemo(() => {
@@ -19,17 +25,19 @@ export default function TournamentBracket({ brackets, matches, players }: Tourne
     return { bracketPositions, height, lines, width };
   }, [brackets, matches, players]);
   return (
-    <svg width={width} height={height}>
-      <g>
-        {[...bracketPositions.values()].map(({ match, player1, player2, x, y }) => {
-          return <Match key={match.id} match={match} player1={player1} player2={player2} y={y} x={x} />;
-        })}
-      </g>
-      <g>
-        {lines.map((line, i) => (
-          <Line key={i} {...line} />
-        ))}
-      </g>
-    </svg>
+    <Wrapper>
+      <svg width={width} height={height}>
+        <g>
+          {[...bracketPositions.values()].map(({ match, player1, player2, x, y }) => {
+            return <Match key={match.id} match={match} player1={player1} player2={player2} y={y} x={x} />;
+          })}
+        </g>
+        <g>
+          {lines.map((line, i) => (
+            <Line key={i} {...line} />
+          ))}
+        </g>
+      </svg>
+    </Wrapper>
   );
 }
