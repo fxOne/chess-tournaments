@@ -95,7 +95,7 @@ export default function Menu({ onDark }: Props): ReactElement {
           <ContentContainer noContainerSpacing fullHeight>
             <Flex justifyContent={'space-between'} alignItems={'center'} fullHeight>
               <div>
-                <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" />
+                <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" width="60px" />
               </div>
 
               <MenuContainer>
