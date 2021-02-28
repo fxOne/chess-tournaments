@@ -36,13 +36,13 @@ export default function PageFrame({ children, contentDescription, title }: PageF
         <meta property="og:type" content="website" />
         <meta property="og:title" content={fullTitle} />
         <meta property="og:description" content={contentDescription} />
-        <meta property="og:image" content="https://www.chess-tournaments.org/logo.svg" />
+        <meta property="og:image" content="https://www.chess-tournaments.org/logo.png" />
 
         {/* Twitter */}
         <meta property="twitter:card" content="summary" />
         <meta property="twitter:title" content={fullTitle} />
         <meta property="twitter:description" content={contentDescription} />
-        <meta property="twitter:image" content="https://www.chess-tournaments.org/logo.svg" />
+        <meta property="twitter:image" content="https://www.chess-tournaments.org/logo.png" />
       </Head>
 
       <PageContent>{children}</PageContent>
