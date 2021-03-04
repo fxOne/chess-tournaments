@@ -58,6 +58,11 @@ const MatchesContainer = styled.div`
   margin: 0 auto;
   width: auto;
   justify-content: center;
+
+  @media screen and (max-width: 620px) {
+    overflow-x: scroll;
+    justify-content: flex-start;
+  }
 `;
 
 const MatchTypeContainer = styled.div`
