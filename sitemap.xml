@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/players</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/pairings</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/1</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/3</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/2</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/6</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/5</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/4</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/7</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/8</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/10</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/11</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/12</loc>
+  <lastmod>2021-03-15T19:48:45+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
