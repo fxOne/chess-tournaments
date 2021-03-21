@@ -1,0 +1,500 @@
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "15:59:50"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "C33"]
+[Opening "King's Gambit Accepted: Bishop's Gambit, Bledow Variation"]
+[Termination "Time forfeit"]
+
+1. e4 { [%clk 0:05:00] } 1... e5 { [%clk 0:05:00] } 2. f4 { [%clk 0:04:58] } 2... exf4 { [%clk 0:04:53] } 3. Bc4 { [%clk 0:04:57] } 3... d5 { [%clk 0:03:17] } 4. exd5 { [%clk 0:04:50] } 4... Nf6 { [%clk 0:03:17] } 5. Nc3 { [%clk 0:04:48] } 5... Bd6 { [%clk 0:03:16] } 6. Qe2+ { [%clk 0:04:40] } 6... Be7 { [%clk 0:03:05] } 7. Nf3 { [%clk 0:04:33] } 7... O-O { [%clk 0:03:05] } 8. O-O { [%clk 0:04:16] } 8... c6 { [%clk 0:02:56] } 9. d4 { [%clk 0:03:45] } 9... cxd5 { [%clk 0:02:52] } 10. Bb3 { [%clk 0:03:46] } 10... Nc6 { [%clk 0:02:42] } 11. Bxf4 { [%clk 0:03:45] } 11... Bg4 { [%clk 0:02:43] } 12. Qd3 { [%clk 0:03:38] } 12... Bxf3 { [%clk 0:02:21] } 13. Rxf3 { [%clk 0:03:32] } 13... Qb6 { [%clk 0:02:13] } 14. Be3 { [%clk 0:03:24] } 14... Rad8 { [%clk 0:02:04] } 15. Raf1 { [%clk 0:03:19] } 15... Rfe8 { [%clk 0:01:03] } 16. Kh1 { [%clk 0:02:42] } 16... Na5 { [%clk 0:00:52] } 17. Bg5 { [%clk 0:02:27] } 17... Nxb3 { [%clk 0:00:47] } 18. axb3 { [%clk 0:02:28] } 18... Ne4 { [%clk 0:00:35] } 19. Be3 { [%clk 0:00:54] } 19... Nxc3 { [%clk 0:00:24] } 20. bxc3 { [%clk 0:00:53] } 20... f6 { [%clk 0:00:23] } 21. c4 { [%clk 0:00:51] } 21... Qe6 { [%clk 0:00:23] } 22. cxd5 { [%clk 0:00:51] } 22... Qxd5 { [%clk 0:00:21] } 23. c4 { [%clk 0:00:51] } 23... Qd7 { [%clk 0:00:20] } 24. d5 { [%clk 0:00:52] } 24... b6 { [%clk 0:00:19] } 25. Bd4 { [%clk 0:00:51] } 25... Bd6 { [%clk 0:00:19] } 26. h3 { [%clk 0:00:51] } 26... Re7 { [%clk 0:00:19] } 27. Re3 { [%clk 0:00:49] } 27... Rde8 { [%clk 0:00:19] } 28. Rfe1 { [%clk 0:00:48] } 28... Rxe3 { [%clk 0:00:15] } 29. Rxe3 { [%clk 0:00:49] } 29... Rxe3 { [%clk 0:00:12] } 30. Qxe3 { [%clk 0:00:50] } 30... Kf7 { [%clk 0:00:11] } 31. Qe4 { [%clk 0:00:48] } 31... g6 { [%clk 0:00:10] } 32. Kg1 { [%clk 0:00:47] } 32... Qe7 { [%clk 0:00:11] } 33. Qxe7+ { [%clk 0:00:39] } 33... Kxe7 { [%clk 0:00:12] } 34. Kf2 { [%clk 0:00:39] } 34... f5 { [%clk 0:00:12] } 35. Ke3 { [%clk 0:00:39] } 35... h5 { [%clk 0:00:11] } 36. Kd3 { [%clk 0:00:36] } 36... g5 { [%clk 0:00:11] } 37. Kc3 { [%clk 0:00:22] } 37... Bg3 { [%clk 0:00:09] } 38. b4 { [%clk 0:00:20] } 38... Be1+ { [%clk 0:00:09] } 39. Kb3 { [%clk 0:00:20] } 39... f4 { [%clk 0:00:09] } 40. c5 { [%clk 0:00:20] } 40... g4 { [%clk 0:00:09] } 41. hxg4 { [%clk 0:00:20] } 41... hxg4 { [%clk 0:00:09] } 42. cxb6 { [%clk 0:00:14] } 42... axb6 { [%clk 0:00:09] } 43. Bxb6 { [%clk 0:00:15] } 43... f3 { [%clk 0:00:09] } 44. gxf3 { [%clk 0:00:15] } 44... g3 { [%clk 0:00:04] } 45. Bc7 { [%clk 0:00:09] } 45... g2 { [%clk 0:00:03] } 46. Bb6 { [%clk 0:00:10] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1/2-1/2"]
+[UTCDate "2021.02.21"]
+[UTCTime "16:11:23"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "B39"]
+[Opening "Sicilian Defense: Accelerated Dragon, Maróczy Bind, Breyer Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... c5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:00] } 2... g6 { [%clk 0:04:59] } 3. d4 { [%clk 0:04:56] } 3... cxd4 { [%clk 0:05:00] } 4. Nxd4 { [%clk 0:04:55] } 4... Bg7 { [%clk 0:04:57] } 5. c4 { [%clk 0:04:55] } 5... Nc6 { [%clk 0:04:56] } 6. Be3 { [%clk 0:04:50] } 6... Nf6 { [%clk 0:04:55] } 7. Nc3 { [%clk 0:04:50] } 7... Ng4 { [%clk 0:04:55] } 8. Qxg4 { [%clk 0:04:49] } 8... Nxd4 { [%clk 0:04:55] } 9. Qd1 { [%clk 0:04:49] } 9... e5 { [%clk 0:04:56] } 10. Be2 { [%clk 0:04:37] } 10... d6 { [%clk 0:04:53] } 11. O-O { [%clk 0:04:37] } 11... O-O { [%clk 0:04:52] } 12. Qd2 { [%clk 0:04:33] } 12... Be6 { [%clk 0:04:51] } 13. Rad1 { [%clk 0:04:11] } 13... Rc8 { [%clk 0:04:44] } 14. b3 { [%clk 0:04:04] } 14... a6 { [%clk 0:04:45] } 15. Rfe1 { [%clk 0:03:50] } 15... Qd7 { [%clk 0:04:37] } 16. Bf1 { [%clk 0:03:24] } 16... b5 { [%clk 0:04:32] } 17. cxb5 { [%clk 0:03:10] } 17... Bg4 { [%clk 0:04:13] } 18. Rc1 { [%clk 0:02:42] } 18... Nxb5 { [%clk 0:04:09] } 19. Nxb5 { [%clk 0:02:31] } 19... axb5 { [%clk 0:04:10] } 20. Qb4 { [%clk 0:02:31] } 20... Rb8 { [%clk 0:03:43] } 21. h3 { [%clk 0:02:14] } 21... Be6 { [%clk 0:03:43] } 22. Red1 { [%clk 0:02:14] } 22... Rfd8 { [%clk 0:03:43] } 23. Rd2 { [%clk 0:02:14] } 23... Bf8 { [%clk 0:03:40] } 24. Qa5 { [%clk 0:01:51] } 24... Qb7 { [%clk 0:03:12] } 25. f3 { [%clk 0:01:28] } 25... Rd7 { [%clk 0:03:09] } 26. Rdc2 { [%clk 0:01:10] } 26... Ra8 { [%clk 0:03:01] } 27. Qxb5 { [%clk 0:01:06] } 27... d5 { [%clk 0:02:59] } 28. Qxb7 { [%clk 0:01:00] } 28... Rxb7 { [%clk 0:03:00] } 29. exd5 { [%clk 0:01:01] } 29... Bxd5 { [%clk 0:03:01] } 30. Rc8 { [%clk 0:00:48] } 30... Rbb8 { [%clk 0:02:54] } 31. Rxb8 { [%clk 0:00:44] } 31... Rxb8 { [%clk 0:02:55] } 32. Bc4 { [%clk 0:00:42] } 32... Bxc4 { [%clk 0:01:36] } 33. Rxc4 { [%clk 0:00:43] } 33... f5 { [%clk 0:01:36] } 34. Kf1 { [%clk 0:00:39] } 34... Bd6 { [%clk 0:01:32] } 35. Ke2 { [%clk 0:00:39] } 35... Kf7 { [%clk 0:01:32] } 36. Rc6 { [%clk 0:00:37] } 36... Ke7 { [%clk 0:01:31] } 37. Ra6 { [%clk 0:00:37] } 37... h5 { [%clk 0:01:28] } 38. Kd3 { [%clk 0:00:35] } 38... Rd8 { [%clk 0:01:22] } 39. Ke2 { [%clk 0:00:35] } 39... Rc8 { [%clk 0:01:22] } 40. Kd3 { [%clk 0:00:34] } 40... Rd8 { [%clk 0:01:22] } 41. Kc4 { [%clk 0:00:34] } 41... Rb8 { [%clk 0:00:42] } 42. Bc5 { [%clk 0:00:25] } 42... Bxc5 { [%clk 0:00:38] } 43. Kxc5 { [%clk 0:00:26] } 43... Rd8 { [%clk 0:00:36] } 44. Rxg6 { [%clk 0:00:25] } 44... e4 { [%clk 0:00:36] } 45. fxe4 { [%clk 0:00:22] } 45... fxe4 { [%clk 0:00:37] } 46. a4 { [%clk 0:00:17] } 46... Kf7 { [%clk 0:00:33] } 47. Rg5 { [%clk 0:00:12] } 47... Kf6 { [%clk 0:00:32] } 48. Rg3 { [%clk 0:00:12] } 48... Rd3 { [%clk 0:00:29] } 49. Rg8 { [%clk 0:00:13] } 49... Rxb3 { [%clk 0:00:24] } 50. Re8 { [%clk 0:00:12] } 50... Kf5 { [%clk 0:00:22] } 51. a5 { [%clk 0:00:12] } 51... Ra3 { [%clk 0:00:22] } 52. Kb6 { [%clk 0:00:12] } 52... Rb3+ { [%clk 0:00:22] } 53. Kc5 { [%clk 0:00:12] } 53... Ra3 { [%clk 0:00:23] } 54. Kb4 { [%clk 0:00:13] } 54... Ra1 { [%clk 0:00:23] } 55. g4+ { [%clk 0:00:12] } 55... hxg4 { [%clk 0:00:23] } 56. hxg4+ { [%clk 0:00:13] } 56... Kf4 { [%clk 0:00:23] } 57. g5 { [%clk 0:00:13] } 57... Rb1+ { [%clk 0:00:20] } 58. Kc5 { [%clk 0:00:14] } 58... Ra1 { [%clk 0:00:20] } 59. Kb5 { [%clk 0:00:13] } 59... Rb1+ { [%clk 0:00:21] } 60. Kc6 { [%clk 0:00:13] } 60... Ra1 { [%clk 0:00:21] } 61. Kb6 { [%clk 0:00:13] } 61... Rb1+ { [%clk 0:00:22] } 62. Ka7 { [%clk 0:00:13] } 62... Rb5 { [%clk 0:00:19] } 63. a6 { [%clk 0:00:13] } 63... Rxg5 { [%clk 0:00:20] } 64. Kb6 { [%clk 0:00:13] } 64... Rg6+ { [%clk 0:00:18] } 65. Kb5 { [%clk 0:00:13] } 65... Rg7 { [%clk 0:00:17] } 66. Kb6 { [%clk 0:00:13] } 66... e3 { [%clk 0:00:17] } 67. a7 { [%clk 0:00:13] } 67... Rxa7 { [%clk 0:00:17] } 68. Kxa7 { [%clk 0:00:14] } 68... Kf3 { [%clk 0:00:18] } 69. Kb6 { [%clk 0:00:14] } 69... e2 { [%clk 0:00:19] } 70. Kc5 { [%clk 0:00:14] } 70... Kf2 { [%clk 0:00:20] } 71. Rf8+ { [%clk 0:00:14] } 71... Ke3 { [%clk 0:00:19] } 72. Re8+ { [%clk 0:00:14] } 72... Kd2 { [%clk 0:00:20] } 73. Rd8+ { [%clk 0:00:14] } 73... Kc2 { [%clk 0:00:20] } 74. Re8 { [%clk 0:00:14] } 74... Kd2 { [%clk 0:00:21] } 75. Rd8+ { [%clk 0:00:15] } 75... Kc2 { [%clk 0:00:21] } 76. Re8 { [%clk 0:00:15] } 76... Kd2 { [%clk 0:00:22] } 1/2-1/2
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "16:23:26"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "C33"]
+[Opening "King's Gambit Accepted: Bishop's Gambit, Bledow Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... e5 { [%clk 0:05:00] } 2. f4 { [%clk 0:05:00] } 2... exf4 { [%clk 0:05:00] } 3. Bc4 { [%clk 0:05:00] } 3... d5 { [%clk 0:04:59] } 4. exd5 { [%clk 0:04:56] } 4... Nf6 { [%clk 0:04:59] } 5. Nc3 { [%clk 0:04:52] } 5... Bd6 { [%clk 0:04:58] } 6. Qe2+ { [%clk 0:04:53] } 6... Be7 { [%clk 0:04:58] } 7. d4 { [%clk 0:04:47] } 7... O-O { [%clk 0:04:49] } 8. Bxf4 { [%clk 0:04:47] } 8... c6 { [%clk 0:04:30] } 9. Nf3 { [%clk 0:04:19] } 9... cxd5 { [%clk 0:04:27] } 10. Bb3 { [%clk 0:04:19] } 10... Nc6 { [%clk 0:04:25] } 11. O-O { [%clk 0:04:19] } 11... Be6 { [%clk 0:02:56] } 12. Qd3 { [%clk 0:03:56] } 12... Rc8 { [%clk 0:02:53] } 13. Kh1 { [%clk 0:03:49] } 13... h6 { [%clk 0:02:49] } 14. Rae1 { [%clk 0:03:47] } 14... Bd6 { [%clk 0:02:21] } 15. Ne5 { [%clk 0:03:33] } 15... Na5 { [%clk 0:02:13] } 16. Qf3 { [%clk 0:02:30] } 16... Nxb3 { [%clk 0:02:08] } 17. axb3 { [%clk 0:02:31] } 17... Be7 { [%clk 0:02:08] } 18. Bg3 { [%clk 0:01:47] } 18... b5 { [%clk 0:01:59] } 19. Nxb5 { [%clk 0:01:25] } 19... Ne4 { [%clk 0:01:05] } 20. c4 { [%clk 0:00:08] } 20... Nd2 { [%clk 0:00:59] } 21. Qd3 { [%clk 0:00:08] } 21... Nxf1 { [%clk 0:00:56] } 22. Rxf1 { [%clk 0:00:09] } 22... Qa5 { [%clk 0:00:42] } 23. Nc3 { [%clk 0:00:06] } 23... Bb4 { [%clk 0:00:21] } 24. c5 { [%clk 0:00:05] } 24... Rfe8 { [%clk 0:00:17] } 25. Na4 { [%clk 0:00:05] } 25... f6 { [%clk 0:00:15] } 26. Ng6 { [%clk 0:00:05] } 26... Bd7 { [%clk 0:00:13] } 27. Nc3 { [%clk 0:00:04] } 27... Bxc3 { [%clk 0:00:13] } 28. bxc3 { [%clk 0:00:05] } 28... Qb5 { [%clk 0:00:07] } 29. c4 { [%clk 0:00:05] } 29... Qa6 { [%clk 0:00:07] } 30. Nf4 { [%clk 0:00:05] } 30... Bc6 { [%clk 0:00:07] } 31. h3 { [%clk 0:00:03] } 31... dxc4 { [%clk 0:00:07] } 32. bxc4 { [%clk 0:00:04] } 32... Rcd8 { [%clk 0:00:08] } 33. Kh2 { [%clk 0:00:04] } 33... Be4 { [%clk 0:00:08] } 34. Qc3 { [%clk 0:00:04] } 34... Qc6 { [%clk 0:00:08] } 35. Bf2 { [%clk 0:00:03] } 35... Qc7 { [%clk 0:00:08] } 36. Bg3 { [%clk 0:00:03] } 36... Qd7 { [%clk 0:00:08] } 37. d5 { [%clk 0:00:03] } 37... Qe7 { [%clk 0:00:07] } 38. c6 { [%clk 0:00:04] } 38... Rc8 { [%clk 0:00:07] } 39. Ne6 { [%clk 0:00:04] } 39... Bg6 { [%clk 0:00:06] } 40. Qd4 { [%clk 0:00:04] } 40... Bf7 { [%clk 0:00:07] } 41. Nc5 { [%clk 0:00:04] } 41... Red8 { [%clk 0:00:07] } 42. Ne4 { [%clk 0:00:05] } 42... Qf8 { [%clk 0:00:06] } 43. c7 { [%clk 0:00:04] } 43... Rd7 { [%clk 0:00:07] } 44. d6 { [%clk 0:00:05] } 44... Be6 { [%clk 0:00:07] } 45. Nc5 { [%clk 0:00:04] } 45... Qf7 { [%clk 0:00:07] } 46. Nxd7 { [%clk 0:00:05] } 46... Qxd7 { [%clk 0:00:08] } 47. c5 { [%clk 0:00:05] } 47... Qc6 { [%clk 0:00:09] } 48. Qe3 { [%clk 0:00:05] } 48... Bd5 { [%clk 0:00:09] } 49. Re1 { [%clk 0:00:06] } 49... Bxg2 { [%clk 0:00:09] } 50. Qe6+ { [%clk 0:00:07] } 50... Kh8 { [%clk 0:00:09] } 51. Qxc8+ { [%clk 0:00:07] } 51... Kh7 { [%clk 0:00:09] } 52. Qf5+ { [%clk 0:00:08] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "16:34:59"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "B29"]
+[Opening "Sicilian Defense: Nimzowitsch Variation, Main Line"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... c5 { [%clk 0:05:00] } 2. Nf3 { [%clk 0:05:00] } 2... Nf6 { [%clk 0:05:00] } 3. e5 { [%clk 0:04:53] } 3... Nd5 { [%clk 0:05:01] } 4. Nc3 { [%clk 0:04:54] } 4... e6 { [%clk 0:05:00] } 5. Nxd5 { [%clk 0:04:33] } 5... exd5 { [%clk 0:05:01] } 6. d4 { [%clk 0:04:33] } 6... Nc6 { [%clk 0:05:00] } 7. Bd3 { [%clk 0:04:31] } 7... c4 { [%clk 0:04:55] } 8. Be2 { [%clk 0:04:31] } 8... d6 { [%clk 0:04:56] } 9. O-O { [%clk 0:04:27] } 9... Be7 { [%clk 0:04:48] } 10. b3 { [%clk 0:04:19] } 10... cxb3 { [%clk 0:04:43] } 11. axb3 { [%clk 0:04:20] } 11... O-O { [%clk 0:04:43] } 12. exd6 { [%clk 0:04:08] } 12... Bxd6 { [%clk 0:04:41] } 13. c4 { [%clk 0:04:09] } 13... Bg4 { [%clk 0:04:19] } 14. Be3 { [%clk 0:04:01] } 14... Re8 { [%clk 0:04:02] } 15. Qd3 { [%clk 0:03:20] } 15... Qf6 { [%clk 0:03:46] } 16. Rfc1 { [%clk 0:02:28] } 16... a6 { [%clk 0:03:18] } 17. c5 { [%clk 0:02:00] } 17... Bf4 { [%clk 0:03:15] } 18. Qd2 { [%clk 0:01:09] } 18... Bxe3 { [%clk 0:01:40] } 19. fxe3 { [%clk 0:01:09] } 19... Qh6 { [%clk 0:01:40] } 20. Rc3 { [%clk 0:01:05] } 20... Re6 { [%clk 0:01:39] } 21. b4 { [%clk 0:00:55] } 21... Rae8 { [%clk 0:01:37] } 22. b5 { [%clk 0:00:55] } 22... axb5 { [%clk 0:01:37] } 23. Bxb5 { [%clk 0:00:53] } 23... Bxf3 { [%clk 0:01:03] } 24. gxf3 { [%clk 0:00:52] } 24... Qh3 { [%clk 0:01:02] } 25. Qf2 { [%clk 0:00:43] } 25... h5 { [%clk 0:00:57] } 26. Bf1 { [%clk 0:00:38] } 26... Qf5 { [%clk 0:00:55] } 27. Kh1 { [%clk 0:00:27] } 27... Rf6 { [%clk 0:00:35] } 28. Bg2 { [%clk 0:00:25] } 28... Nd8 { [%clk 0:00:35] } 29. f4 { [%clk 0:00:20] } 29... Ne6 { [%clk 0:00:12] } 30. Rf1 { [%clk 0:00:19] } 30... g5 { [%clk 0:00:09] } 31. Qg3 { [%clk 0:00:19] } 31... h4 { [%clk 0:00:06] } 32. Qf3 { [%clk 0:00:12] } 32... gxf4 { [%clk 0:00:06] } 33. Bh3 { [%clk 0:00:13] } 33... Qh7 { [%clk 0:00:04] } 34. Bxe6 { [%clk 0:00:10] } 34... Rexe6 { [%clk 0:00:03] } 35. exf4 { [%clk 0:00:11] } 35... Qe4 { [%clk 0:00:04] } 36. Rb3 { [%clk 0:00:07] } 36... Rxf4 { [%clk 0:00:04] } 37. Qxe4 { [%clk 0:00:06] } 37... Rxf1+ { [%clk 0:00:04] } 38. Kg2 { [%clk 0:00:07] } 38... Rxe4 { [%clk 0:00:04] } 39. Kxf1 { [%clk 0:00:07] } 39... Rxd4 { [%clk 0:00:05] } 40. Rxb7 { [%clk 0:00:07] } 40... Rc4 { [%clk 0:00:06] } 41. Rc7 { [%clk 0:00:08] } 41... Kg7 { [%clk 0:00:06] } 42. c6 { [%clk 0:00:08] } 42... Kf6 { [%clk 0:00:07] } 43. Kf2 { [%clk 0:00:09] } 43... Ke6 { [%clk 0:00:07] } 44. Rc8 { [%clk 0:00:09] } 44... f6 { [%clk 0:00:06] } 45. Ke2 { [%clk 0:00:08] } 45... Kd6 { [%clk 0:00:04] } 46. Rf8 { [%clk 0:00:07] } 46... Ke5 { [%clk 0:00:05] } 47. Rc8 { [%clk 0:00:07] } 47... Rc2+ { [%clk 0:00:05] } 48. Kd3 { [%clk 0:00:08] } 48... Rc4 { [%clk 0:00:03] } 49. c7 { [%clk 0:00:07] } 49... Kf5 { [%clk 0:00:03] } 50. Ke3 { [%clk 0:00:07] } 50... h3 { [%clk 0:00:01] } 51. Kf3 { [%clk 0:00:07] } 51... Rc3+ { [%clk 0:00:02] } 52. Kf2 { [%clk 0:00:08] } 52... Kf4 { [%clk 0:00:03] } 53. Ke2 { [%clk 0:00:06] } 53... f5 { [%clk 0:00:02] } 54. Kd2 { [%clk 0:00:07] } 54... d4 { [%clk 0:00:03] } 55. Ke2 { [%clk 0:00:07] } 55... Rc4 { [%clk 0:00:01] } 56. Kd3 { [%clk 0:00:07] } 56... Rc5 { [%clk 0:00:02] } 57. Kxd4 { [%clk 0:00:07] } 57... Rc1 { [%clk 0:00:03] } 58. Kd5 { [%clk 0:00:08] } 58... Kf3 { [%clk 0:00:03] } 59. Kd6 { [%clk 0:00:08] } 59... f4 { [%clk 0:00:04] } 60. Rf8 { [%clk 0:00:08] } 60... Rd1+ { [%clk 0:00:04] } 61. Ke5 { [%clk 0:00:09] } 61... Rc1 { [%clk 0:00:05] } 62. c8=Q { [%clk 0:00:09] } 62... Rxc8 { [%clk 0:00:06] } 63. Rxc8 { [%clk 0:00:09] } 63... Kg2 { [%clk 0:00:06] } 64. Rc2+ { [%clk 0:00:09] } 64... Kf3 { [%clk 0:00:07] } 65. Rc3+ { [%clk 0:00:09] } 65... Kg2 { [%clk 0:00:07] } 66. Kxf4 { [%clk 0:00:09] } 66... Kxh2 { [%clk 0:00:08] } 67. Kf3 { [%clk 0:00:10] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "16:47:04"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... d5 { [%clk 0:05:00] } 2. exd5 { [%clk 0:04:57] } 2... Qxd5 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:04:53] } 3... Nf6 { [%clk 0:05:01] } 4. d4 { [%clk 0:04:50] } 4... Bg4 { [%clk 0:05:01] } 5. Be2 { [%clk 0:04:48] } 5... Nc6 { [%clk 0:04:57] } 6. h3 { [%clk 0:04:42] } 6... Bxf3 { [%clk 0:04:51] } 7. Bxf3 { [%clk 0:04:43] } 7... Qd6 { [%clk 0:04:51] } 8. c3 { [%clk 0:04:40] } 8... e5 { [%clk 0:04:27] } 9. d5 { [%clk 0:04:22] } 9... Ne7 { [%clk 0:04:25] } 10. c4 { [%clk 0:04:22] } 10... e4 { [%clk 0:03:59] } 11. Be2 { [%clk 0:04:22] } 11... Nf5 { [%clk 0:03:57] } 12. O-O { [%clk 0:04:17] } 12... Qe5 { [%clk 0:03:09] } 13. Qa4+ { [%clk 0:04:06] } 13... Kd8 { [%clk 0:03:08] } 14. Qb3 { [%clk 0:02:53] } 14... Bd6 { [%clk 0:02:43] } 15. g3 { [%clk 0:02:53] } 15... e3 { [%clk 0:02:43] } 16. Bxe3 { [%clk 0:02:53] } 16... Nxe3 { [%clk 0:02:41] } 17. Qxe3 { [%clk 0:02:53] } 17... Qxb2 { [%clk 0:02:07] } 18. Nc3 { [%clk 0:02:14] } 18... Re8 { [%clk 0:02:05] } 19. Qd3 { [%clk 0:02:14] } 19... Bb4 { [%clk 0:01:47] } 20. d6 { [%clk 0:01:12] } 20... Qxc3 { [%clk 0:01:34] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "16:55:09"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Larsen Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... Nf6 { [%clk 0:05:00] } 2. e5 { [%clk 0:04:57] } 2... Nd5 { [%clk 0:05:00] } 3. d4 { [%clk 0:04:57] } 3... d6 { [%clk 0:05:00] } 4. Nf3 { [%clk 0:04:57] } 4... dxe5 { [%clk 0:05:00] } 5. Nxe5 { [%clk 0:04:58] } 5... g6 { [%clk 0:05:00] } 6. Be2 { [%clk 0:04:41] } 6... Bg7 { [%clk 0:04:59] } 7. O-O { [%clk 0:04:41] } 7... O-O { [%clk 0:04:59] } 8. Nf3 { [%clk 0:04:33] } 8... Nd7 { [%clk 0:04:56] } 9. c4 { [%clk 0:04:29] } 9... N5b6 { [%clk 0:04:35] } 10. Nc3 { [%clk 0:04:28] } 10... c6 { [%clk 0:04:11] } 11. Bf4 { [%clk 0:04:18] } 11... Re8 { [%clk 0:04:04] } 12. h3 { [%clk 0:04:13] } 12... Nf8 { [%clk 0:03:56] } 13. Qd2 { [%clk 0:04:03] } 13... Bf5 { [%clk 0:03:49] } 14. Rad1 { [%clk 0:03:59] } 14... Nbd7 { [%clk 0:03:27] } 15. g4 { [%clk 0:03:22] } 15... e5 { [%clk 0:03:08] } 16. dxe5 { [%clk 0:03:11] } 16... Be6 { [%clk 0:03:08] } 17. Ne4 { [%clk 0:02:57] } 17... Qc7 { [%clk 0:03:08] } 18. Nd6 { [%clk 0:02:28] } 18... Red8 { [%clk 0:03:02] } 19. Qc3 { [%clk 0:02:14] } 19... h6 { [%clk 0:02:49] } 20. Rfe1 { [%clk 0:01:59] } 20... g5 { [%clk 0:02:46] } 21. Bg3 { [%clk 0:01:57] } 21... Ng6 { [%clk 0:02:47] } 22. Nf5 { [%clk 0:01:38] } 22... Bf8 { [%clk 0:02:27] } 23. Rd6 { [%clk 0:01:29] } 23... Bxf5 { [%clk 0:01:26] } 24. gxf5 { [%clk 0:00:39] } 24... Ngxe5 { [%clk 0:01:26] } 25. Nxe5 { [%clk 0:00:36] } 25... Bxd6 { [%clk 0:01:20] } 26. Nxf7 { [%clk 0:00:34] } 26... Bxg3 { [%clk 0:00:55] } 27. Qh8+ { [%clk 0:00:28] } 27... Kxf7 { [%clk 0:00:54] } 28. Bh5# { [%clk 0:00:27] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1/2-1/2"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:04:45"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "300+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:05:00] } 1... d5 { [%clk 0:05:00] } 2. exd5 { [%clk 0:04:59] } 2... Qxd5 { [%clk 0:05:01] } 3. Nf3 { [%clk 0:04:56] } 3... Nf6 { [%clk 0:05:00] } 4. d4 { [%clk 0:04:54] } 4... Bg4 { [%clk 0:04:58] } 5. Be2 { [%clk 0:04:52] } 5... Nc6 { [%clk 0:04:55] } 6. h3 { [%clk 0:04:28] } 6... Bxf3 { [%clk 0:04:52] } 7. Bxf3 { [%clk 0:04:29] } 7... Qd6 { [%clk 0:04:52] } 8. O-O { [%clk 0:04:29] } 8... O-O-O { [%clk 0:04:00] } 9. c3 { [%clk 0:03:19] } 9... e5 { [%clk 0:03:59] } 10. dxe5 { [%clk 0:03:07] } 10... Nxe5 { [%clk 0:03:48] } 11. Qe2 { [%clk 0:03:07] } 11... Nxf3+ { [%clk 0:03:03] } 12. Qxf3 { [%clk 0:03:08] } 12... Qd5 { [%clk 0:02:43] } 13. Nd2 { [%clk 0:02:25] } 13... Be7 { [%clk 0:02:36] } 14. Qxd5 { [%clk 0:02:15] } 14... Nxd5 { [%clk 0:02:31] } 15. Nf3 { [%clk 0:02:14] } 15... Rhe8 { [%clk 0:02:28] } 16. Bd2 { [%clk 0:02:09] } 16... Bf6 { [%clk 0:02:23] } 17. Rad1 { [%clk 0:02:02] } 17... h6 { [%clk 0:02:20] } 18. Rfe1 { [%clk 0:02:00] } 18... Rxe1+ { [%clk 0:02:12] } 19. Rxe1 { [%clk 0:01:51] } 19... c5 { [%clk 0:01:54] } 20. c4 { [%clk 0:01:36] } 20... Nc7 { [%clk 0:01:48] } 21. b3 { [%clk 0:01:33] } 21... Ne6 { [%clk 0:01:46] } 22. Be3 { [%clk 0:01:32] } 22... Kc7 { [%clk 0:01:40] } 23. g3 { [%clk 0:01:09] } 23... Kc6 { [%clk 0:01:39] } 24. Kg2 { [%clk 0:01:09] } 24... a6 { [%clk 0:01:39] } 25. Rc1 { [%clk 0:01:08] } 25... b5 { [%clk 0:01:26] } 26. cxb5+ { [%clk 0:01:03] } 26... axb5 { [%clk 0:01:27] } 27. Bxc5 { [%clk 0:00:57] } 27... Nxc5 { [%clk 0:01:27] } 28. b4 { [%clk 0:00:57] } 28... Rd5 { [%clk 0:01:20] } 29. Rc2 { [%clk 0:00:43] } 29... Kd6 { [%clk 0:01:05] } 30. bxc5+ { [%clk 0:00:43] } 30... Rxc5 { [%clk 0:01:05] } 31. Rd2+ { [%clk 0:00:44] } 31... Rd5 { [%clk 0:01:06] } 32. Rc2 { [%clk 0:00:44] } 32... Rd1 { [%clk 0:00:56] } 33. g4 { [%clk 0:00:44] } 33... Kd5 { [%clk 0:00:52] } 34. h4 { [%clk 0:00:38] } 34... Ra1 { [%clk 0:00:31] } 35. g5 { [%clk 0:00:37] } 35... hxg5 { [%clk 0:00:31] } 36. hxg5 { [%clk 0:00:38] } 36... Be5 { [%clk 0:00:31] } 37. Rd2+ { [%clk 0:00:26] } 37... Ke6 { [%clk 0:00:26] } 38. Re2 { [%clk 0:00:26] } 38... f6 { [%clk 0:00:27] } 39. gxf6 { [%clk 0:00:14] } 39... gxf6 { [%clk 0:00:28] } 40. Nxe5 { [%clk 0:00:15] } 40... fxe5 { [%clk 0:00:28] } 41. f4 { [%clk 0:00:15] } 41... b4 { [%clk 0:00:17] } 42. Rxe5+ { [%clk 0:00:10] } 42... Kf6 { [%clk 0:00:17] } 43. Re2 { [%clk 0:00:11] } 43... Rb1 { [%clk 0:00:16] } 44. Kf3 { [%clk 0:00:09] } 44... b3 { [%clk 0:00:16] } 45. axb3 { [%clk 0:00:09] } 45... Rxb3+ { [%clk 0:00:16] } 46. Kg4 { [%clk 0:00:10] } 46... Rb6 { [%clk 0:00:16] } 47. Rh2 { [%clk 0:00:10] } 47... Rb4 { [%clk 0:00:15] } 48. Rh6+ { [%clk 0:00:09] } 48... Kg7 { [%clk 0:00:16] } 49. Ra6 { [%clk 0:00:10] } 49... Rb5 { [%clk 0:00:16] } 50. Re6 { [%clk 0:00:10] } 50... Ra5 { [%clk 0:00:16] } 51. Re5 { [%clk 0:00:10] } 51... Rxe5 { [%clk 0:00:07] } 52. fxe5 { [%clk 0:00:11] } 52... Kf7 { [%clk 0:00:07] } 53. Kf5 { [%clk 0:00:12] } 53... Ke7 { [%clk 0:00:08] } 54. e6 { [%clk 0:00:13] } 54... Ke8 { [%clk 0:00:08] } 55. Kf6 { [%clk 0:00:14] } 55... Kf8 { [%clk 0:00:08] } 56. e7+ { [%clk 0:00:15] } 56... Ke8 { [%clk 0:00:09] } 57. Ke6 { [%clk 0:00:15] } 1/2-1/2
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:22:08"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B39"]
+[Opening "Sicilian Defense: Accelerated Dragon, Maróczy Bind, Breyer Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... c5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:00] } 2... g6 { [%clk 0:03:00] } 3. d4 { [%clk 0:02:58] } 3... cxd4 { [%clk 0:03:01] } 4. Nxd4 { [%clk 0:02:58] } 4... Bg7 { [%clk 0:03:00] } 5. c4 { [%clk 0:02:58] } 5... Nc6 { [%clk 0:03:01] } 6. Be3 { [%clk 0:02:58] } 6... Nf6 { [%clk 0:03:01] } 7. Nc3 { [%clk 0:02:58] } 7... Ng4 { [%clk 0:03:02] } 8. Qxg4 { [%clk 0:02:58] } 8... Nxd4 { [%clk 0:03:02] } 9. Qd1 { [%clk 0:02:59] } 9... e5 { [%clk 0:03:02] } 10. Bd3 { [%clk 0:02:51] } 10... O-O { [%clk 0:03:01] } 11. O-O { [%clk 0:02:51] } 11... d6 { [%clk 0:03:02] } 12. Qd2 { [%clk 0:02:47] } 12... Be6 { [%clk 0:03:02] } 13. Bxd4 { [%clk 0:02:47] } 13... exd4 { [%clk 0:03:02] } 14. Ne2 { [%clk 0:02:48] } 14... Rc8 { [%clk 0:02:41] } 15. b3 { [%clk 0:02:48] } 15... Qd7 { [%clk 0:02:26] } 16. Rac1 { [%clk 0:02:43] } 16... Qc6 { [%clk 0:01:15] } 17. f4 { [%clk 0:02:29] } 17... f5 { [%clk 0:00:52] } 18. Ng3 { [%clk 0:02:29] } 18... fxe4 { [%clk 0:00:50] } 19. Bxe4 { [%clk 0:02:29] } 19... Qb6 { [%clk 0:00:43] } 20. Qd3 { [%clk 0:02:28] } 20... d5 { [%clk 0:00:33] } 21. cxd5 { [%clk 0:01:51] } 21... Bd7 { [%clk 0:00:32] } 22. f5 { [%clk 0:01:47] } 22... Bb5 { [%clk 0:00:31] } 23. Rc4 { [%clk 0:01:24] } 23... Bxc4 { [%clk 0:00:23] } 24. bxc4 { [%clk 0:01:25] } 24... Qb4 { [%clk 0:00:16] } 25. d6 { [%clk 0:01:12] } 25... Qxd6 { [%clk 0:00:13] } 26. Bxb7 { [%clk 0:01:12] } 26... Rce8 { [%clk 0:00:10] } 27. Ne4 { [%clk 0:01:07] } 27... Qe5 { [%clk 0:00:08] } 28. Bd5+ { [%clk 0:01:07] } 28... Kh8 { [%clk 0:00:08] } 29. f6 { [%clk 0:00:22] } 29... Bxf6 { [%clk 0:00:08] } 30. g3 { [%clk 0:00:22] } 30... Bg7 { [%clk 0:00:08] } 31. Rb1 { [%clk 0:00:23] } 31... Qf5 { [%clk 0:00:07] } 32. Kg2 { [%clk 0:00:20] } 32... a5 { [%clk 0:00:06] } 33. Rb7 { [%clk 0:00:19] } 33... Re5 { [%clk 0:00:06] } 34. Rb5 { [%clk 0:00:15] } 34... Rfe8 { [%clk 0:00:06] } 35. Nf2 { [%clk 0:00:13] } 35... Qxd3 { [%clk 0:00:03] } 36. Nxd3 { [%clk 0:00:14] } 36... Re3 { [%clk 0:00:04] } 37. Nf2 { [%clk 0:00:09] } 37... d3 { [%clk 0:00:05] } 38. Bf3 { [%clk 0:00:09] } 38... d2 { [%clk 0:00:05] } 39. Rd5 { [%clk 0:00:10] } 39... Bc3 { [%clk 0:00:05] } 40. c5 { [%clk 0:00:10] } 40... Re1 { [%clk 0:00:04] } 41. c6 { [%clk 0:00:10] } 41... Rc8 { [%clk 0:00:05] } 42. Rd3 { [%clk 0:00:10] } 42... Bb4 { [%clk 0:00:05] } 43. a3 { [%clk 0:00:11] } 43... Bf8 { [%clk 0:00:03] } 44. Rxd2 { [%clk 0:00:11] } 44... Re7 { [%clk 0:00:03] } 45. Rd5 { [%clk 0:00:11] } 45... Rec7 { [%clk 0:00:04] } 46. Rxa5 { [%clk 0:00:11] } 46... Be7 { [%clk 0:00:04] } 47. Rb5 { [%clk 0:00:11] } 47... Kg7 { [%clk 0:00:04] } 48. a4 { [%clk 0:00:12] } 48... Ra8 { [%clk 0:00:05] } 49. a5 { [%clk 0:00:12] } 49... Rca7 { [%clk 0:00:05] } 50. Nd3 { [%clk 0:00:12] } 50... Rxa5 { [%clk 0:00:05] } 51. Rb7 { [%clk 0:00:13] } 51... R5a7 { [%clk 0:00:06] } 52. c7 { [%clk 0:00:11] } 52... Rxb7 { [%clk 0:00:04] } 53. Bxb7 { [%clk 0:00:12] } 53... Ra2+ { [%clk 0:00:05] } 54. Kh3 { [%clk 0:00:13] } 54... Rc2 { [%clk 0:00:05] } 55. c8=Q { [%clk 0:00:13] } 55... Rxc8 { [%clk 0:00:06] } 56. Bxc8 { [%clk 0:00:13] } 56... Kf6 { [%clk 0:00:07] } 57. Kg2 { [%clk 0:00:14] } 57... h5 { [%clk 0:00:07] } 58. Bb7 { [%clk 0:00:12] } 58... Bd6 { [%clk 0:00:08] } 59. Be4 { [%clk 0:00:13] } 59... Kg5 { [%clk 0:00:09] } 60. h4+ { [%clk 0:00:12] } 60... Kf6 { [%clk 0:00:08] } 61. Bf3 { [%clk 0:00:10] } 61... g5 { [%clk 0:00:05] } 62. Bxh5 { [%clk 0:00:10] } 62... gxh4 { [%clk 0:00:06] } 63. gxh4 { [%clk 0:00:11] } 63... Kf5 { [%clk 0:00:06] } 64. Bf3 { [%clk 0:00:11] } 64... Kf6 { [%clk 0:00:07] } 65. Kh3 { [%clk 0:00:11] } 65... Kg7 { [%clk 0:00:07] } 66. Kg4 { [%clk 0:00:11] } 66... Kg6 { [%clk 0:00:08] } 67. Be4+ { [%clk 0:00:11] } 67... Kf6 { [%clk 0:00:09] } 68. Nb2 { [%clk 0:00:10] } 68... Be5 { [%clk 0:00:09] } 69. Nc4 { [%clk 0:00:10] } 69... Bc7 { [%clk 0:00:10] } 70. Ne3 { [%clk 0:00:11] } 70... Be5 { [%clk 0:00:09] } 71. Bf3 { [%clk 0:00:11] } 71... Kg7 { [%clk 0:00:10] } 72. Nf5+ { [%clk 0:00:11] } 72... Kf6 { [%clk 0:00:10] } 73. Ne3 { [%clk 0:00:11] } 73... Bd4 { [%clk 0:00:10] } 74. Nd5+ { [%clk 0:00:11] } 74... Kg7 { [%clk 0:00:10] } 75. Nf4 { [%clk 0:00:11] } 75... Be5 { [%clk 0:00:10] } 76. Nh5+ { [%clk 0:00:11] } 76... Kg6 { [%clk 0:00:10] } 77. Be4+ { [%clk 0:00:12] } 77... Kh6 { [%clk 0:00:11] } 78. Bf5 { [%clk 0:00:11] } 78... Bd4 { [%clk 0:00:10] } 79. Bd7 { [%clk 0:00:11] } 79... Be5 { [%clk 0:00:10] } 80. Be8 { [%clk 0:00:11] } 80... Bd6 { [%clk 0:00:11] } 81. Nf6 { [%clk 0:00:11] } 81... Kg7 { [%clk 0:00:11] } 82. Ne4 { [%clk 0:00:11] } 82... Be5 { [%clk 0:00:11] } 83. Kf5 { [%clk 0:00:11] } 83... Bd4 { [%clk 0:00:11] } 84. Bg6 { [%clk 0:00:12] } 84... Ba1 { [%clk 0:00:11] } 85. h5 { [%clk 0:00:12] } 85... Kh6 { [%clk 0:00:11] } 86. Ke6 { [%clk 0:00:12] } 86... Bb2 { [%clk 0:00:11] } 87. Kf7 { [%clk 0:00:12] } 87... Ba1 { [%clk 0:00:11] } 88. Nd6 { [%clk 0:00:13] } 88... Be5 { [%clk 0:00:11] } 89. Nf5+ { [%clk 0:00:13] } 89... Kg5 { [%clk 0:00:11] } 90. h6 { [%clk 0:00:13] } 90... Bh8 { [%clk 0:00:12] } 91. h7 { [%clk 0:00:13] } 91... Kf4 { [%clk 0:00:10] } 92. Kg8 { [%clk 0:00:12] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:31:01"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Classical Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. exd5 { [%clk 0:03:00] } 2... Qxd5 { [%clk 0:03:01] } 3. Nc3 { [%clk 0:03:00] } 3... Qa5 { [%clk 0:03:01] } 4. d4 { [%clk 0:02:59] } 4... Nf6 { [%clk 0:03:01] } 5. Nf3 { [%clk 0:02:59] } 5... Bf5 { [%clk 0:03:00] } 6. Bc4 { [%clk 0:02:59] } 6... e6 { [%clk 0:03:00] } 7. O-O { [%clk 0:02:57] } 7... c6 { [%clk 0:02:58] } 8. Bd2 { [%clk 0:02:54] } 8... Qc7 { [%clk 0:02:58] } 9. Qe2 { [%clk 0:02:52] } 9... Be7 { [%clk 0:02:55] } 10. Bb3 { [%clk 0:02:50] } 10... O-O { [%clk 0:02:55] } 11. Rfe1 { [%clk 0:02:51] } 11... Nbd7 { [%clk 0:02:43] } 12. Rad1 { [%clk 0:02:49] } 12... a5 { [%clk 0:02:40] } 13. a4 { [%clk 0:02:40] } 13... Bb4 { [%clk 0:02:33] } 14. h3 { [%clk 0:02:37] } 14... Rad8 { [%clk 0:02:30] } 15. Nh4 { [%clk 0:02:24] } 15... Bg6 { [%clk 0:02:29] } 16. Qf3 { [%clk 0:02:24] } 16... Rfe8 { [%clk 0:02:21] } 17. Nxg6 { [%clk 0:02:17] } 17... hxg6 { [%clk 0:02:21] } 18. Bf4 { [%clk 0:02:18] } 18... Bd6 { [%clk 0:02:20] } 19. Bg5 { [%clk 0:02:18] } 19... Be7 { [%clk 0:02:16] } 20. h4 { [%clk 0:02:15] } 20... Nf8 { [%clk 0:02:06] } 21. g3 { [%clk 0:02:10] } 21... Qb6 { [%clk 0:02:05] } 22. Be3 { [%clk 0:02:07] } 22... Nd5 { [%clk 0:02:05] } 23. Nxd5 { [%clk 0:02:07] } 23... exd5 { [%clk 0:01:55] } 24. h5 { [%clk 0:02:06] } 24... Bf6 { [%clk 0:01:37] } 25. Kg2 { [%clk 0:02:01] } 25... Re4 { [%clk 0:01:31] } 26. Rh1 { [%clk 0:01:33] } 26... Rde8 { [%clk 0:01:20] } 27. Rd3 { [%clk 0:00:59] } 27... Ne6 { [%clk 0:00:38] } 28. hxg6 { [%clk 0:00:59] } 28... fxg6 { [%clk 0:00:39] } 29. c4 { [%clk 0:00:41] } 29... Nc7 { [%clk 0:00:20] } 30. Bf4 { [%clk 0:00:40] } 30... Ne6 { [%clk 0:00:06] } 31. cxd5 { [%clk 0:00:23] } 31... Nxf4+ { [%clk 0:00:03] } 32. gxf4 { [%clk 0:00:22] } 32... cxd5 { [%clk 0:00:03] } 33. Bxd5+ { [%clk 0:00:22] } 33... R4e6 { [%clk 0:00:04] } 34. f5 { [%clk 0:00:18] } 34... gxf5 { [%clk 0:00:04] } 35. Qxf5 { [%clk 0:00:19] } 35... Qd6 { [%clk 0:00:04] } 36. Re1 { [%clk 0:00:18] } 36... Kf7 { [%clk 0:00:04] } 37. Rxe6 { [%clk 0:00:19] } 37... Rxe6 { [%clk 0:00:05] } 38. Re3 { [%clk 0:00:18] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:38:02"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Larsen Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... Nf6 { [%clk 0:03:00] } 2. e5 { [%clk 0:03:00] } 2... Nd5 { [%clk 0:03:00] } 3. d4 { [%clk 0:03:01] } 3... d6 { [%clk 0:03:01] } 4. Nf3 { [%clk 0:03:02] } 4... dxe5 { [%clk 0:03:00] } 5. Nxe5 { [%clk 0:03:03] } 5... g6 { [%clk 0:03:01] } 6. Be2 { [%clk 0:03:03] } 6... Bg7 { [%clk 0:03:01] } 7. O-O { [%clk 0:03:03] } 7... O-O { [%clk 0:03:01] } 8. Nf3 { [%clk 0:03:00] } 8... Nb6 { [%clk 0:02:47] } 9. c4 { [%clk 0:02:58] } 9... Bg4 { [%clk 0:02:46] } 10. Nc3 { [%clk 0:02:54] } 10... Nc6 { [%clk 0:02:45] } 11. c5 { [%clk 0:02:40] } 11... Nd5 { [%clk 0:02:42] } 12. h3 { [%clk 0:02:32] } 12... Be6 { [%clk 0:02:29] } 13. Re1 { [%clk 0:02:15] } 13... a6 { [%clk 0:02:12] } 14. Bf1 { [%clk 0:01:48] } 14... Qd7 { [%clk 0:02:12] } 15. Bg5 { [%clk 0:01:46] } 15... Rad8 { [%clk 0:02:09] } 16. Qd2 { [%clk 0:01:39] } 16... Rfe8 { [%clk 0:02:01] } 17. Rad1 { [%clk 0:01:38] } 17... f6 { [%clk 0:01:51] } 18. Bh6 { [%clk 0:01:32] } 18... Bf7 { [%clk 0:01:51] } 19. Ne4 { [%clk 0:01:19] } 19... Bh8 { [%clk 0:01:46] } 20. Qc1 { [%clk 0:01:12] } 20... e5 { [%clk 0:01:02] } 21. dxe5 { [%clk 0:00:39] } 21... Nxe5 { [%clk 0:01:03] } 22. Nxe5 { [%clk 0:00:40] } 22... Rxe5 { [%clk 0:01:03] } 23. Bc4 { [%clk 0:00:40] } 23... Qc6 { [%clk 0:00:55] } 24. b4 { [%clk 0:00:27] } 24... Rde8 { [%clk 0:00:49] } 25. f3 { [%clk 0:00:21] } 25... b5 { [%clk 0:00:36] } 26. cxb6 { [%clk 0:00:17] } 26... Qxb6+ { [%clk 0:00:36] } 27. Kh1 { [%clk 0:00:17] } 27... Qxb4 { [%clk 0:00:33] } 28. Bf4 { [%clk 0:00:10] } 28... Nxf4 { [%clk 0:00:28] } 29. Bxf7+ { [%clk 0:00:10] } 29... Kxf7 { [%clk 0:00:28] } 30. Qxf4 { [%clk 0:00:11] } 30... Qe7 { [%clk 0:00:21] } 31. Rd3 { [%clk 0:00:11] } 31... Kg8 { [%clk 0:00:19] } 32. Red1 { [%clk 0:00:11] } 32... Qf7 { [%clk 0:00:14] } 33. Rd7 { [%clk 0:00:10] } 33... R5e7 { [%clk 0:00:14] } 34. Rxe7 { [%clk 0:00:08] } 34... Qxe7 { [%clk 0:00:13] } 35. h4 { [%clk 0:00:07] } 35... f5 { [%clk 0:00:12] } 36. Ng5 { [%clk 0:00:07] } 36... Qe1+ { [%clk 0:00:12] } 37. Rxe1 { [%clk 0:00:07] } 37... Rxe1+ { [%clk 0:00:13] } 38. Kh2 { [%clk 0:00:07] } 38... Be5 { [%clk 0:00:14] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:45:05"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Classical Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. exd5 { [%clk 0:03:01] } 2... Qxd5 { [%clk 0:03:00] } 3. Nc3 { [%clk 0:03:00] } 3... Qa5 { [%clk 0:03:00] } 4. d4 { [%clk 0:03:00] } 4... Nf6 { [%clk 0:03:01] } 5. Nf3 { [%clk 0:03:00] } 5... Bf5 { [%clk 0:03:01] } 6. Bc4 { [%clk 0:03:00] } 6... e6 { [%clk 0:03:01] } 7. Bd2 { [%clk 0:02:59] } 7... Bb4 { [%clk 0:03:01] } 8. a3 { [%clk 0:02:57] } 8... Bxc3 { [%clk 0:03:01] } 9. Bxc3 { [%clk 0:02:51] } 9... Qb6 { [%clk 0:03:01] } 10. O-O { [%clk 0:02:51] } 10... O-O { [%clk 0:03:01] } 11. Qe2 { [%clk 0:02:46] } 11... c6 { [%clk 0:02:44] } 12. Ne5 { [%clk 0:02:35] } 12... Nbd7 { [%clk 0:02:40] } 13. Rad1 { [%clk 0:02:20] } 13... Rad8 { [%clk 0:02:33] } 14. Nxd7 { [%clk 0:02:00] } 14... Rxd7 { [%clk 0:02:29] } 15. b3 { [%clk 0:01:57] } 15... Rfd8 { [%clk 0:02:27] } 16. Bb2 { [%clk 0:01:57] } 16... Qc7 { [%clk 0:02:25] } 17. Bd3 { [%clk 0:01:54] } 17... Bxd3 { [%clk 0:02:23] } 18. Rxd3 { [%clk 0:01:55] } 18... b5 { [%clk 0:02:19] } 19. Rfd1 { [%clk 0:01:52] } 19... Qf4 { [%clk 0:02:12] } 20. g3 { [%clk 0:01:51] } 20... Qe4 { [%clk 0:02:09] } 21. Re3 { [%clk 0:01:51] } 21... Qg6 { [%clk 0:02:08] } 22. c4 { [%clk 0:01:50] } 22... bxc4 { [%clk 0:02:01] } 23. bxc4 { [%clk 0:01:51] } 23... h6 { [%clk 0:01:44] } 24. Qf3 { [%clk 0:01:43] } 24... c5 { [%clk 0:01:35] } 25. Red3 { [%clk 0:01:15] } 25... e5 { [%clk 0:01:26] } 26. Qc6 { [%clk 0:00:48] } 26... cxd4 { [%clk 0:01:16] } 27. c5 { [%clk 0:00:48] } 27... Qe4 { [%clk 0:00:35] } 28. Qa6 { [%clk 0:00:28] } 28... Rc7 { [%clk 0:00:28] } 29. Rc1 { [%clk 0:00:25] } 29... Rdc8 { [%clk 0:00:28] } 30. Rd2 { [%clk 0:00:16] } 30... Qd5 { [%clk 0:00:28] } 31. Rdc2 { [%clk 0:00:16] } 31... Ne4 { [%clk 0:00:28] } 32. c6 { [%clk 0:00:16] } 32... Ng5 { [%clk 0:00:16] } 33. Rc5 { [%clk 0:00:10] } 33... Nh3+ { [%clk 0:00:15] } 34. Kf1 { [%clk 0:00:09] } 34... Qf3 { [%clk 0:00:15] } 35. R1c2 { [%clk 0:00:07] } 35... d3 { [%clk 0:00:15] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:52:01"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Larsen Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... Nf6 { [%clk 0:03:00] } 2. e5 { [%clk 0:03:00] } 2... Nd5 { [%clk 0:03:01] } 3. d4 { [%clk 0:03:00] } 3... d6 { [%clk 0:03:01] } 4. Nf3 { [%clk 0:03:01] } 4... dxe5 { [%clk 0:03:00] } 5. Nxe5 { [%clk 0:03:01] } 5... g6 { [%clk 0:03:01] } 6. Bc4 { [%clk 0:02:59] } 6... Be6 { [%clk 0:02:59] } 7. Bb3 { [%clk 0:02:57] } 7... Bg7 { [%clk 0:02:56] } 8. O-O { [%clk 0:02:57] } 8... Nd7 { [%clk 0:02:56] } 9. Nf3 { [%clk 0:02:57] } 9... c5 { [%clk 0:02:46] } 10. h3 { [%clk 0:02:42] } 10... O-O { [%clk 0:02:43] } 11. Re1 { [%clk 0:02:32] } 11... b5 { [%clk 0:02:30] } 12. c3 { [%clk 0:02:22] } 12... Nc7 { [%clk 0:02:23] } 13. Be3 { [%clk 0:02:18] } 13... c4 { [%clk 0:02:17] } 14. Bc2 { [%clk 0:02:17] } 14... Bd5 { [%clk 0:02:18] } 15. Nbd2 { [%clk 0:02:10] } 15... Re8 { [%clk 0:02:15] } 16. Bf4 { [%clk 0:02:09] } 16... Bb7 { [%clk 0:02:11] } 17. Ne4 { [%clk 0:02:04] } 17... Nd5 { [%clk 0:02:10] } 18. Bg3 { [%clk 0:02:04] } 18... Qb6 { [%clk 0:02:08] } 19. Qd2 { [%clk 0:01:45] } 19... h6 { [%clk 0:02:00] } 20. Re2 { [%clk 0:01:30] } 20... Rad8 { [%clk 0:01:45] } 21. Rae1 { [%clk 0:01:17] } 21... f5 { [%clk 0:01:43] } 22. Nd6 { [%clk 0:01:13] } 22... Rf8 { [%clk 0:01:38] } 23. Nxb7 { [%clk 0:01:09] } 23... Qxb7 { [%clk 0:01:39] } 24. Be5 { [%clk 0:01:01] } 24... N7f6 { [%clk 0:01:14] } 25. Nh4 { [%clk 0:00:40] } 25... Kh7 { [%clk 0:01:09] } 26. g4 { [%clk 0:00:40] } 26... e6 { [%clk 0:01:05] } 27. Bh2 { [%clk 0:00:40] } 27... g5 { [%clk 0:00:47] } 28. Nf3 { [%clk 0:00:30] } 28... Kh8 { [%clk 0:00:47] } 29. Ne5 { [%clk 0:00:26] } 29... Ne7 { [%clk 0:00:43] } 30. f4 { [%clk 0:00:21] } 30... gxf4 { [%clk 0:00:31] } 31. Bxf4 { [%clk 0:00:21] } 31... fxg4 { [%clk 0:00:24] } 32. Bxh6 { [%clk 0:00:21] } 32... Rg8 { [%clk 0:00:22] } 33. Nf7# { [%clk 0:00:18] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "17:58:28"]
+[WhiteElo "2656"]
+[BlackElo "2681"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Classical Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... d5 { [%clk 0:03:00] } 2. exd5 { [%clk 0:03:01] } 2... Qxd5 { [%clk 0:03:00] } 3. Nc3 { [%clk 0:03:01] } 3... Qa5 { [%clk 0:03:01] } 4. Nf3 { [%clk 0:03:01] } 4... Nf6 { [%clk 0:03:01] } 5. d4 { [%clk 0:03:01] } 5... Bf5 { [%clk 0:03:01] } 6. Bc4 { [%clk 0:03:02] } 6... e6 { [%clk 0:03:01] } 7. O-O { [%clk 0:03:00] } 7... c6 { [%clk 0:03:01] } 8. Qe2 { [%clk 0:02:57] } 8... Be7 { [%clk 0:03:01] } 9. Bd2 { [%clk 0:02:56] } 9... Qc7 { [%clk 0:03:01] } 10. Bb3 { [%clk 0:02:56] } 10... O-O { [%clk 0:03:00] } 11. h3 { [%clk 0:02:55] } 11... Nbd7 { [%clk 0:02:57] } 12. Rad1 { [%clk 0:02:55] } 12... b5 { [%clk 0:02:55] } 13. Nh4 { [%clk 0:02:50] } 13... Bg6 { [%clk 0:02:55] } 14. Nxg6 { [%clk 0:02:50] } 14... hxg6 { [%clk 0:02:56] } 15. a4 { [%clk 0:02:48] } 15... a6 { [%clk 0:02:54] } 16. Rfe1 { [%clk 0:02:46] } 16... Bd6 { [%clk 0:02:52] } 17. Qf3 { [%clk 0:02:43] } 17... Rfe8 { [%clk 0:02:35] } 18. Bg5 { [%clk 0:02:36] } 18... Rab8 { [%clk 0:02:31] } 19. axb5 { [%clk 0:02:33] } 19... axb5 { [%clk 0:02:29] } 20. h4 { [%clk 0:02:32] } 20... Qa5 { [%clk 0:01:28] } 21. Qxc6 { [%clk 0:02:29] } 21... Rb6 { [%clk 0:01:05] } 22. Qf3 { [%clk 0:02:22] } 22... b4 { [%clk 0:01:01] } 23. Ne4 { [%clk 0:02:10] } 23... Nxe4 { [%clk 0:01:01] } 24. Qxe4 { [%clk 0:02:10] } 24... Qb5 { [%clk 0:00:49] } 25. Ra1 { [%clk 0:02:09] } 25... Ra6 { [%clk 0:00:46] } 26. g3 { [%clk 0:01:55] } 26... Be7 { [%clk 0:00:43] } 27. Bd2 { [%clk 0:01:41] } 27... Rd8 { [%clk 0:00:35] } 28. Rxa6 { [%clk 0:01:35] } 28... Qxa6 { [%clk 0:00:36] } 29. Qf3 { [%clk 0:01:25] } 29... Nf6 { [%clk 0:00:36] } 30. Be3 { [%clk 0:01:26] } 30... Qb5 { [%clk 0:00:33] } 31. Ra1 { [%clk 0:01:24] } 31... e5 { [%clk 0:00:28] } 32. dxe5 { [%clk 0:01:22] } 32... Qxe5 { [%clk 0:00:28] } 33. Ra7 { [%clk 0:01:15] } 33... Rf8 { [%clk 0:00:27] } 34. Qf4 { [%clk 0:01:09] } 34... Qxf4 { [%clk 0:00:23] } 35. Bxf4 { [%clk 0:01:10] } 35... Bc5 { [%clk 0:00:24] } 36. Rc7 { [%clk 0:01:10] } 36... Ne4 { [%clk 0:00:20] } 37. Bd5 { [%clk 0:01:03] } 37... Bxf2+ { [%clk 0:00:20] } 38. Kg2 { [%clk 0:01:04] } 38... Nf6 { [%clk 0:00:21] } 39. Bxf7+ { [%clk 0:01:01] } 39... Rxf7 { [%clk 0:00:20] } 40. Rxf7 { [%clk 0:01:01] } 40... Kxf7 { [%clk 0:00:21] } 41. Kxf2 { [%clk 0:01:01] } 41... Ke6 { [%clk 0:00:22] } 42. Ke3 { [%clk 0:01:00] } 42... Kd5 { [%clk 0:00:22] } 43. Kd3 { [%clk 0:01:01] } 43... Ne4 { [%clk 0:00:20] } 44. b3 { [%clk 0:00:56] } 44... Nc5+ { [%clk 0:00:20] } 45. Ke2 { [%clk 0:00:55] } 45... Ne6 { [%clk 0:00:19] } 46. Bd2 { [%clk 0:00:55] } 46... Nd4+ { [%clk 0:00:18] } 47. Kd3 { [%clk 0:00:56] } 47... Nc6 { [%clk 0:00:18] } 48. Ke3 { [%clk 0:00:53] } 48... Ke5 { [%clk 0:00:16] } 49. c3 { [%clk 0:00:51] } 49... bxc3 { [%clk 0:00:13] } 50. Bxc3+ { [%clk 0:00:52] } 50... Kf5 { [%clk 0:00:13] } 51. Bxg7 { [%clk 0:00:52] } 51... Kg4 { [%clk 0:00:14] } 52. Kf2 { [%clk 0:00:39] } 52... Nb4 { [%clk 0:00:14] } 53. Bc3 { [%clk 0:00:39] } 53... Nd5 { [%clk 0:00:14] } 54. Be1 { [%clk 0:00:38] } 54... Nc7 { [%clk 0:00:12] } 55. b4 { [%clk 0:00:38] } 55... Nb5 { [%clk 0:00:13] } 56. Ke3 { [%clk 0:00:38] } 56... Na3 { [%clk 0:00:13] } 57. Kd3 { [%clk 0:00:38] } 57... Kf3 { [%clk 0:00:13] } 58. Kc3 { [%clk 0:00:33] } 58... Ke2 { [%clk 0:00:13] } 59. Kb3 { [%clk 0:00:31] } 59... Nb5 { [%clk 0:00:14] } 60. Bc3 { [%clk 0:00:31] } 60... Kf3 { [%clk 0:00:13] } 61. Be5 { [%clk 0:00:31] } 61... Ke4 { [%clk 0:00:13] } 62. Bf4 { [%clk 0:00:31] } 62... Kd5 { [%clk 0:00:12] } 63. Ka4 { [%clk 0:00:31] } 63... Kc4 { [%clk 0:00:12] } 64. Ka5 { [%clk 0:00:32] } 64... Nd4 { [%clk 0:00:13] } 65. Bd6 { [%clk 0:00:25] } 65... Kd5 { [%clk 0:00:13] } 66. Bc5 { [%clk 0:00:25] } 66... Nf5 { [%clk 0:00:13] } 67. Bf2 { [%clk 0:00:25] } 67... Nd6 { [%clk 0:00:09] } 68. b5 { [%clk 0:00:26] } 68... Ne4 { [%clk 0:00:10] } 69. Be1 { [%clk 0:00:25] } 69... Nc5 { [%clk 0:00:10] } 70. g4 { [%clk 0:00:23] } 70... Ne6 { [%clk 0:00:09] } 71. h5 { [%clk 0:00:24] } 71... gxh5 { [%clk 0:00:09] } 72. gxh5 { [%clk 0:00:25] } 72... Ng5 { [%clk 0:00:09] } 73. b6 { [%clk 0:00:24] } 73... Kc6 { [%clk 0:00:09] } 74. Ka6 { [%clk 0:00:25] } 74... Ne6 { [%clk 0:00:09] } 75. Ka7 { [%clk 0:00:24] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:06:36"]
+[WhiteElo "2681"]
+[BlackElo "2656"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "180+1"]
+[ECO "B29"]
+[Opening "Sicilian Defense: Nimzowitsch Variation, Main Line"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:03:00] } 1... c5 { [%clk 0:03:00] } 2. Nf3 { [%clk 0:03:00] } 2... Nf6 { [%clk 0:03:00] } 3. e5 { [%clk 0:02:58] } 3... Nd5 { [%clk 0:02:58] } 4. Nc3 { [%clk 0:02:58] } 4... e6 { [%clk 0:02:50] } 5. Nxd5 { [%clk 0:02:58] } 5... exd5 { [%clk 0:02:51] } 6. d4 { [%clk 0:02:58] } 6... Nc6 { [%clk 0:02:51] } 7. Bd3 { [%clk 0:02:51] } 7... d6 { [%clk 0:02:43] } 8. exd6 { [%clk 0:02:48] } 8... Bxd6 { [%clk 0:02:41] } 9. dxc5 { [%clk 0:02:48] } 9... Bxc5 { [%clk 0:02:41] } 10. O-O { [%clk 0:02:48] } 10... O-O { [%clk 0:02:41] } 11. h3 { [%clk 0:02:48] } 11... h6 { [%clk 0:02:40] } 12. Bf4 { [%clk 0:02:48] } 12... Qf6 { [%clk 0:02:40] } 13. Qd2 { [%clk 0:02:45] } 13... Qxb2 { [%clk 0:02:35] } 14. Rab1 { [%clk 0:02:09] } 14... Qf6 { [%clk 0:02:34] } 15. Rfe1 { [%clk 0:02:09] } 15... Bd6 { [%clk 0:02:08] } 16. Bxd6 { [%clk 0:02:05] } 16... Qxd6 { [%clk 0:02:09] } 17. c4 { [%clk 0:02:05] } 17... Be6 { [%clk 0:02:07] } 18. cxd5 { [%clk 0:02:00] } 18... Qxd5 { [%clk 0:02:06] } 19. Qe3 { [%clk 0:01:47] } 19... Rab8 { [%clk 0:01:36] } 20. Rb2 { [%clk 0:01:18] } 20... Rfd8 { [%clk 0:01:25] } 21. Be4 { [%clk 0:01:17] } 21... Qd6 { [%clk 0:01:25] } 22. Reb1 { [%clk 0:01:12] } 22... Qc7 { [%clk 0:00:49] } 23. Qc5 { [%clk 0:01:02] } 23... Qa5 { [%clk 0:00:45] } 24. Qxa5 { [%clk 0:00:38] } 24... Nxa5 { [%clk 0:00:46] } 25. Bxb7 { [%clk 0:00:38] } 25... Nc4 { [%clk 0:00:20] } 26. Re2 { [%clk 0:00:18] } 26... Bd5 { [%clk 0:00:14] } 27. Re7 { [%clk 0:00:15] } 27... Na5 { [%clk 0:00:10] } 28. Rb5 { [%clk 0:00:04] } 28... Rxb7 { [%clk 0:00:10] } 29. Rxa5 { [%clk 0:00:03] } 29... Rxe7 { [%clk 0:00:09] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:19:32"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Main Line"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... d5 { [%clk 0:01:00] } 2. exd5 { [%clk 0:01:01] } 2... Qxd5 { [%clk 0:01:00] } 3. Nc3 { [%clk 0:01:01] } 3... Qa5 { [%clk 0:01:01] } 4. Nf3 { [%clk 0:01:02] } 4... Nf6 { [%clk 0:01:01] } 5. Bc4 { [%clk 0:01:03] } 5... Bf5 { [%clk 0:01:02] } 6. d4 { [%clk 0:01:03] } 6... e6 { [%clk 0:01:02] } 7. O-O { [%clk 0:01:03] } 7... c6 { [%clk 0:01:02] } 8. Bd2 { [%clk 0:01:03] } 8... Qc7 { [%clk 0:01:02] } 9. Qe2 { [%clk 0:01:03] } 9... Bd6 { [%clk 0:01:02] } 10. h3 { [%clk 0:01:02] } 10... Nbd7 { [%clk 0:01:02] } 11. Bb3 { [%clk 0:01:02] } 11... h6 { [%clk 0:01:01] } 12. Rfe1 { [%clk 0:01:00] } 12... O-O { [%clk 0:00:59] } 13. Rad1 { [%clk 0:00:57] } 13... a5 { [%clk 0:00:59] } 14. a4 { [%clk 0:00:56] } 14... Nb6 { [%clk 0:00:58] } 15. Ne5 { [%clk 0:00:55] } 15... Nbd5 { [%clk 0:00:58] } 16. Nxd5 { [%clk 0:00:55] } 16... cxd5 { [%clk 0:00:57] } 17. c3 { [%clk 0:00:48] } 17... Ne4 { [%clk 0:00:57] } 18. Bc1 { [%clk 0:00:42] } 18... Bh7 { [%clk 0:00:55] } 19. Nd3 { [%clk 0:00:38] } 19... b6 { [%clk 0:00:53] } 20. Bc2 { [%clk 0:00:38] } 20... Rae8 { [%clk 0:00:52] } 21. Ne5 { [%clk 0:00:36] } 21... f6 { [%clk 0:00:52] } 22. Nf3 { [%clk 0:00:35] } 22... Kh8 { [%clk 0:00:51] } 23. Bd3 { [%clk 0:00:35] } 23... g5 { [%clk 0:00:50] } 24. Nd2 { [%clk 0:00:30] } 24... f5 { [%clk 0:00:49] } 25. Bb5 { [%clk 0:00:29] } 25... Re7 { [%clk 0:00:49] } 26. c4 { [%clk 0:00:24] } 26... Rg7 { [%clk 0:00:48] } 27. Nxe4 { [%clk 0:00:13] } 27... fxe4 { [%clk 0:00:47] } 28. Be3 { [%clk 0:00:13] } 28... Bf5 { [%clk 0:00:34] } 29. Rc1 { [%clk 0:00:14] } 29... Qf7 { [%clk 0:00:29] } 30. c5 { [%clk 0:00:12] } 30... Bc7 { [%clk 0:00:29] } 31. cxb6 { [%clk 0:00:08] } 31... Bxb6 { [%clk 0:00:30] } 32. Rc6 { [%clk 0:00:08] } 32... Bd8 { [%clk 0:00:30] } 33. g4 { [%clk 0:00:07] } 33... Bg6 { [%clk 0:00:30] } 34. Rec1 { [%clk 0:00:07] } 34... h5 { [%clk 0:00:28] } 35. Rc8 { [%clk 0:00:05] } 35... Kh7 { [%clk 0:00:26] } 36. gxh5 { [%clk 0:00:02] } 36... Bxh5 { [%clk 0:00:26] } 37. Kg2 { [%clk 0:00:03] } 37... Bf3+ { [%clk 0:00:25] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:22:22"]
+[WhiteElo "2820"]
+[BlackElo "2688"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B29"]
+[Opening "Sicilian Defense: Nimzowitsch Variation, Closed Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... c5 { [%clk 0:01:00] } 2. Nf3 { [%clk 0:01:00] } 2... Nf6 { [%clk 0:01:00] } 3. Nc3 { [%clk 0:00:59] } 3... d5 { [%clk 0:01:00] } 4. exd5 { [%clk 0:01:00] } 4... Nxd5 { [%clk 0:01:01] } 5. Bb5+ { [%clk 0:01:00] } 5... Bd7 { [%clk 0:01:01] } 6. Bxd7+ { [%clk 0:00:57] } 6... Qxd7 { [%clk 0:01:00] } 7. O-O { [%clk 0:00:57] } 7... Nc6 { [%clk 0:01:00] } 8. d3 { [%clk 0:00:57] } 8... e6 { [%clk 0:01:00] } 9. Ne4 { [%clk 0:00:58] } 9... Be7 { [%clk 0:01:00] } 10. Re1 { [%clk 0:00:58] } 10... O-O { [%clk 0:01:01] } 11. Bg5 { [%clk 0:00:58] } 11... b6 { [%clk 0:00:59] } 12. Bxe7 { [%clk 0:00:58] } 12... Ndxe7 { [%clk 0:00:59] } 13. Qd2 { [%clk 0:00:57] } 13... Rad8 { [%clk 0:00:59] } 14. Qf4 { [%clk 0:00:57] } 14... Ng6 { [%clk 0:00:59] } 15. Qg3 { [%clk 0:00:57] } 15... e5 { [%clk 0:00:57] } 16. h4 { [%clk 0:00:51] } 16... f6 { [%clk 0:00:56] } 17. Rad1 { [%clk 0:00:43] } 17... Nf4 { [%clk 0:00:55] } 18. Nc3 { [%clk 0:00:35] } 18... Qf5 { [%clk 0:00:53] } 19. Ne2 { [%clk 0:00:33] } 19... Ne6 { [%clk 0:00:47] } 20. a3 { [%clk 0:00:25] } 20... Rd7 { [%clk 0:00:47] } 21. Nd2 { [%clk 0:00:25] } 21... Ned4 { [%clk 0:00:46] } 22. Nxd4 { [%clk 0:00:25] } 22... Nxd4 { [%clk 0:00:47] } 23. Rc1 { [%clk 0:00:25] } 23... Rfd8 { [%clk 0:00:46] } 24. Nc4 { [%clk 0:00:25] } 24... b5 { [%clk 0:00:42] } 25. Ne3 { [%clk 0:00:26] } 25... Qe6 { [%clk 0:00:43] } 26. h5 { [%clk 0:00:24] } 26... Qf7 { [%clk 0:00:39] } 27. Qh3 { [%clk 0:00:23] } 27... Ne6 { [%clk 0:00:34] } 28. g3 { [%clk 0:00:24] } 28... Ng5 { [%clk 0:00:34] } 29. Qg4 { [%clk 0:00:24] } 29... Rd4 { [%clk 0:00:31] } 30. Qe2 { [%clk 0:00:21] } 30... Qb7 { [%clk 0:00:30] } 31. Nf5 { [%clk 0:00:12] } 31... Nf3+ { [%clk 0:00:28] } 32. Kf1 { [%clk 0:00:13] } 32... Nxe1 { [%clk 0:00:27] } 33. Kxe1 { [%clk 0:00:13] } 33... R4d7 { [%clk 0:00:22] } 34. Qg4 { [%clk 0:00:13] } 34... c4 { [%clk 0:00:21] } 35. Kd2 { [%clk 0:00:12] } 35... cxd3 { [%clk 0:00:21] } 36. c3 { [%clk 0:00:13] } 36... Kh8 { [%clk 0:00:20] } 37. Re1 { [%clk 0:00:12] } 37... a5 { [%clk 0:00:20] } 38. Nh4 { [%clk 0:00:12] } 38... b4 { [%clk 0:00:19] } 39. axb4 { [%clk 0:00:11] } 39... axb4 { [%clk 0:00:20] } 40. c4 { [%clk 0:00:11] } 40... Qc6 { [%clk 0:00:19] } 41. Ng6+ { [%clk 0:00:10] } 41... Kg8 { [%clk 0:00:19] } 42. h6 { [%clk 0:00:10] } 42... hxg6 { [%clk 0:00:17] } 43. Qxg6 { [%clk 0:00:10] } 43... Qxc4 { [%clk 0:00:17] } 44. Rc1 { [%clk 0:00:10] } 44... Qd4 { [%clk 0:00:14] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:25:36"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Classical Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... d5 { [%clk 0:01:00] } 2. exd5 { [%clk 0:01:00] } 2... Qxd5 { [%clk 0:01:01] } 3. Nc3 { [%clk 0:00:58] } 3... Qa5 { [%clk 0:01:01] } 4. d4 { [%clk 0:00:58] } 4... Nf6 { [%clk 0:01:01] } 5. Nf3 { [%clk 0:00:59] } 5... Bf5 { [%clk 0:01:01] } 6. Bc4 { [%clk 0:01:00] } 6... e6 { [%clk 0:01:02] } 7. O-O { [%clk 0:01:00] } 7... c6 { [%clk 0:01:02] } 8. Bd2 { [%clk 0:00:59] } 8... Qc7 { [%clk 0:01:02] } 9. Bb3 { [%clk 0:01:00] } 9... h6 { [%clk 0:01:03] } 10. Re1 { [%clk 0:00:59] } 10... Bd6 { [%clk 0:01:03] } 11. h3 { [%clk 0:00:59] } 11... Nbd7 { [%clk 0:01:03] } 12. Qe2 { [%clk 0:00:59] } 12... O-O { [%clk 0:01:02] } 13. Rad1 { [%clk 0:00:59] } 13... Rfe8 { [%clk 0:01:02] } 14. Ne5 { [%clk 0:00:58] } 14... Nf8 { [%clk 0:01:00] } 15. Bf4 { [%clk 0:00:57] } 15... Rad8 { [%clk 0:00:56] } 16. Bg3 { [%clk 0:00:57] } 16... Bh7 { [%clk 0:00:55] } 17. Qf3 { [%clk 0:00:52] } 17... Ng6 { [%clk 0:00:52] } 18. Nxg6 { [%clk 0:00:49] } 18... Bxg6 { [%clk 0:00:53] } 19. Bh4 { [%clk 0:00:49] } 19... Be7 { [%clk 0:00:53] } 20. Bg3 { [%clk 0:00:47] } 20... Qa5 { [%clk 0:00:52] } 21. a3 { [%clk 0:00:45] } 21... Bh5 { [%clk 0:00:51] } 22. Qe3 { [%clk 0:00:42] } 22... Bxd1 { [%clk 0:00:51] } 23. Rxd1 { [%clk 0:00:43] } 23... Qb6 { [%clk 0:00:49] } 24. Ne2 { [%clk 0:00:41] } 24... c5 { [%clk 0:00:48] } 25. Ba4 { [%clk 0:00:40] } 25... Rf8 { [%clk 0:00:48] } 26. Be5 { [%clk 0:00:39] } 26... Nd5 { [%clk 0:00:44] } 27. Qg3 { [%clk 0:00:39] } 27... Bf6 { [%clk 0:00:44] } 28. c4 { [%clk 0:00:30] } 28... Bxe5 { [%clk 0:00:44] } 29. Qxe5 { [%clk 0:00:31] } 29... Ne7 { [%clk 0:00:41] } 30. dxc5 { [%clk 0:00:31] } 30... Qa5 { [%clk 0:00:35] } 31. Nc3 { [%clk 0:00:29] } 31... Rxd1+ { [%clk 0:00:28] } 32. Bxd1 { [%clk 0:00:30] } 32... Qd8 { [%clk 0:00:28] } 33. Bf3 { [%clk 0:00:29] } 33... Qc8 { [%clk 0:00:27] } 34. b4 { [%clk 0:00:28] } 34... Rd8 { [%clk 0:00:24] } 35. Nb5 { [%clk 0:00:29] } 35... Ng6 { [%clk 0:00:23] } 36. Qe3 { [%clk 0:00:22] } 36... Qb8 { [%clk 0:00:21] } 37. c6 { [%clk 0:00:16] } 37... bxc6 { [%clk 0:00:20] } 38. Nxa7 { [%clk 0:00:16] } 38... Ne5 { [%clk 0:00:19] } 39. Be2 { [%clk 0:00:06] } 39... Rd7 { [%clk 0:00:14] } 40. f4 { [%clk 0:00:06] } 40... Qxa7 { [%clk 0:00:15] } 41. Qxa7 { [%clk 0:00:05] } 41... Rxa7 { [%clk 0:00:15] } 42. fxe5 { [%clk 0:00:06] } 42... Rxa3 { [%clk 0:00:16] } 43. b5 { [%clk 0:00:07] } 43... cxb5 { [%clk 0:00:16] } 44. cxb5 { [%clk 0:00:08] } 44... Re3 { [%clk 0:00:16] } 45. Kf2 { [%clk 0:00:04] } 45... Rxe5 { [%clk 0:00:13] } 46. b6 { [%clk 0:00:05] } 46... Re4 { [%clk 0:00:14] } 47. b7 { [%clk 0:00:04] } 47... Rb4 { [%clk 0:00:14] } 48. Bf3 { [%clk 0:00:04] } 48... Kf8 { [%clk 0:00:14] } 49. Ke3 { [%clk 0:00:05] } 49... Ke7 { [%clk 0:00:15] } 50. Kd3 { [%clk 0:00:06] } 50... Kd6 { [%clk 0:00:16] } 51. Kc3 { [%clk 0:00:07] } 51... Rb6 { [%clk 0:00:16] } 52. Kc4 { [%clk 0:00:07] } 52... Kc7 { [%clk 0:00:16] } 53. Kc5 { [%clk 0:00:08] } 53... Rb2 { [%clk 0:00:16] } 54. h4 { [%clk 0:00:08] } 54... h5 { [%clk 0:00:15] } 55. g3 { [%clk 0:00:06] } 55... g6 { [%clk 0:00:15] } 56. Be4 { [%clk 0:00:07] } 56... f5 { [%clk 0:00:15] } 57. Bf3 { [%clk 0:00:07] } 57... e5 { [%clk 0:00:15] } 58. Bd5 { [%clk 0:00:07] } 58... e4 { [%clk 0:00:15] } 59. Kd4 { [%clk 0:00:08] } 59... Rd2+ { [%clk 0:00:14] } 60. Kc4 { [%clk 0:00:08] } 60... Rxd5 { [%clk 0:00:11] } 61. Kxd5 { [%clk 0:00:09] } 61... Kxb7 { [%clk 0:00:12] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:29:23"]
+[WhiteElo "2820"]
+[BlackElo "2688"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B04"]
+[Opening "Alekhine Defense: Modern Variation, Larsen Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... Nf6 { [%clk 0:01:00] } 2. e5 { [%clk 0:01:00] } 2... Nd5 { [%clk 0:01:01] } 3. d4 { [%clk 0:01:01] } 3... d6 { [%clk 0:01:01] } 4. Nf3 { [%clk 0:01:01] } 4... dxe5 { [%clk 0:01:02] } 5. Nxe5 { [%clk 0:01:02] } 5... g6 { [%clk 0:01:02] } 6. Be2 { [%clk 0:01:02] } 6... Bg7 { [%clk 0:01:02] } 7. O-O { [%clk 0:01:02] } 7... O-O { [%clk 0:01:02] } 8. c3 { [%clk 0:01:02] } 8... Nd7 { [%clk 0:01:01] } 9. Nf3 { [%clk 0:01:03] } 9... c5 { [%clk 0:01:02] } 10. Na3 { [%clk 0:01:02] } 10... b6 { [%clk 0:00:54] } 11. Re1 { [%clk 0:00:58] } 11... Bb7 { [%clk 0:00:55] } 12. Bc4 { [%clk 0:00:56] } 12... cxd4 { [%clk 0:00:54] } 13. Nxd4 { [%clk 0:00:57] } 13... Rc8 { [%clk 0:00:50] } 14. Qe2 { [%clk 0:00:55] } 14... e6 { [%clk 0:00:47] } 15. Nab5 { [%clk 0:00:54] } 15... Ne5 { [%clk 0:00:45] } 16. Bb3 { [%clk 0:00:50] } 16... a6 { [%clk 0:00:45] } 17. Na3 { [%clk 0:00:51] } 17... b5 { [%clk 0:00:45] } 18. Nac2 { [%clk 0:00:49] } 18... Nc4 { [%clk 0:00:44] } 19. Bxc4 { [%clk 0:00:49] } 19... Rxc4 { [%clk 0:00:44] } 20. Ne3 { [%clk 0:00:48] } 20... Nxe3 { [%clk 0:00:42] } 21. Bxe3 { [%clk 0:00:49] } 21... Qd5 { [%clk 0:00:43] } 22. f3 { [%clk 0:00:50] } 22... b4 { [%clk 0:00:38] } 23. Rad1 { [%clk 0:00:43] } 23... bxc3 { [%clk 0:00:34] } 24. bxc3 { [%clk 0:00:44] } 24... Rfc8 { [%clk 0:00:29] } 25. Qb2 { [%clk 0:00:40] } 25... Ba8 { [%clk 0:00:25] } 26. Rd3 { [%clk 0:00:38] } 26... Qb7 { [%clk 0:00:22] } 27. Qxb7 { [%clk 0:00:32] } 27... Bxb7 { [%clk 0:00:23] } 28. Rb1 { [%clk 0:00:32] } 28... Bd5 { [%clk 0:00:23] } 29. Nc2 { [%clk 0:00:21] } 29... Rxc3 { [%clk 0:00:22] } 30. Rxc3 { [%clk 0:00:22] } 30... Bxc3 { [%clk 0:00:23] } 31. Rb6 { [%clk 0:00:19] } 31... a5 { [%clk 0:00:23] } 32. a3 { [%clk 0:00:17] } 32... Be5 { [%clk 0:00:20] } 33. Bd4 { [%clk 0:00:15] } 33... Bxd4+ { [%clk 0:00:13] } 34. Nxd4 { [%clk 0:00:14] } 34... Rc3 { [%clk 0:00:14] } 35. Nb5 { [%clk 0:00:12] } 35... Rb3 { [%clk 0:00:14] } 36. a4 { [%clk 0:00:12] } 36... Rb4 { [%clk 0:00:13] } 37. Nc3 { [%clk 0:00:10] } 37... Rxb6 { [%clk 0:00:13] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:32:21"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "D63"]
+[Opening "Queen's Gambit Declined: Orthodox Defense, Main Line"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:01:00] } 1... Nf6 { [%clk 0:01:00] } 2. c4 { [%clk 0:01:01] } 2... e6 { [%clk 0:01:01] } 3. Nf3 { [%clk 0:01:01] } 3... d5 { [%clk 0:01:01] } 4. Nc3 { [%clk 0:01:01] } 4... Be7 { [%clk 0:01:01] } 5. Bg5 { [%clk 0:01:00] } 5... O-O { [%clk 0:01:02] } 6. e3 { [%clk 0:01:01] } 6... Nbd7 { [%clk 0:01:02] } 7. Rc1 { [%clk 0:00:54] } 7... h6 { [%clk 0:01:02] } 8. Bh4 { [%clk 0:00:54] } 8... c5 { [%clk 0:01:03] } 9. cxd5 { [%clk 0:00:55] } 9... Nxd5 { [%clk 0:01:03] } 10. Bxe7 { [%clk 0:00:55] } 10... Nxe7 { [%clk 0:01:04] } 11. Be2 { [%clk 0:00:52] } 11... cxd4 { [%clk 0:01:03] } 12. Qxd4 { [%clk 0:00:53] } 12... Nf5 { [%clk 0:01:01] } 13. Qd2 { [%clk 0:00:50] } 13... Nf6 { [%clk 0:01:01] } 14. O-O { [%clk 0:00:49] } 14... Qxd2 { [%clk 0:01:00] } 15. Nxd2 { [%clk 0:00:50] } 15... Bd7 { [%clk 0:01:00] } 16. Bf3 { [%clk 0:00:49] } 16... Rfd8 { [%clk 0:01:00] } 17. Nde4 { [%clk 0:00:47] } 17... Nxe4 { [%clk 0:00:58] } 18. Nxe4 { [%clk 0:00:48] } 18... Bc6 { [%clk 0:00:58] } 19. Rfd1 { [%clk 0:00:42] } 19... Kf8 { [%clk 0:00:57] } 20. Nc5 { [%clk 0:00:40] } 20... Bxf3 { [%clk 0:00:55] } 21. gxf3 { [%clk 0:00:41] } 21... b6 { [%clk 0:00:55] } 22. Na6 { [%clk 0:00:39] } 22... Rxd1+ { [%clk 0:00:53] } 23. Rxd1 { [%clk 0:00:39] } 23... Rc8 { [%clk 0:00:53] } 24. b4 { [%clk 0:00:10] } 24... Ke7 { [%clk 0:00:51] } 25. Kg2 { [%clk 0:00:08] } 25... Rc2 { [%clk 0:00:50] } 26. a3 { [%clk 0:00:08] } 26... Nxe3+ { [%clk 0:00:50] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:34:20"]
+[WhiteElo "2820"]
+[BlackElo "2688"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B75"]
+[Opening "Sicilian Defense: Dragon Variation, Yugoslav Attack, Early Deviations"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... c5 { [%clk 0:01:00] } 2. Nf3 { [%clk 0:01:00] } 2... g6 { [%clk 0:01:01] } 3. d4 { [%clk 0:01:01] } 3... cxd4 { [%clk 0:01:01] } 4. Nxd4 { [%clk 0:01:01] } 4... Nf6 { [%clk 0:01:00] } 5. Nc3 { [%clk 0:01:01] } 5... d6 { [%clk 0:01:00] } 6. Be3 { [%clk 0:01:00] } 6... Bg7 { [%clk 0:01:01] } 7. f3 { [%clk 0:01:01] } 7... a6 { [%clk 0:01:00] } 8. Qd2 { [%clk 0:01:01] } 8... h5 { [%clk 0:00:59] } 9. Be2 { [%clk 0:01:02] } 9... Nbd7 { [%clk 0:00:58] } 10. O-O { [%clk 0:01:02] } 10... b5 { [%clk 0:00:57] } 11. a4 { [%clk 0:01:01] } 11... b4 { [%clk 0:00:56] } 12. Nd5 { [%clk 0:01:01] } 12... Nxd5 { [%clk 0:00:52] } 13. exd5 { [%clk 0:01:02] } 13... Bb7 { [%clk 0:00:51] } 14. Nb3 { [%clk 0:00:33] } 14... a5 { [%clk 0:00:49] } 15. c4 { [%clk 0:00:31] } 15... bxc3 { [%clk 0:00:49] } 16. bxc3 { [%clk 0:00:31] } 16... O-O { [%clk 0:00:49] } 17. c4 { [%clk 0:00:31] } 17... Bxa1 { [%clk 0:00:46] } 18. Rxa1 { [%clk 0:00:32] } 18... Qc7 { [%clk 0:00:45] } 19. Rc1 { [%clk 0:00:32] } 19... Nc5 { [%clk 0:00:38] } 20. Nd4 { [%clk 0:00:28] } 20... e5 { [%clk 0:00:35] } 21. dxe6 { [%clk 0:00:25] } 21... Nxe6 { [%clk 0:00:35] } 22. Nb5 { [%clk 0:00:26] } 22... Qc6 { [%clk 0:00:33] } 23. Bd3 { [%clk 0:00:21] } 23... Nc5 { [%clk 0:00:31] } 24. Bc2 { [%clk 0:00:21] } 24... Rad8 { [%clk 0:00:29] } 25. Bd4 { [%clk 0:00:21] } 25... Ne6 { [%clk 0:00:29] } 26. Bf6 { [%clk 0:00:21] } 26... Qc5+ { [%clk 0:00:27] } 27. Kh1 { [%clk 0:00:21] } 27... Rd7 { [%clk 0:00:28] } 28. Qh6 { [%clk 0:00:17] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "1-0"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:36:35"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:01:00] } 1... d5 { [%clk 0:01:00] } 2. c4 { [%clk 0:01:00] } 2... e6 { [%clk 0:01:01] } 3. Nc3 { [%clk 0:01:01] } 3... Nf6 { [%clk 0:01:01] } 4. cxd5 { [%clk 0:01:02] } 4... exd5 { [%clk 0:01:02] } 5. Bg5 { [%clk 0:01:02] } 5... c6 { [%clk 0:01:02] } 6. e3 { [%clk 0:01:02] } 6... h6 { [%clk 0:01:03] } 7. Bh4 { [%clk 0:01:02] } 7... Be7 { [%clk 0:01:04] } 8. Bd3 { [%clk 0:01:02] } 8... O-O { [%clk 0:01:04] } 9. Nf3 { [%clk 0:01:01] } 9... Ne4 { [%clk 0:01:04] } 10. Bxe7 { [%clk 0:01:00] } 10... Qxe7 { [%clk 0:01:05] } 11. O-O { [%clk 0:00:57] } 11... Bf5 { [%clk 0:01:04] } 12. Qc2 { [%clk 0:00:57] } 12... Nd7 { [%clk 0:01:04] } 13. Nd2 { [%clk 0:00:57] } 13... Ndf6 { [%clk 0:01:02] } 14. Ndxe4 { [%clk 0:00:57] } 14... dxe4 { [%clk 0:01:02] } 15. Be2 { [%clk 0:00:55] } 15... h5 { [%clk 0:01:02] } 16. Rab1 { [%clk 0:00:47] } 16... h4 { [%clk 0:01:02] } 17. h3 { [%clk 0:00:47] } 17... g5 { [%clk 0:00:58] } 18. f3 { [%clk 0:00:45] } 18... Bg6 { [%clk 0:00:57] } 19. f4 { [%clk 0:00:44] } 19... Rfe8 { [%clk 0:00:47] } 20. fxg5 { [%clk 0:00:40] } 20... Nh7 { [%clk 0:00:46] } 21. Rf4 { [%clk 0:00:40] } 21... Nxg5 { [%clk 0:00:46] } 22. Rbf1 { [%clk 0:00:40] } 22... Rad8 { [%clk 0:00:44] } 23. Bg4 { [%clk 0:00:40] } 23... c5 { [%clk 0:00:43] } 24. d5 { [%clk 0:00:40] } 24... c4 { [%clk 0:00:38] } 25. Qf2 { [%clk 0:00:39] } 25... b5 { [%clk 0:00:32] } 26. Nxb5 { [%clk 0:00:36] } 26... Rxd5 { [%clk 0:00:31] } 27. Nd4 { [%clk 0:00:36] } 27... Rxd4 { [%clk 0:00:32] } 28. exd4 { [%clk 0:00:36] } 28... e3 { [%clk 0:00:32] } 29. Qxh4 { [%clk 0:00:33] } 29... e2 { [%clk 0:00:27] } 30. Re1 { [%clk 0:00:33] } 30... Qe3+ { [%clk 0:00:24] } 31. Qf2 { [%clk 0:00:33] } 31... Qd2 { [%clk 0:00:15] } 32. Rxe2 { [%clk 0:00:34] } 32... Rxe2 { [%clk 0:00:15] } 33. Bxe2 { [%clk 0:00:35] } 33... Ne4 { [%clk 0:00:15] } 34. Rxe4 { [%clk 0:00:31] } 34... Bxe4 { [%clk 0:00:16] } 35. Bxc4 { [%clk 0:00:32] } 35... Qc1+ { [%clk 0:00:16] } 36. Bf1 { [%clk 0:00:32] } 36... Bd3 { [%clk 0:00:15] } 37. b3 { [%clk 0:00:32] } 37... Qd1 { [%clk 0:00:14] } 38. d5 { [%clk 0:00:32] } 38... Bxf1 { [%clk 0:00:14] } 39. Qxf1 { [%clk 0:00:33] } 39... Qxd5 { [%clk 0:00:14] } 40. Qf2 { [%clk 0:00:33] } 40... Qd1+ { [%clk 0:00:14] } 41. Kh2 { [%clk 0:00:34] } 41... Qd6+ { [%clk 0:00:15] } 42. g3 { [%clk 0:00:34] } 42... a6 { [%clk 0:00:15] } 43. h4 { [%clk 0:00:34] } 43... Qe6 { [%clk 0:00:15] } 44. Kg2 { [%clk 0:00:35] } 44... Kg7 { [%clk 0:00:15] } 45. Kh2 { [%clk 0:00:32] } 45... Kh7 { [%clk 0:00:15] } 46. b4 { [%clk 0:00:32] } 46... Qc4 { [%clk 0:00:14] } 47. Qb2 { [%clk 0:00:32] } 47... Kg6 { [%clk 0:00:13] } 48. a4 { [%clk 0:00:32] } 48... Kh5 { [%clk 0:00:11] } 49. b5 { [%clk 0:00:32] } 49... Kg4 { [%clk 0:00:11] } 50. b6 { [%clk 0:00:31] } 50... Qd3 { [%clk 0:00:10] } 51. Qg7+ { [%clk 0:00:28] } 51... Kf3 { [%clk 0:00:10] } 52. Qxf7+ { [%clk 0:00:28] } 52... Ke2 { [%clk 0:00:11] } 53. b7 { [%clk 0:00:27] } 1-0
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1/2-1/2"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:39:53"]
+[WhiteElo "2820"]
+[BlackElo "2688"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B29"]
+[Opening "Sicilian Defense: Nimzowitsch Variation, Closed Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... c5 { [%clk 0:01:00] } 2. Nf3 { [%clk 0:01:00] } 2... Nf6 { [%clk 0:01:01] } 3. Nc3 { [%clk 0:00:59] } 3... d5 { [%clk 0:01:00] } 4. exd5 { [%clk 0:01:00] } 4... Nxd5 { [%clk 0:01:01] } 5. Bc4 { [%clk 0:01:00] } 5... Nxc3 { [%clk 0:00:59] } 6. bxc3 { [%clk 0:01:01] } 6... Nc6 { [%clk 0:00:59] } 7. O-O { [%clk 0:01:02] } 7... e6 { [%clk 0:00:59] } 8. d4 { [%clk 0:01:02] } 8... Bd6 { [%clk 0:00:59] } 9. Re1 { [%clk 0:01:02] } 9... O-O { [%clk 0:00:59] } 10. Ng5 { [%clk 0:01:00] } 10... h6 { [%clk 0:00:57] } 11. Ne4 { [%clk 0:00:59] } 11... Be7 { [%clk 0:00:57] } 12. dxc5 { [%clk 0:00:58] } 12... Qxd1 { [%clk 0:00:55] } 13. Rxd1 { [%clk 0:00:58] } 13... b6 { [%clk 0:00:51] } 14. cxb6 { [%clk 0:00:53] } 14... axb6 { [%clk 0:00:52] } 15. Be3 { [%clk 0:00:51] } 15... Ba6 { [%clk 0:00:47] } 16. Bb3 { [%clk 0:00:51] } 16... b5 { [%clk 0:00:47] } 17. Nc5 { [%clk 0:00:51] } 17... Bxc5 { [%clk 0:00:46] } 18. Bxc5 { [%clk 0:00:51] } 18... Rfc8 { [%clk 0:00:46] } 19. Rd6 { [%clk 0:00:48] } 19... Na5 { [%clk 0:00:46] } 20. Bb4 { [%clk 0:00:47] } 20... Bb7 { [%clk 0:00:44] } 21. Rb6 { [%clk 0:00:45] } 21... Bc6 { [%clk 0:00:43] } 22. f3 { [%clk 0:00:43] } 22... Nc4 { [%clk 0:00:43] } 23. Bxc4 { [%clk 0:00:44] } 23... bxc4 { [%clk 0:00:43] } 24. Kf2 { [%clk 0:00:44] } 24... Ba4 { [%clk 0:00:44] } 25. Rc1 { [%clk 0:00:43] } 25... Rd8 { [%clk 0:00:44] } 26. Ke3 { [%clk 0:00:43] } 26... Rd5 { [%clk 0:00:44] } 27. Rd6 { [%clk 0:00:43] } 27... Rd8 { [%clk 0:00:40] } 28. Rxd8+ { [%clk 0:00:42] } 28... Rxd8 { [%clk 0:00:41] } 29. a3 { [%clk 0:00:42] } 29... e5 { [%clk 0:00:41] } 30. Ke2 { [%clk 0:00:40] } 30... f6 { [%clk 0:00:41] } 31. Rd1 { [%clk 0:00:40] } 31... Rxd1 { [%clk 0:00:39] } 32. Kxd1 { [%clk 0:00:41] } 32... Kf7 { [%clk 0:00:40] } 33. Kd2 { [%clk 0:00:42] } 33... Ke6 { [%clk 0:00:40] } 34. Bf8 { [%clk 0:00:41] } 34... Kf7 { [%clk 0:00:40] } 35. Bb4 { [%clk 0:00:42] } 35... g5 { [%clk 0:00:41] } 36. g4 { [%clk 0:00:41] } 36... Bc6 { [%clk 0:00:38] } 37. Ke3 { [%clk 0:00:41] } 37... Kg6 { [%clk 0:00:38] } 38. Be7 { [%clk 0:00:40] } 38... Ba4 { [%clk 0:00:37] } 39. Kd2 { [%clk 0:00:41] } 39... Kf7 { [%clk 0:00:36] } 40. Bb4 { [%clk 0:00:40] } 40... Kg6 { [%clk 0:00:34] } 41. Bc5 { [%clk 0:00:39] } 41... h5 { [%clk 0:00:33] } 42. gxh5+ { [%clk 0:00:36] } 42... Kxh5 { [%clk 0:00:34] } 43. Be7 { [%clk 0:00:36] } 43... Kg6 { [%clk 0:00:35] } 44. Bd8 { [%clk 0:00:37] } 44... Kf7 { [%clk 0:00:35] } 45. Bb6 { [%clk 0:00:35] } 45... Ke7 { [%clk 0:00:34] } 46. Bc5+ { [%clk 0:00:35] } 46... Ke6 { [%clk 0:00:35] } 47. Bb6 { [%clk 0:00:35] } 47... f5 { [%clk 0:00:35] } 48. Bd8 { [%clk 0:00:35] } 48... g4 { [%clk 0:00:36] } 49. fxg4 { [%clk 0:00:35] } 49... fxg4 { [%clk 0:00:37] } 50. Bh4 { [%clk 0:00:35] } 50... Kf5 { [%clk 0:00:37] } 51. Bg3 { [%clk 0:00:36] } 51... Ke4 { [%clk 0:00:37] } 52. Bh4 { [%clk 0:00:26] } 52... Kf3 { [%clk 0:00:37] } 53. Bf6 { [%clk 0:00:27] } 53... e4 { [%clk 0:00:32] } 54. Bd4 { [%clk 0:00:27] } 54... Kg2 { [%clk 0:00:31] } 55. Be5 { [%clk 0:00:27] } 55... Kf2 { [%clk 0:00:32] } 56. Bd4+ { [%clk 0:00:27] } 56... Kf3 { [%clk 0:00:32] } 57. Bc5 { [%clk 0:00:27] } 57... Bd7 { [%clk 0:00:31] } 58. Bd4 { [%clk 0:00:26] } 58... Ba4 { [%clk 0:00:32] } 59. Bc5 { [%clk 0:00:27] } 59... Bd7 { [%clk 0:00:30] } 60. Bd4 { [%clk 0:00:27] } 60... Ba4 { [%clk 0:00:31] } 1/2-1/2
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:43:01"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "D58"]
+[Opening "Queen's Gambit Declined: Tartakower Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:01:00] } 1... d5 { [%clk 0:01:00] } 2. c4 { [%clk 0:01:01] } 2... e6 { [%clk 0:01:01] } 3. Nc3 { [%clk 0:01:01] } 3... Nf6 { [%clk 0:01:01] } 4. Bg5 { [%clk 0:01:01] } 4... Be7 { [%clk 0:01:00] } 5. e3 { [%clk 0:01:01] } 5... h6 { [%clk 0:00:59] } 6. Bh4 { [%clk 0:01:00] } 6... O-O { [%clk 0:00:57] } 7. Nf3 { [%clk 0:01:01] } 7... b6 { [%clk 0:00:58] } 8. Be2 { [%clk 0:00:58] } 8... Bb7 { [%clk 0:00:57] } 9. Bxf6 { [%clk 0:00:57] } 9... Bxf6 { [%clk 0:00:57] } 10. cxd5 { [%clk 0:00:58] } 10... exd5 { [%clk 0:00:58] } 11. b4 { [%clk 0:00:57] } 11... c6 { [%clk 0:00:59] } 12. Qb3 { [%clk 0:00:57] } 12... Qd6 { [%clk 0:00:59] } 13. O-O { [%clk 0:00:57] } 13... Nd7 { [%clk 0:00:58] } 14. Rfd1 { [%clk 0:00:56] } 14... Rfe8 { [%clk 0:00:58] } 15. Rac1 { [%clk 0:00:54] } 15... Rac8 { [%clk 0:00:57] } 16. a4 { [%clk 0:00:52] } 16... g6 { [%clk 0:00:55] } 17. Rb1 { [%clk 0:00:47] } 17... Kg7 { [%clk 0:00:55] } 18. Qa2 { [%clk 0:00:47] } 18... h5 { [%clk 0:00:45] } 19. h4 { [%clk 0:00:45] } 19... Nf8 { [%clk 0:00:43] } 20. b5 { [%clk 0:00:43] } 20... c5 { [%clk 0:00:44] } 21. dxc5 { [%clk 0:00:44] } 21... Rxc5 { [%clk 0:00:44] } 22. Bc4 { [%clk 0:00:35] } 22... Bxc3 { [%clk 0:00:34] } 23. Bb3 { [%clk 0:00:35] } 23... Bf6 { [%clk 0:00:34] } 24. Rd3 { [%clk 0:00:35] } 24... Rd8 { [%clk 0:00:33] } 25. Qd2 { [%clk 0:00:35] } 25... Ne6 { [%clk 0:00:33] } 26. Rd1 { [%clk 0:00:36] } 26... Qc7 { [%clk 0:00:33] } 27. g3 { [%clk 0:00:33] } 27... Rc3 { [%clk 0:00:31] } 28. Rxc3 { [%clk 0:00:33] } 28... Qxc3 { [%clk 0:00:31] } 29. Qa2 { [%clk 0:00:33] } 29... Nc5 { [%clk 0:00:29] } 30. Bxd5 { [%clk 0:00:33] } 30... Bxd5 { [%clk 0:00:26] } 31. Rxd5 { [%clk 0:00:34] } 31... Rxd5 { [%clk 0:00:25] } 32. Qxd5 { [%clk 0:00:35] } 32... Qb3 { [%clk 0:00:25] } 33. Qd6 { [%clk 0:00:32] } 33... Qxa4 { [%clk 0:00:23] } 34. Nd4 { [%clk 0:00:29] } 34... Qd1+ { [%clk 0:00:18] } 35. Kg2 { [%clk 0:00:30] } 35... Bxd4 { [%clk 0:00:18] } 36. exd4 { [%clk 0:00:30] } 36... Ne6 { [%clk 0:00:18] } 37. d5 { [%clk 0:00:28] } 37... Qd4 { [%clk 0:00:16] } 38. Qc6 { [%clk 0:00:28] } 38... Qe4+ { [%clk 0:00:16] } 39. Kf1 { [%clk 0:00:27] } 39... Nd4 { [%clk 0:00:17] } 0-1
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Jan-Christian Schröder"]
+[Black "Andreas Heimann"]
+[Result "1/2-1/2"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:45:42"]
+[WhiteElo "2820"]
+[BlackElo "2688"]
+[BlackTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "B29"]
+[Opening "Sicilian Defense: Nimzowitsch Variation, Closed Variation"]
+[Termination "Normal"]
+
+1. e4 { [%clk 0:01:00] } 1... c5 { [%clk 0:01:00] } 2. Nf3 { [%clk 0:01:00] } 2... Nf6 { [%clk 0:01:00] } 3. Nc3 { [%clk 0:01:00] } 3... d5 { [%clk 0:01:01] } 4. exd5 { [%clk 0:01:01] } 4... Nxd5 { [%clk 0:01:01] } 5. Bc4 { [%clk 0:01:01] } 5... Nxc3 { [%clk 0:01:02] } 6. bxc3 { [%clk 0:01:02] } 6... e6 { [%clk 0:01:02] } 7. O-O { [%clk 0:01:02] } 7... Bd6 { [%clk 0:01:02] } 8. d4 { [%clk 0:01:03] } 8... O-O { [%clk 0:01:02] } 9. Re1 { [%clk 0:01:02] } 9... Nd7 { [%clk 0:01:03] } 10. Be3 { [%clk 0:01:01] } 10... Qc7 { [%clk 0:00:59] } 11. Bd3 { [%clk 0:00:58] } 11... c4 { [%clk 0:00:55] } 12. Bf1 { [%clk 0:00:57] } 12... Nb6 { [%clk 0:00:47] } 13. Bd2 { [%clk 0:00:52] } 13... Bd7 { [%clk 0:00:47] } 14. Ne5 { [%clk 0:00:50] } 14... Bxe5 { [%clk 0:00:47] } 15. Rxe5 { [%clk 0:00:49] } 15... Bc6 { [%clk 0:00:46] } 16. Qh5 { [%clk 0:00:40] } 16... Bd5 { [%clk 0:00:44] } 17. Re3 { [%clk 0:00:36] } 17... f6 { [%clk 0:00:42] } 18. Be2 { [%clk 0:00:28] } 18... Qf7 { [%clk 0:00:41] } 19. Qg4 { [%clk 0:00:27] } 19... Kh8 { [%clk 0:00:40] } 20. Re1 { [%clk 0:00:26] } 20... f5 { [%clk 0:00:38] } 21. Qh3 { [%clk 0:00:25] } 21... f4 { [%clk 0:00:38] } 22. Re5 { [%clk 0:00:25] } 22... Nd7 { [%clk 0:00:37] } 23. Rh5 { [%clk 0:00:24] } 23... Nf6 { [%clk 0:00:37] } 24. Re5 { [%clk 0:00:14] } 24... Nd7 { [%clk 0:00:34] } 25. Rh5 { [%clk 0:00:14] } 25... h6 { [%clk 0:00:30] } 26. Bg4 { [%clk 0:00:13] } 26... Nf6 { [%clk 0:00:29] } 27. Rhe5 { [%clk 0:00:14] } 27... Nxg4 { [%clk 0:00:28] } 28. Qxg4 { [%clk 0:00:15] } 28... f3 { [%clk 0:00:29] } 29. g3 { [%clk 0:00:16] } 29... Kh7 { [%clk 0:00:28] } 30. h4 { [%clk 0:00:15] } 30... Qg6 { [%clk 0:00:29] } 31. Qxg6+ { [%clk 0:00:15] } 31... Kxg6 { [%clk 0:00:30] } 32. Rb1 { [%clk 0:00:15] } 32... b6 { [%clk 0:00:29] } 33. Kf1 { [%clk 0:00:15] } 33... Rf5 { [%clk 0:00:28] } 34. Rxf5 { [%clk 0:00:14] } 34... Kxf5 { [%clk 0:00:29] } 35. Ke1 { [%clk 0:00:14] } 35... Kg4 { [%clk 0:00:29] } 36. Be3 { [%clk 0:00:13] } 36... g5 { [%clk 0:00:27] } 37. Kd2 { [%clk 0:00:11] } 37... gxh4 { [%clk 0:00:19] } 38. gxh4 { [%clk 0:00:12] } 38... h5 { [%clk 0:00:20] } 39. Rg1+ { [%clk 0:00:11] } 39... Kxh4 { [%clk 0:00:19] } 40. Bf4 { [%clk 0:00:09] } 40... Rf8 { [%clk 0:00:17] } 41. Be5 { [%clk 0:00:09] } 41... Rf5 { [%clk 0:00:15] } 42. Rg3 { [%clk 0:00:08] } 42... b5 { [%clk 0:00:14] } 43. Ke3 { [%clk 0:00:09] } 43... a5 { [%clk 0:00:14] } 44. Bc7 { [%clk 0:00:09] } 44... Rf8 { [%clk 0:00:12] } 45. Bxa5 { [%clk 0:00:09] } 45... Re8 { [%clk 0:00:06] } 46. Bc7 { [%clk 0:00:09] } 46... e5 { [%clk 0:00:07] } 47. Bxe5 { [%clk 0:00:10] } 47... Bc6 { [%clk 0:00:05] } 48. a3 { [%clk 0:00:09] } 48... Rf8 { [%clk 0:00:06] } 49. Bd6 { [%clk 0:00:09] } 49... Re8+ { [%clk 0:00:06] } 50. Be5 { [%clk 0:00:09] } 50... Rf8 { [%clk 0:00:06] } 51. Bd6 { [%clk 0:00:10] } 51... Re8+ { [%clk 0:00:07] } 52. Be5 { [%clk 0:00:10] } 1/2-1/2
+
+
+[Event "Hobbits Invitational 2021"]
+[Site "https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/9"]
+[Date "2021.02.21"]
+[White "Andreas Heimann"]
+[Black "Jan-Christian Schröder"]
+[Result "0-1"]
+[UTCDate "2021.02.21"]
+[UTCTime "18:49:14"]
+[WhiteElo "2688"]
+[BlackElo "2820"]
+[WhiteTitle "GM"]
+[Variant "Standard"]
+[TimeControl "60+1"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense"]
+[Termination "Normal"]
+
+1. d4 { [%clk 0:01:00] } 1... d5 { [%clk 0:01:00] } 2. c4 { [%clk 0:01:00] } 2... e6 { [%clk 0:01:00] } 3. Nf3 { [%clk 0:01:01] } 3... Nf6 { [%clk 0:01:01] } 4. Nc3 { [%clk 0:01:01] } 4... Be7 { [%clk 0:01:00] } 5. Bf4 { [%clk 0:01:01] } 5... O-O { [%clk 0:01:00] } 6. e3 { [%clk 0:01:02] } 6... Nbd7 { [%clk 0:01:00] } 7. a3 { [%clk 0:00:54] } 7... c5 { [%clk 0:01:00] } 8. cxd5 { [%clk 0:00:54] } 8... Nxd5 { [%clk 0:01:01] } 9. Nxd5 { [%clk 0:00:55] } 9... exd5 { [%clk 0:01:02] } 10. dxc5 { [%clk 0:00:54] } 10... Nxc5 { [%clk 0:01:02] } 11. Be5 { [%clk 0:00:54] } 11... Bf6 { [%clk 0:01:02] } 12. Be2 { [%clk 0:00:54] } 12... Bxe5 { [%clk 0:01:02] } 13. Nxe5 { [%clk 0:00:55] } 13... Re8 { [%clk 0:01:03] } 14. Nf3 { [%clk 0:00:53] } 14... Qb6 { [%clk 0:01:03] } 15. b4 { [%clk 0:00:50] } 15... Ne4 { [%clk 0:00:58] } 16. Qd4 { [%clk 0:00:49] } 16... Qg6 { [%clk 0:00:54] } 17. O-O { [%clk 0:00:44] } 17... Bh3 { [%clk 0:00:54] } 18. Ne1 { [%clk 0:00:44] } 18... Rac8 { [%clk 0:00:54] } 19. Bd3 { [%clk 0:00:39] } 19... Bf5 { [%clk 0:00:50] } 20. Nf3 { [%clk 0:00:31] } 20... Bh3 { [%clk 0:00:43] } 21. Ne1 { [%clk 0:00:31] } 21... Bf5 { [%clk 0:00:43] } 22. Rd1 { [%clk 0:00:29] } 22... Nc3 { [%clk 0:00:34] } 23. Rd2 { [%clk 0:00:30] } 23... b6 { [%clk 0:00:33] } 24. Nf3 { [%clk 0:00:22] } 24... Bxd3 { [%clk 0:00:19] } 25. Qxd3 { [%clk 0:00:23] } 25... Qe4 { [%clk 0:00:18] } 26. h3 { [%clk 0:00:22] } 26... Rc7 { [%clk 0:00:16] } 27. Kh2 { [%clk 0:00:21] } 27... Rec8 { [%clk 0:00:16] } 28. Rc1 { [%clk 0:00:21] } 28... g6 { [%clk 0:00:13] } 29. Qd4 { [%clk 0:00:19] } 29... Qxd4 { [%clk 0:00:11] } 30. Rxd4 { [%clk 0:00:19] } 30... Ne4 { [%clk 0:00:12] } 31. Rxc7 { [%clk 0:00:09] } 31... Rxc7 { [%clk 0:00:13] } 32. Nd2 { [%clk 0:00:08] } 32... Nxf2 { [%clk 0:00:12] } 33. Kg3 { [%clk 0:00:08] } 33... Nd1 { [%clk 0:00:11] } 34. Kf3 { [%clk 0:00:07] } 34... Nc3 { [%clk 0:00:11] } 35. e4 { [%clk 0:00:06] } 35... dxe4+ { [%clk 0:00:11] } 36. Nxe4 { [%clk 0:00:07] } 36... Nxe4 { [%clk 0:00:11] } 37. Kxe4 { [%clk 0:00:08] } 37... Kg7 { [%clk 0:00:11] } 38. Ke5 { [%clk 0:00:08] } 38... Rc3 { [%clk 0:00:11] } 39. a4 { [%clk 0:00:08] } 39... Ra3 { [%clk 0:00:11] } 40. b5 { [%clk 0:00:08] } 40... Rc3 { [%clk 0:00:11] } 41. Kd5 { [%clk 0:00:09] } 41... Kf6 { [%clk 0:00:10] } 42. Kd6 { [%clk 0:00:08] } 42... g5 { [%clk 0:00:11] } 43. Rd2 { [%clk 0:00:06] } 43... h5 { [%clk 0:00:11] } 44. Rf2+ { [%clk 0:00:07] } 44... Kg6 { [%clk 0:00:12] } 45. Ke7 { [%clk 0:00:07] } 45... Re3+ { [%clk 0:00:11] } 46. Kd7 { [%clk 0:00:08] } 46... Re4 { [%clk 0:00:12] } 47. Kc7 { [%clk 0:00:08] } 47... Rxa4 { [%clk 0:00:12] } 48. Kb7 { [%clk 0:00:08] } 48... g4 { [%clk 0:00:12] } 49. hxg4 { [%clk 0:00:08] } 49... hxg4 { [%clk 0:00:13] } 50. Rd2 { [%clk 0:00:09] } 50... f5 { [%clk 0:00:13] } 51. Rd8 { [%clk 0:00:09] } 51... Kg5 { [%clk 0:00:14] } 52. Rg8+ { [%clk 0:00:09] } 52... Kf4 { [%clk 0:00:14] } 53. Rf8 { [%clk 0:00:10] } 53... Ra2 { [%clk 0:00:12] } 54. g3+ { [%clk 0:00:08] } 54... Ke4 { [%clk 0:00:12] } 55. Re8+ { [%clk 0:00:09] } 55... Kf3 { [%clk 0:00:12] } 56. Rf8 { [%clk 0:00:09] } 56... Kxg3 { [%clk 0:00:12] } 57. Rxf5 { [%clk 0:00:10] } 57... Kg2 { [%clk 0:00:13] } 58. Rf8 { [%clk 0:00:07] } 58... g3 { [%clk 0:00:13] } 59. Rg8 { [%clk 0:00:07] } 59... Kh2 { [%clk 0:00:14] } 60. Rh8+ { [%clk 0:00:07] } 60... Kg1 { [%clk 0:00:14] } 61. Rg8 { [%clk 0:00:08] } 61... g2 { [%clk 0:00:14] } 62. Rg7 { [%clk 0:00:09] } 62... Kf1 { [%clk 0:00:15] } 63. Rf7+ { [%clk 0:00:09] } 63... Rf2 { [%clk 0:00:15] } 0-1
+
+
