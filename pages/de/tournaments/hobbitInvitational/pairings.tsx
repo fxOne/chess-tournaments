@@ -1,3 +1,5 @@
+import Button from '../../../../components/ui/Button';
+import Center from '../../../../components/ui/Center';
 import Hint from '../../../../components/ui/Hint';
 import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import { ReactElement } from 'react';
@@ -15,8 +17,16 @@ export default function Pairings(): ReactElement {
     >
       <TournamentBracket brackets={brackets} players={players} matches={matches} />
       <br />
-      <br />
       <Hint>Klicke auf eine Paarung mit Ergebnis um Details zu sehen</Hint>
+      <br />
+      <br />
+      <Center>
+        <Button
+          text="Downloade alle Partien als .pgn"
+          target="/pgn/hobbitsInvitationals/hobbitsInvitational.pgn"
+          download
+        />
+      </Center>
     </HobbitsPageFrame>
   );
 }

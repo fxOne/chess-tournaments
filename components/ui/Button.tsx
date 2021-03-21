@@ -5,6 +5,7 @@ import styled from 'styled-components';
 interface ButtonProps {
   text: string;
   target: string;
+  download?: boolean;
 }
 
 const ButtonComponent = styled.div`
@@ -17,10 +18,10 @@ const ButtonComponent = styled.div`
   border-radius: 0.28571429rem;
 `;
 
-export default function Button({ text, target }: ButtonProps): ReactElement {
+export default function Button({ text, target, download }: ButtonProps): ReactElement {
   return (
     <Link href={target}>
-      <a>
+      <a download={download}>
         <ButtonComponent>{text}</ButtonComponent>
       </a>
     </Link>

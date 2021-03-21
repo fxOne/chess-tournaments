@@ -132,6 +132,9 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <br />
       <Center>
         <Button text="Zurück zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
+        <br />
+        <br />
+        <Button text="Download .pgn" target={`/pgn/hobbitsInvitationals/game${match.id}.pgn`} download />
       </Center>
     </HobbitsPageFrame>
   );

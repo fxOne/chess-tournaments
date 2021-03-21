@@ -68,7 +68,7 @@ async function init() {
     writeFile(pgn, `game${match.id}.pgn`);
     fullPgn += pgn;
   }
-  writeFile(fullPgn, `all.pgn`);
+  writeFile(fullPgn, `hobbitsInvitational.pgn`);
 }
 
 init();
