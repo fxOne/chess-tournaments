@@ -734,7 +734,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/YYVZlmcw/black',
+            lichessUrl: 'https://lichess.org/YYVZlmcw',
             result: 1,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -746,7 +746,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/pcLv3Dp0/black',
+            lichessUrl: 'https://lichess.org/pcLv3Dp0',
             result: 1,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -759,7 +759,7 @@ export const matches: Matches = {
           },
 
           {
-            lichessUrl: 'https://lichess.org/bnRkY6sL/black',
+            lichessUrl: 'https://lichess.org/bnRkY6sL',
             result: 0,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -777,7 +777,7 @@ export const matches: Matches = {
       {
         games: [
           {
-            lichessUrl: 'https://lichess.org/nFx1yoy5/black',
+            lichessUrl: 'https://lichess.org/nFx1yoy5',
             result: 0.5,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -789,7 +789,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/65ynjlgy/black',
+            lichessUrl: 'https://lichess.org/65ynjlgy',
             result: 1,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -801,7 +801,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/DXjAOK4l/black',
+            lichessUrl: 'https://lichess.org/DXjAOK4l',
             result: 0,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -814,7 +814,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/2n9bypYJ/black',
+            lichessUrl: 'https://lichess.org/2n9bypYJ',
             result: 0.5,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -832,7 +832,7 @@ export const matches: Matches = {
       {
         games: [
           {
-            lichessUrl: 'https://lichess.org/zKYqvyGF/black',
+            lichessUrl: 'https://lichess.org/zKYqvyGF',
             result: 1,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -844,7 +844,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/bu2wkcEI/black',
+            lichessUrl: 'https://lichess.org/bu2wkcEI',
             result: 1,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -856,7 +856,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/LAdgDTeX/black',
+            lichessUrl: 'https://lichess.org/LAdgDTeX',
             result: 0,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -869,7 +869,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/L06CrLO5/black',
+            lichessUrl: 'https://lichess.org/L06CrLO5',
             result: 0,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -881,7 +881,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/KuNfblsT/black',
+            lichessUrl: 'https://lichess.org/KuNfblsT',
             result: 0.5,
             userIdBlack: 7,
             userIdWhite: 12,
@@ -893,7 +893,7 @@ export const matches: Matches = {
             userIdWhite: 7,
           },
           {
-            lichessUrl: 'https://lichess.org/a1aJjzGY/black',
+            lichessUrl: 'https://lichess.org/a1aJjzGY',
             result: 0,
             userIdBlack: 7,
             userIdWhite: 12,

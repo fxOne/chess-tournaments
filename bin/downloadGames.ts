@@ -50,7 +50,7 @@ async function fetchSeries(series: Series[], id: number): Promise<string> {
         const pgn = await fetchGame(gameId);
         result += replacePgn(pgn, game, id);
         console.log(`Match ${id}: Game`, i);
-        await sleep(3);
+        await sleep(1);
         ++i;
       } catch (e) {
         console.error(e);
