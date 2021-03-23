@@ -1410,7 +1410,7 @@ export const matches: Matches = {
             userIdWhite: 10,
           },
           {
-            lichessUrl: 'https://lichess.org/Ny4f2Fu8',
+            lichessUrl: 'https://lichess.org/ym95LM95',
             result: 0.5,
             userIdBlack: 10,
             userIdWhite: 11,
@@ -1418,19 +1418,6 @@ export const matches: Matches = {
           {
             lichessUrl: 'https://lichess.org/Vf36or8e',
             result: 0.5,
-            userIdBlack: 11,
-            userIdWhite: 10,
-          },
-
-          {
-            lichessUrl: 'https://lichess.org/nR4NM1NX',
-            result: 1,
-            userIdBlack: 10,
-            userIdWhite: 11,
-          },
-          {
-            lichessUrl: 'https://lichess.org/w9v2lvLt',
-            result: 1,
             userIdBlack: 11,
             userIdWhite: 10,
           },
