@@ -1,7 +1,6 @@
-import { ThemeProvider, createGlobalStyle } from 'styled-components';
-
-import { AppProps } from 'next/dist/next-server/lib/router/router';
+import { AppProps } from 'next/app';
 import { ReactElement } from 'react';
+import { createGlobalStyle, ThemeProvider } from 'styled-components';
 
 const GlobalStyle = createGlobalStyle`
   body {

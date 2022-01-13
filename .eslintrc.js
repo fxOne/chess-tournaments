@@ -30,15 +30,7 @@ module.exports = {
     ],
     indent: 'off',
     'react/react-in-jsx-scope': 'off',
-    'sort-imports': [
-      'error',
-      {
-        ignoreCase: false,
-        ignoreDeclarationSort: false,
-        ignoreMemberSort: false,
-        memberSyntaxSortOrder: ['none', 'all', 'multiple', 'single'],
-      },
-    ],
+    'sort-imports': 0,
     'sort-keys': 0,
     'sort-keys-shorthand/sort-keys-shorthand': [
       'error',
