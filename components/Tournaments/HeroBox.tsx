@@ -1,7 +1,6 @@
 import { ReactElement, ReactNode } from 'react';
-
-import ContentContainer from '../../ui/ContentContainer';
 import styled from 'styled-components';
+import ContentContainer from '../ui/ContentContainer';
 
 const HeroContainerBox = styled.div`
   background-color: #ead9bbc7;

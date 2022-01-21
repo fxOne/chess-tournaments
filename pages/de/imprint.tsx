@@ -1,9 +1,9 @@
-import ContentContainer from '../../components/ui/ContentContainer';
-import Footer from '../../components/Footer';
-import Hero from '../../components/Tournaments/hobbitInvitational/Hero';
-import Menu from '../../components/Tournaments/hobbitInvitational/Menu';
-import PageFrame from '../../components/PageFrame';
 import { ReactElement } from 'react';
+import Footer from '../../components/Footer';
+import PageFrame from '../../components/PageFrame';
+import Hero from '../../components/Tournaments/Hero';
+import Menu from '../../components/Tournaments/hobbitInvitational/Menu';
+import ContentContainer from '../../components/ui/ContentContainer';
 
 export default function Imprint(): ReactElement {
   return (

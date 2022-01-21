@@ -1,8 +1,7 @@
-import React, { ReactElement, ReactNode } from 'react';
-
-import HeroContainer from '../../ui/HeroContainer';
 import Image from 'next/image';
+import React, { ReactElement, ReactNode } from 'react';
 import styled from 'styled-components';
+import HeroContainer from '../ui/HeroContainer';
 
 const HeroImage = styled.div`
   width: calc(100% + 10rem);

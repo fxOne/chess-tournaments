@@ -27,7 +27,7 @@ const Header = styled.h1`
   }
 `;
 
-export default function HobbitsPageFrame({
+export default function LichessStreamerChampionshipPageFrame({
   children,
   contentDescription,
   landingPage,
@@ -36,7 +36,10 @@ export default function HobbitsPageFrame({
   extendedContainer,
 }: Props): ReactElement {
   return (
-    <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
+    <PageFrame
+      contentDescription={contentDescription}
+      title={(title ? title + ' | ' : '') + 'Lichess Streamer Championship'}
+    >
       <Menu onDark />
       <Hero bigHeroContainer={landingPage}>
         <HeroBox>
@@ -50,8 +53,10 @@ export default function HobbitsPageFrame({
               height="120px"
             />
             <Center>
-              <Header>Hobbits Invitational 2021</Header>
-              {buttonText && <Button text={buttonText} target={routing.de.tournaments.hobbitInvitational.pairings} />}
+              <Header>Lichess Streamer Championship 2022</Header>
+              {buttonText && (
+                <Button text={buttonText} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
+              )}
             </Center>
           </Flex>
         </HeroBox>

@@ -13,6 +13,16 @@ export const routing = {
           },
         },
       },
+      lichessStreamerChampionship: {
+        index: '/de/tournaments/lichessStreamerChampionship',
+        pairings: '/de/tournaments/lichessStreamerChampionship/pairings',
+        players: '/de/tournaments/lichessStreamerChampionship/players',
+        series: {
+          games(gameId: number): string {
+            return `/de/tournaments/lichessStreamerChampionship/series/${gameId}`;
+          },
+        },
+      },
     },
   },
 };
