@@ -719,7 +719,7 @@ export const matches: Matches = {
     videoUrl: 'https://www.twitch.tv/videos/940621826',
   },
   13: {
-    date: 'unbekannt',
+    date: '21.03.2021',
     id: 13,
     player1: 7,
     player2: 12,

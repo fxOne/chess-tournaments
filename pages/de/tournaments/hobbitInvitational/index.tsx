@@ -1,10 +1,10 @@
+import { ReactElement } from 'react';
+import styled from 'styled-components';
+import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
 import Button from '../../../../components/ui/Button';
 import Center from '../../../../components/ui/Center';
 import FormRow from '../../../../components/ui/FormRow';
-import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
-import { ReactElement } from 'react';
 import { routing } from '../../../../routing';
-import styled from 'styled-components';
 
 const FormGrid = styled.div`
   display: grid;
@@ -80,10 +80,7 @@ export default function Home(): ReactElement {
 
         <Divider />
 
-        <FormRow
-          title={'Datum'}
-          description={'Beginnend ab dem 10.01.2021. Die Partien finden je nachdem wie die Spieler Zeit haben statt.'}
-        />
+        <FormRow title={'Datum'} description={'10.01.2021 - 21.03.2021'} />
 
         <Divider />
 
