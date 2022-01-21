@@ -2,6 +2,7 @@ import Image from 'next/image';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import { routing } from '../../../routing';
+import HeroBox from '../../Container/HeroBox';
 import Footer from '../../Footer';
 import PageFrame, { PageFrameProps } from '../../PageFrame';
 import Button from '../../ui/Button';
@@ -9,7 +10,6 @@ import Center from '../../ui/Center';
 import ContentContainer from '../../ui/ContentContainer';
 import Flex from '../../ui/Flex';
 import Hero from '../Hero';
-import HeroBox from '../HeroBox';
 import Menu from './Menu';
 
 interface Props extends PageFrameProps {

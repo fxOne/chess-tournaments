@@ -13,6 +13,7 @@ export const routing = {
           },
         },
       },
+      index: '/de/tournaments',
       lichessStreamerChampionship: {
         index: '/de/tournaments/lichessStreamerChampionship',
         pairings: '/de/tournaments/lichessStreamerChampionship/pairings',

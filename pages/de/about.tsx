@@ -1,9 +1,9 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import Footer from '../../components/Footer';
+import Menu from '../../components/Menu';
 import PageFrame from '../../components/PageFrame';
 import Hero from '../../components/Tournaments/Hero';
-import Menu from '../../components/Tournaments/hobbitInvitational/Menu';
 import ContentContainer from '../../components/ui/ContentContainer';
 import CreatorCard from '../../components/ui/CreatorCard';
 import Flex from '../../components/ui/Flex';

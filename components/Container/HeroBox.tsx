@@ -10,10 +10,6 @@ const HeroContainerBox = styled.div`
   z-index: 1;
 `;
 
-interface HeroBoxProps {
-  children: ReactNode;
-}
-
 const BoxContainer = styled.div`
   height: 100%;
   display: flex;
@@ -24,6 +20,10 @@ const BoxContainer = styled.div`
     justify-content: center;
   }
 `;
+
+interface HeroBoxProps {
+  children: ReactNode;
+}
 
 export default function HeroBox({ children }: HeroBoxProps): ReactElement {
   return (
