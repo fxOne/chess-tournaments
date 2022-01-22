@@ -1,18 +1,19 @@
-import { PlayerTitle as PlayerTitleInterface } from '../../data/Interfaces';
 import styled from 'styled-components';
+import { PlayerTitle as PlayerTitleInterface } from '../../data/Interfaces';
 
 interface TitleProps {
-  title: PlayerTitleInterface;
+  title?: PlayerTitleInterface;
   rightMargin?: boolean;
 }
 
 const titleColors = {
+  FM: '#13ff03',
   GM: '#d59020',
   IM: '#d52c20',
 };
 
 const PlayerTitle = styled.tspan<TitleProps>`
-  color: ${({ title }) => titleColors[title] ?? 'black'};
+  color: ${({ title }) => (title && titleColors[title]) ?? 'black'};
   font-weight: bold;
   font-size: 0.8em;
   fill: currentColor;

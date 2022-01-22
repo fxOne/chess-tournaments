@@ -27,14 +27,17 @@ export interface Match {
 
 export type Matches = Record<number, Match>;
 
-export type PlayerTitle = 'GM' | 'IM';
+export type PlayerTitle = 'GM' | 'IM' | 'FM';
+export type CountryCode = 'GER';
 export interface Player {
   name: string;
   id: number;
-  title: PlayerTitle;
+  title?: PlayerTitle;
   elo: number;
   image: string | null;
-  yearOfBirth: number;
+  yearOfBirth?: number;
+  lichessName?: string;
+  countryCode?: CountryCode;
 }
 
 export type Players = Record<number, Player>;

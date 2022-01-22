@@ -1,8 +1,8 @@
-import DisplayPlayer from '../DisplayPlayer';
 import Image from 'next/image';
-import { Player } from '../../data/Interfaces';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
+import { Player } from '../../data/Interfaces';
+import DisplayPlayer from '../DisplayPlayer';
 
 interface PlayerCardProps {
   player: Player;
@@ -45,6 +45,11 @@ const Label = styled.div`
   background-color: #fff;
   border-radius: 1rem;
   padding: 0.25rem 0.5rem;
+  text-decoration: none;
+`;
+
+const LichessLink = styled.a`
+  color: black;
 `;
 
 export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
@@ -65,14 +70,26 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
       <Content>
         <DisplayPlayer player={player} />
         <InfoGrid>
-          <Label>
-            <div>Rating</div>
-            <div>{player.elo}</div>
-          </Label>
-          <Label>
-            <div>Jahrgang</div>
-            <div>{player.yearOfBirth}</div>
-          </Label>
+          {player.elo > 0 && (
+            <Label>
+              <div>Rating</div>
+              <div>{player.elo}</div>
+            </Label>
+          )}
+          {player.yearOfBirth && (
+            <Label>
+              <div>Jahrgang</div>
+              <div>{player.yearOfBirth}</div>
+            </Label>
+          )}
+          {player.lichessName && (
+            <Label>
+              <div>Lichess</div>
+              <LichessLink href={`https://lichess.org/@/${player.lichessName}`}>
+                <div>{player.lichessName}</div>{' '}
+              </LichessLink>
+            </Label>
+          )}
         </InfoGrid>
       </Content>
     </Card>
