@@ -1,4 +1,4 @@
-import { Bracket, Match, MatchPredecessors, Matches, Player, Players } from '../../data/Interfaces';
+import { Bracket, Match, Matches, MatchPredecessors, Player, Players } from '../../data/Interfaces';
 import { matchHeight, matchWidth } from './Match';
 
 const spaceBetweenRows = 20;

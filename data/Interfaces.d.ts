@@ -23,6 +23,7 @@ export interface Match {
   player1: number | null;
   player2: number | null;
   videoUrl: string | null;
+  downloadLink: string | null;
 }
 
 export type Matches = Record<number, Match>;

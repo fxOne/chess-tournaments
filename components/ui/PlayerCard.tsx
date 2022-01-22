@@ -85,7 +85,7 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
           {player.lichessName && (
             <Label>
               <div>Lichess</div>
-              <LichessLink href={`https://lichess.org/@/${player.lichessName}`}>
+              <LichessLink href={`https://lichess.org/@/${player.lichessName}`} target="_blank" rel="noreferrer">
                 <div>{player.lichessName}</div>{' '}
               </LichessLink>
             </Label>

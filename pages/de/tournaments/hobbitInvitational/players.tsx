@@ -1,10 +1,10 @@
-import Flex from '../../../../components/ui/Flex';
-import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
-import { Player } from '../../../../data/Interfaces';
-import PlayerCard from '../../../../components/ui/PlayerCard';
 import { ReactElement } from 'react';
-import { players } from '../../../../data/hobbitsInvitational/Players';
 import styled from 'styled-components';
+import HobbitsPageFrame from '../../../../components/PageFrames/HobbitsPageFrame';
+import Flex from '../../../../components/ui/Flex';
+import PlayerCard from '../../../../components/ui/PlayerCard';
+import { players } from '../../../../data/hobbitsInvitational/Players';
+import { Player } from '../../../../data/Interfaces';
 
 function calcAvg(players: Player[]): number {
   const sum = players.reduce((sum, { elo }) => sum + elo, 0);

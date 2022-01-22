@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
-import LichessStreamerChampionshipPageFrame from '../../../../components/Tournaments/lichessStreamerChampionship/LichessStreamerChampionshipPageFrame';
+import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import Flex from '../../../../components/ui/Flex';
 import PlayerCard from '../../../../components/ui/PlayerCard';
 import { Player } from '../../../../data/Interfaces';

@@ -1,16 +1,16 @@
 import Image from 'next/image';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
-import { routing } from '../../../routing';
-import HeroBox from '../../Container/HeroBox';
-import Footer from '../../Footer';
-import PageFrame, { PageFrameProps } from '../../PageFrame';
-import Button from '../../ui/Button';
-import Center from '../../ui/Center';
-import ContentContainer from '../../ui/ContentContainer';
-import Flex from '../../ui/Flex';
-import Hero from '../Hero';
-import Menu from './Menu';
+import { routing } from '../../routing';
+import HeroBox from '../Container/HeroBox';
+import Footer from '../Footer';
+import Menu from '../Menu';
+import Button from '../ui/Button';
+import Center from '../ui/Center';
+import ContentContainer from '../ui/ContentContainer';
+import Flex from '../ui/Flex';
+import Hero from '../ui/Hero';
+import PageFrame, { PageFrameProps } from './PageFrame';
 
 interface Props extends PageFrameProps {
   landingPage?: boolean;
@@ -37,7 +37,23 @@ export default function HobbitsPageFrame({
 }: Props): ReactElement {
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
-      <Menu onDark />
+      <Menu
+        onDark
+        menuItems={[
+          {
+            link: routing.de.tournaments.hobbitInvitational.index,
+            text: 'Hobbits Invitational',
+          },
+          {
+            link: routing.de.tournaments.hobbitInvitational.players,
+            text: 'Spieler',
+          },
+          {
+            link: routing.de.tournaments.hobbitInvitational.pairings,
+            text: 'Paarungen',
+          },
+        ]}
+      />
       <Hero bigHeroContainer={landingPage}>
         <HeroBox>
           <Flex alignItems={'center'} mobileCol>

@@ -4,15 +4,15 @@ import styled from 'styled-components';
 import MatchDetails from '../../../../../components/Match/MatchDetailts';
 import MatchHeader from '../../../../../components/Match/MatchHeader';
 import MatchResult from '../../../../../components/Match/MatchResult';
-import HobbitsPageFrame from '../../../../../components/PageFrames/HobbitsPageFrame';
+import LichessStreamerChampionshipPageFrame from '../../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import { calculateSeries } from '../../../../../components/ResultTable/Calculations';
 import ResultTable from '../../../../../components/ResultTable/ResultTable';
 import Button from '../../../../../components/ui/Button';
 import Center from '../../../../../components/ui/Center';
 import Hint from '../../../../../components/ui/Hint';
-import { matches } from '../../../../../data/hobbitsInvitational/Games';
-import { players } from '../../../../../data/hobbitsInvitational/Players';
 import { Match, Player, Players } from '../../../../../data/Interfaces';
+import { matches } from '../../../../../data/lichessStreamerChampionship/Games';
+import { players } from '../../../../../data/lichessStreamerChampionship/Players';
 import { routing } from '../../../../../routing';
 
 interface GameProps {
@@ -99,7 +99,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
   const player2 = players[player2Id!] || null;
 
   return (
-    <HobbitsPageFrame
+    <LichessStreamerChampionshipPageFrame
       title={getTitle(player1, player2)}
       buttonText="Zurück zu den Paarungen"
       contentDescription={getContentDescription(match, player1, player2)}
@@ -130,7 +130,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <br />
       <br />
       <Center>
-        <Button text="Zurück zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
+        <Button text="Zurück zu den Paarungen" target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
         {match.downloadLink && (
           <>
             <br />
@@ -139,6 +139,6 @@ export default function Game({ match, players }: GameProps): ReactElement {
           </>
         )}
       </Center>
-    </HobbitsPageFrame>
+    </LichessStreamerChampionshipPageFrame>
   );
 }

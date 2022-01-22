@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
-import HobbitsPageFrame from '../../../../components/Tournaments/hobbitInvitational/HobbitsPageFrame';
+import HobbitsPageFrame from '../../../../components/PageFrames/HobbitsPageFrame';
 import Button from '../../../../components/ui/Button';
 import Center from '../../../../components/ui/Center';
 import FormRow from '../../../../components/ui/FormRow';

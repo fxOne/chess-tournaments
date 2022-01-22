@@ -2,15 +2,23 @@ import { ReactElement } from 'react';
 import TournamentBox from '../../../components/Container/TournamentBox';
 import Footer from '../../../components/Footer';
 import Menu from '../../../components/Menu';
-import PageFrame from '../../../components/PageFrame';
-import Hero from '../../../components/Tournaments/Hero';
+import PageFrame from '../../../components/PageFrames/PageFrame';
 import ContentContainer from '../../../components/ui/ContentContainer';
+import Hero from '../../../components/ui/Hero';
 import { routing } from '../../../routing';
 
 export default function De(): ReactElement {
   return (
     <PageFrame>
-      <Menu onDark />
+      <Menu
+        onDark
+        menuItems={[
+          {
+            link: routing.de.tournaments.index,
+            text: 'Chess Tournaments',
+          },
+        ]}
+      />
       <Hero bigHeroContainer={false} />
       <ContentContainer>
         <TournamentBox

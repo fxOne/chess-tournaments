@@ -1,6 +1,6 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
-import LichessStreamerChampionshipPageFrame from '../../../../components/Tournaments/lichessStreamerChampionship/LichessStreamerChampionshipPageFrame';
+import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import Button from '../../../../components/ui/Button';
 import Center from '../../../../components/ui/Center';
 import FormRow from '../../../../components/ui/FormRow';
@@ -34,7 +34,7 @@ export default function Home(): ReactElement {
     <LichessStreamerChampionshipPageFrame
       landingPage
       buttonText="Zu den Paarungen"
-      contentDescription="Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den Chesshobits99."
+      contentDescription="Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den Chesshobits99."
     >
       <h1>Lichess Streamer Championship 2022</h1>
       <p>

@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import React, { ReactElement, ReactNode } from 'react';
 import styled from 'styled-components';
-import HeroContainer from '../ui/HeroContainer';
+import HeroContainer from './HeroContainer';
 
 const HeroImage = styled.div`
   width: calc(100% + 10rem);
@@ -39,6 +39,7 @@ export default function Hero({ bigHeroContainer, children }: HeroProps): ReactEl
           layout={'fill'}
           objectFit={'cover'}
           objectPosition={'50% 70%'}
+          priority
         />
       </HeroImage>
       {children}

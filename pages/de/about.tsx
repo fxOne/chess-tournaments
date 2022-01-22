@@ -2,11 +2,12 @@ import { ReactElement } from 'react';
 import styled from 'styled-components';
 import Footer from '../../components/Footer';
 import Menu from '../../components/Menu';
-import PageFrame from '../../components/PageFrame';
-import Hero from '../../components/Tournaments/Hero';
+import PageFrame from '../../components/PageFrames/PageFrame';
 import ContentContainer from '../../components/ui/ContentContainer';
 import CreatorCard from '../../components/ui/CreatorCard';
 import Flex from '../../components/ui/Flex';
+import Hero from '../../components/ui/Hero';
+import { routing } from '../../routing';
 
 const CreatorContainer = styled.div`
   margin-top: 5rem;
@@ -15,7 +16,15 @@ const CreatorContainer = styled.div`
 export default function About(): ReactElement {
   return (
     <PageFrame>
-      <Menu onDark />
+      <Menu
+        onDark
+        menuItems={[
+          {
+            link: routing.de.tournaments.index,
+            text: 'Chess Tournaments',
+          },
+        ]}
+      />
       <Hero bigHeroContainer={false} />
       <ContentContainer>
         <h1>Chess Tournaments</h1>

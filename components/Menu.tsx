@@ -78,11 +78,17 @@ const HamburgerMenu = styled.img`
   vertical-align: middle;
 `;
 
-interface Props {
-  onDark?: boolean;
+interface MenuItem {
+  link: string;
+  text: string;
 }
 
-export default function Menu({ onDark }: Props): ReactElement {
+interface Props {
+  onDark?: boolean;
+  menuItems: MenuItem[];
+}
+
+export default function Menu({ onDark, menuItems }: Props): ReactElement {
   const [ref, inView, entry] = useInView();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -93,12 +99,17 @@ export default function Menu({ onDark }: Props): ReactElement {
         <PageMenuContentWrapper sticky={entry && !inView} dark={onDark}>
           <ContentContainer noContainerSpacing fullHeight>
             <Flex justifyContent={'space-between'} alignItems={'center'} fullHeight>
-              <div>
-                <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" width="60px" />
-              </div>
-
+              <Link href={routing.index}>
+                <a>
+                  <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" width="60px" />
+                </a>
+              </Link>
               <MenuContainer>
-                <Link href={routing.de.tournaments.index}>Chess Tournaments</Link>
+                {menuItems.map(({ text, link }) => (
+                  <Link href={link} key={link}>
+                    {text}
+                  </Link>
+                ))}
               </MenuContainer>
               <MenuContainerMobil>
                 {!menuOpen && (
@@ -106,9 +117,11 @@ export default function Menu({ onDark }: Props): ReactElement {
                 )}
                 {menuOpen && (
                   <Flex direction="column">
-                    <Link href={routing.de.tournaments.index}>
-                      <a onClick={() => setMenuOpen(false)}>Chess Tournaments</a>
-                    </Link>
+                    {menuItems.map(({ text, link }) => (
+                      <Link href={link} key={link}>
+                        <a onClick={() => setMenuOpen(false)}>{text}</a>
+                      </Link>
+                    ))}
                   </Flex>
                 )}
               </MenuContainerMobil>
