@@ -1,6 +1,6 @@
-import Link from 'next/link';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
+import Link from '../Link';
 
 interface ButtonProps {
   text: string;

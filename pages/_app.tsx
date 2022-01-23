@@ -1,3 +1,4 @@
+import { appWithTranslation } from 'next-i18next';
 import { AppProps } from 'next/app';
 import { ReactElement } from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
@@ -22,7 +23,7 @@ const theme = {
   },
 };
 
-export default function MyApp({ Component, pageProps }: AppProps): ReactElement {
+export default appWithTranslation(function MyApp({ Component, pageProps }: AppProps): ReactElement {
   return (
     <>
       <GlobalStyle />
@@ -31,4 +32,4 @@ export default function MyApp({ Component, pageProps }: AppProps): ReactElement 
       </ThemeProvider>
     </>
   );
-}
+});

@@ -1,10 +1,14 @@
 import { ReactElement } from 'react';
 import styled from 'styled-components';
-import HobbitsPageFrame from '../../../../components/PageFrames/HobbitsPageFrame';
+import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import Flex from '../../../../components/ui/Flex';
 import PlayerCard from '../../../../components/ui/PlayerCard';
-import { players } from '../../../../data/hobbitsInvitational/Players';
 import { Player } from '../../../../data/Interfaces';
+import { players } from '../../../../data/lichessStreamerChampionship/Players';
+import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
+
+const getStaticProps = makeStaticProps(['common']);
+export { getStaticPaths, getStaticProps };
 
 function calcAvg(players: Player[]): number {
   const sum = players.reduce((sum, { elo }) => sum + elo, 0);
@@ -27,13 +31,15 @@ const EmptyCard = styled.div`
 export default function Players(): ReactElement {
   const sortedPlayers = Object.values(players).sort((a, b) => b.elo - a.elo);
   return (
-    <HobbitsPageFrame title={'Spieler'} contentDescription="Teilnehmerliste des Turniers Hobbits Invitationals">
+    <LichessStreamerChampionshipPageFrame
+      title={'Spieler'}
+      contentDescription="Teilnehmerliste des Lichess Streamer Championship"
+    >
       <PlayerInfo>
         <div>
           <div>Spieler: {sortedPlayers.length}</div>
           <div>Durchschnittliche Ratingzahl: {calcAvg(sortedPlayers)}</div>
         </div>
-        <div>FIDE-Ratings von Februar 2021</div>
       </PlayerInfo>
       <Flex wrap={'wrap'} justifyContent={'space-between'}>
         {sortedPlayers.map((player) => (
@@ -44,6 +50,6 @@ export default function Players(): ReactElement {
           <EmptyCard key={idx} />
         ))}
       </Flex>
-    </HobbitsPageFrame>
+    </LichessStreamerChampionshipPageFrame>
   );
 }

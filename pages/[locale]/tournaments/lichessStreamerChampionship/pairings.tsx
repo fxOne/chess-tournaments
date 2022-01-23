@@ -6,7 +6,11 @@ import Hint from '../../../../components/ui/Hint';
 import { brackets } from '../../../../data/lichessStreamerChampionship/Brackets';
 import { matches } from '../../../../data/lichessStreamerChampionship/Games';
 import { players } from '../../../../data/lichessStreamerChampionship/Players';
+import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
 import { routing } from '../../../../routing';
+
+const getStaticProps = makeStaticProps(['common']);
+export { getStaticPaths, getStaticProps };
 
 export default function Pairings(): ReactElement {
   return (

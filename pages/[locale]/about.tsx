@@ -7,7 +7,11 @@ import ContentContainer from '../../components/ui/ContentContainer';
 import CreatorCard from '../../components/ui/CreatorCard';
 import Flex from '../../components/ui/Flex';
 import Hero from '../../components/ui/Hero';
+import { getStaticPaths, makeStaticProps } from '../../lib/getStatic';
 import { routing } from '../../routing';
+
+const getStaticProps = makeStaticProps(['common']);
+export { getStaticPaths, getStaticProps };
 
 const CreatorContainer = styled.div`
   margin-top: 5rem;

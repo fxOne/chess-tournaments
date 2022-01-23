@@ -4,7 +4,11 @@ import HobbitsPageFrame from '../../../../components/PageFrames/HobbitsPageFrame
 import Button from '../../../../components/ui/Button';
 import Center from '../../../../components/ui/Center';
 import FormRow from '../../../../components/ui/FormRow';
+import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
 import { routing } from '../../../../routing';
+
+const getStaticProps = makeStaticProps(['common']);
+export { getStaticPaths, getStaticProps };
 
 const FormGrid = styled.div`
   display: grid;

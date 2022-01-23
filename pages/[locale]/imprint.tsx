@@ -4,7 +4,11 @@ import Menu from '../../components/Menu';
 import PageFrame from '../../components/PageFrames/PageFrame';
 import ContentContainer from '../../components/ui/ContentContainer';
 import Hero from '../../components/ui/Hero';
+import { getStaticPaths, makeStaticProps } from '../../lib/getStatic';
 import { routing } from '../../routing';
+
+const getStaticProps = makeStaticProps(['common']);
+export { getStaticPaths, getStaticProps };
 
 export default function Imprint(): ReactElement {
   return (

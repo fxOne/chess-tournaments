@@ -1,8 +1,8 @@
-import Link from 'next/link';
 import { ReactElement, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import styled, { css } from 'styled-components';
 import { routing } from '../routing';
+import Link from './Link';
 import ContentContainer from './ui/ContentContainer';
 import Flex from './ui/Flex';
 

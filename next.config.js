@@ -4,6 +4,16 @@ module.exports = {
       {
         destination: '/de/tournaments',
         permanent: false,
+        source: '/de',
+      },
+      {
+        destination: '/en/tournaments',
+        permanent: false,
+        source: '/en',
+      },
+      {
+        destination: '/de/tournaments',
+        permanent: false,
         source: '/',
       },
     ];

@@ -1,7 +1,7 @@
 import Document, { DocumentContext, DocumentInitialProps, Head, Html, Main, NextScript } from 'next/document';
-
 import { ReactElement } from 'react';
 import { ServerStyleSheet } from 'styled-components';
+import i18nextConfig from '../next-i18next.config';
 
 export default class MyDocument extends Document {
   static async getInitialProps(ctx: DocumentContext): Promise<DocumentInitialProps> {
@@ -30,8 +30,10 @@ export default class MyDocument extends Document {
   }
 
   render(): ReactElement {
+    const currentLocale = (this.props.__NEXT_DATA__.query.locale || i18nextConfig.i18n.defaultLocale) as string;
+
     return (
-      <Html lang={'de'}>
+      <Html lang={currentLocale}>
         <Head>
           <meta charSet="UTF-8" />
           <meta httpEquiv="Content-Language" content="de" />

@@ -13,6 +13,7 @@ import Hint from '../../../../../components/ui/Hint';
 import { matches } from '../../../../../data/hobbitsInvitational/Games';
 import { players } from '../../../../../data/hobbitsInvitational/Players';
 import { Match, Player, Players } from '../../../../../data/Interfaces';
+import { getI18nProps, getStaticPathsWithAdditionalParams } from '../../../../../lib/getStatic';
 import { routing } from '../../../../../routing';
 
 interface GameProps {
@@ -22,15 +23,16 @@ interface GameProps {
 
 export async function getStaticProps({
   params,
-}: GetStaticPropsContext<{ game: string }>): Promise<GetStaticPropsResult<GameProps>> {
+}: GetStaticPropsContext<{ game: string; locale: string }>): Promise<GetStaticPropsResult<GameProps>> {
   const gameId = params?.game;
 
   if (gameId) {
     const match = matches[+gameId];
 
     if (match) {
+      const i18nProps = await getI18nProps(params, ['common']);
       return {
-        props: { match, players },
+        props: { match, players, ...i18nProps },
       };
     }
   }
@@ -42,11 +44,7 @@ export async function getStaticProps({
 
 export async function getStaticPaths(): Promise<GetStaticPathsResult> {
   const gameIds = Object.keys(matches);
-
-  return {
-    fallback: false,
-    paths: gameIds.map((game) => ({ params: { game } })),
-  };
+  return getStaticPathsWithAdditionalParams(gameIds.map((game) => ({ game })));
 }
 
 const MatchesContainer = styled.div`
