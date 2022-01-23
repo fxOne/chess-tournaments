@@ -8,7 +8,7 @@ import { Player } from '../../../../data/Interfaces';
 import { players } from '../../../../data/lichessStreamerChampionship/Players';
 import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
 
-const getStaticProps = makeStaticProps(['common']);
+const getStaticProps = makeStaticProps(['common', 'lichessStreamerChampionship']);
 export { getStaticPaths, getStaticProps };
 
 function calcAvg(players: Player[]): number {
@@ -30,7 +30,7 @@ const EmptyCard = styled.div`
 `;
 
 export default function Players(): ReactElement {
-  const { t } = useTranslation(['common']);
+  const { t } = useTranslation(['common', 'lichessStreamerChampionship']);
   const sortedPlayers = Object.values(players).sort((a, b) => b.elo - a.elo);
   return (
     <LichessStreamerChampionshipPageFrame

@@ -31,7 +31,7 @@ export async function getStaticProps({
     const match = matches[+gameId];
 
     if (match) {
-      const i18nProps = await getI18nProps(params, ['common']);
+      const i18nProps = await getI18nProps(params, ['common', 'lichessStreamerChampionship']);
       return {
         props: { match, players, ...i18nProps },
       };
