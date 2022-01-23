@@ -1,3 +1,4 @@
+import { Trans, useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
@@ -34,74 +35,62 @@ const Header = styled.h2`
 `;
 
 export default function Home(): ReactElement {
+  const { t } = useTranslation(['common']);
   return (
     <LichessStreamerChampionshipPageFrame
       landingPage
-      buttonText="Zu den Paarungen"
-      contentDescription="Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den Chesshobits99."
+      showButton
+      contentDescription={t('lichessStreamerChampionship:index.contentDescription')}
     >
-      <h1>Lichess Streamer Championship 2022</h1>
+      <h1>{t('lichessStreamerChampionship:tournamentName')}</h1>
       <p>
-        Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den{' '}
+        {t('lichessStreamerChampionship:index.introduction1')}{' '}
         <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-          Chesshobits99
+          ChessHobbits99
         </a>
         .
       </p>
-      <p>Chesshobts99 ist ein Twitch Kanal von den Schachspielern IM Adrian Gschnitzer und FM Marco Riehle.</p>
-      <Header>Ausschreibung</Header>
+      <p>{t('lichessStreamerChampionship:index.introduction2')}</p>
+      <Header>{t('announcement')}</Header>
       <FormGrid>
         <FormRow
-          title={'Spielort'}
+          title={t('venue')}
           description={
-            <>
-              Die Partien werden auf dem Twitch Kanal{' '}
-              <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-                Chesshobits99
-              </a>{' '}
-              gestreamt und auf{' '}
-              <a href={'https://lichess.org/'} target="_blank" rel="noreferrer">
-                lichess.org
-              </a>{' '}
-              ausgetragen.
-            </>
+            <Trans i18nKey="lichessStreamerChampionship:index.venue">
+              <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer"></a>
+              <a href={'https://lichess.org/'} target="_blank" rel="noreferrer"></a>
+            </Trans>
           }
         />
 
         <Divider />
 
         <FormRow
-          title={'Kommentatoren'}
+          title={t('commentators')}
           description={
-            <>
-              IM Adrian Gschnitzer und FM Marco Riehle auf{' '}
-              <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-                Chesshobits99
-              </a>
-            </>
+            <Trans i18nKey="lichessStreamerChampionship:index.commentators">
+              <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer"></a>
+            </Trans>
           }
         />
 
         <Divider />
 
-        <FormRow
-          title={'Datum'}
-          description={'Beginnend ab dem xx.xx.xxxx. Die Partien finden je nachdem wie die Spieler Zeit haben statt.'}
-        />
+        <FormRow title={t('date')} description={t('lichessStreamerChampionship:index.date')} />
 
         <Divider />
 
         <FormRow
-          title={'Austragungssystem'}
+          title={t('dispensingSystem')}
           description={
             <>
-              Eliminierung Turnier mit jeweils 3 Runden:
+              {t('lichessStreamerChampionship:index.dispensingSystem1')}
               <ul>
-                <li>70 Minuten 5 Minuten + 1 Sekunde pro Zug</li>
-                <li>60 Minuten 3 Minuten + 1 Sekunde pro Zug</li>
-                <li>30 Minuten 1 Minuten + 1 Sekunde pro Zug</li>
+                <li>{t('lichessStreamerChampionship:index.dispensingSystem2')}</li>
+                <li>{t('lichessStreamerChampionship:index.dispensingSystem3')}</li>
+                <li>{t('lichessStreamerChampionship:index.dispensingSystem4')}</li>
               </ul>
-              Die laufende Partie nach Ablauf der Zeit zählt mit. Sieger mit den meisten Punkten kommt weiter.
+              {t('lichessStreamerChampionship:index.dispensingSystem5')}
             </>
           }
         />
@@ -112,7 +101,7 @@ export default function Home(): ReactElement {
       <br />
 
       <Center>
-        <Button text="Zu den Paarungen" target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
+        <Button text={t('gotoPairings')} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
       </Center>
     </LichessStreamerChampionshipPageFrame>
   );

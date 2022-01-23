@@ -9,7 +9,7 @@ import Hero from '../../../components/ui/Hero';
 import { getStaticPaths, makeStaticProps } from '../../../lib/getStatic';
 import { routing } from '../../../routing';
 
-const getStaticProps = makeStaticProps(['common']);
+const getStaticProps = makeStaticProps(['common', 'lichessStreamerChampionship']);
 export { getStaticPaths, getStaticProps };
 
 export default function Tournaments(): ReactElement {

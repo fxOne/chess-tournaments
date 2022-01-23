@@ -1,0 +1,21 @@
+{
+  "gotoTournament": "To the tournament",
+  "aboutUs": "About us",
+  "imprint": "Imprint",
+  "pairings": "Pairings",
+  "players": "Players",
+  "player": "Player",
+  "gotoPairings": "To the pairings",
+  "backToPairings": "Back to pairings",
+  "announcement": "Announcement",
+  "venue": "Venue",
+  "commentators": "Commentators",
+  "date": "Date",
+  "dispensingSystem": "Dispensing system",
+  "averageRating": "Average rating number",
+  "pairingsHint": "Click on a pair with result to see details",
+  "downloadAllGames": "Download all games as .pgn",
+  "downloadGames": "Download games as .pgn",
+  "gameAnnotation": "Game annotation",
+  "gameHint": "Click on the results to view the games on lichess.org"
+}

@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
@@ -29,16 +30,21 @@ const EmptyCard = styled.div`
 `;
 
 export default function Players(): ReactElement {
+  const { t } = useTranslation(['common']);
   const sortedPlayers = Object.values(players).sort((a, b) => b.elo - a.elo);
   return (
     <LichessStreamerChampionshipPageFrame
-      title={'Spieler'}
-      contentDescription="Teilnehmerliste des Lichess Streamer Championship"
+      title={t('players')}
+      contentDescription={t('lichessStreamerChampionship:players.contentDescription')}
     >
       <PlayerInfo>
         <div>
-          <div>Spieler: {sortedPlayers.length}</div>
-          <div>Durchschnittliche Ratingzahl: {calcAvg(sortedPlayers)}</div>
+          <div>
+            {t('player')}: {sortedPlayers.length}
+          </div>
+          <div>
+            {t('averageRating')}: {calcAvg(sortedPlayers)}
+          </div>
         </div>
       </PlayerInfo>
       <Flex wrap={'wrap'} justifyContent={'space-between'}>

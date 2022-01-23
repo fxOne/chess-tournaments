@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
@@ -14,7 +15,7 @@ import PageFrame, { PageFrameProps } from './PageFrame';
 
 interface Props extends PageFrameProps {
   landingPage?: boolean;
-  buttonText?: string;
+  showButton?: boolean;
   extendedContainer?: boolean;
 }
 
@@ -32,28 +33,29 @@ export default function LichessStreamerChampionshipPageFrame({
   contentDescription,
   landingPage,
   title,
-  buttonText,
+  showButton,
   extendedContainer,
 }: Props): ReactElement {
+  const { t } = useTranslation(['common']);
   return (
     <PageFrame
       contentDescription={contentDescription}
-      title={(title ? title + ' | ' : '') + 'Lichess Streamer Championship'}
+      title={(title ? title + ' | ' : '') + t('lichessStreamerChampionship:tournamentName')}
     >
       <Menu
         onDark
         menuItems={[
           {
             link: routing.de.tournaments.lichessStreamerChampionship.index,
-            text: 'Lichess Streamer Championship',
+            text: t('lichessStreamerChampionship:tournamentNameShort'),
           },
           {
             link: routing.de.tournaments.lichessStreamerChampionship.players,
-            text: 'Spieler',
+            text: t('players'),
           },
           {
             link: routing.de.tournaments.lichessStreamerChampionship.pairings,
-            text: 'Paarungen',
+            text: t('pairings'),
           },
         ]}
       />
@@ -69,9 +71,9 @@ export default function LichessStreamerChampionshipPageFrame({
               height="120px"
             />
             <Center>
-              <Header>Lichess Streamer Championship 2022</Header>
-              {buttonText && (
-                <Button text={buttonText} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
+              <Header>{t('lichessStreamerChampionship:tournamentName')}</Header>
+              {showButton && (
+                <Button text={t('gotoPairings')} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
               )}
             </Center>
           </Flex>

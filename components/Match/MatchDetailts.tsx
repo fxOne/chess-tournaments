@@ -1,7 +1,8 @@
-import Flex from '../ui/Flex';
-import { Match } from '../../data/Interfaces';
+import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
+import { Match } from '../../data/Interfaces';
+import Flex from '../ui/Flex';
 
 interface Props {
   match: Match;
@@ -40,6 +41,7 @@ const twitchIcon = (
 );
 
 export default function MatchDetails({ match }: Props): ReactElement {
+  const { t } = useTranslation(['common']);
   return (
     <Flex alignItems={'center'} justifyContent={'center'}>
       <Flex alignItems={'center'}>
@@ -63,7 +65,7 @@ export default function MatchDetails({ match }: Props): ReactElement {
               {match.videoUrl.includes('twitch') && <>{twitchIcon}</>}
             </Icon>
             <a href={match.videoUrl} target="_blank" rel="noreferrer">
-              Partiekommentierung
+              {t('gameAnnotation')}
             </a>
           </Flex>
         </>

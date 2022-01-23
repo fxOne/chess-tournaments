@@ -37,14 +37,14 @@ export default function Home(): ReactElement {
   return (
     <HobbitsPageFrame
       landingPage
-      buttonText="Zu den Paarungen"
-      contentDescription="Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den Chesshobits99."
+      showButton
+      contentDescription="Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den ChessHobbits99."
     >
       <h1>Hobbits Invitational 2021</h1>
       <p>
         Das Hobbits Invitational 2021 ist ein Einladungsturnier für deutsche GMs und IMs von den{' '}
         <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-          Chesshobits99
+          ChessHobbits99
         </a>
         .
       </p>
@@ -57,7 +57,7 @@ export default function Home(): ReactElement {
             <>
               Die Partien werden auf dem Twitch Kanal{' '}
               <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-                Chesshobits99
+                ChessHobbits99
               </a>{' '}
               gestreamt und auf{' '}
               <a href={'https://lichess.org/'} target="_blank" rel="noreferrer">
@@ -76,7 +76,7 @@ export default function Home(): ReactElement {
             <>
               IM Adrian Gschnitzer und FM Marco Riehle auf{' '}
               <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer">
-                Chesshobits99
+                ChessHobbits99
               </a>
             </>
           }

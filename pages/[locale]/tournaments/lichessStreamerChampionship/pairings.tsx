@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import TournamentBracket from '../../../../components/TournamentBracket/TournamentBracket';
@@ -13,10 +14,11 @@ const getStaticProps = makeStaticProps(['common']);
 export { getStaticPaths, getStaticProps };
 
 export default function Pairings(): ReactElement {
+  const { t } = useTranslation(['common']);
   return (
     <LichessStreamerChampionshipPageFrame
-      title={'Paarungen'}
-      contentDescription="Paarungen des Turniers Lichess Streamer Championship"
+      title={t('pairings')}
+      contentDescription={t('lichessStreamerChampionship:pairings.contentDescription')}
       extendedContainer
     >
       <TournamentBracket
@@ -26,12 +28,12 @@ export default function Pairings(): ReactElement {
         getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
       />
       <br />
-      <Hint>Klicke auf eine Paarung mit Ergebnis um Details zu sehen</Hint>
+      <Hint>{t('pairingsHint')}</Hint>
       <br />
       <br />
       <Center>
         {/*<Button
-          text="Downloade alle Partien als .pgn"
+          text={t('downloadAllGames')}
           target="/pgn/lichessStreamerChampionship/lichessStreamerChampionship.pgn"
           download
         />*/}

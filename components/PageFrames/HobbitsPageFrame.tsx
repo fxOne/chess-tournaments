@@ -1,3 +1,4 @@
+import { useTranslation } from 'next-i18next';
 import Image from 'next/image';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
@@ -14,7 +15,7 @@ import PageFrame, { PageFrameProps } from './PageFrame';
 
 interface Props extends PageFrameProps {
   landingPage?: boolean;
-  buttonText?: string;
+  showButton?: boolean;
   extendedContainer?: boolean;
 }
 
@@ -32,9 +33,10 @@ export default function HobbitsPageFrame({
   contentDescription,
   landingPage,
   title,
-  buttonText,
+  showButton,
   extendedContainer,
 }: Props): ReactElement {
+  const { t } = useTranslation(['common']);
   return (
     <PageFrame contentDescription={contentDescription} title={(title ? title + ' | ' : '') + 'Hobbits Invitational'}>
       <Menu
@@ -46,11 +48,11 @@ export default function HobbitsPageFrame({
           },
           {
             link: routing.de.tournaments.hobbitInvitational.players,
-            text: 'Spieler',
+            text: t('players'),
           },
           {
             link: routing.de.tournaments.hobbitInvitational.pairings,
-            text: 'Paarungen',
+            text: t('pairings'),
           },
         ]}
       />
@@ -67,7 +69,9 @@ export default function HobbitsPageFrame({
             />
             <Center>
               <Header>Hobbits Invitational 2021</Header>
-              {buttonText && <Button text={buttonText} target={routing.de.tournaments.hobbitInvitational.pairings} />}
+              {showButton && (
+                <Button text={t('gotoPairings')} target={routing.de.tournaments.hobbitInvitational.pairings} />
+              )}
             </Center>
           </Flex>
         </HeroBox>

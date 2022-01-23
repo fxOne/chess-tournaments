@@ -1,4 +1,5 @@
 import { GetStaticPathsResult, GetStaticPropsContext, GetStaticPropsResult } from 'next';
+import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import MatchDetails from '../../../../../components/Match/MatchDetailts';
@@ -91,6 +92,7 @@ function getContentDescription(match: Match, player1: Player | null, player2: Pl
 }
 
 export default function Game({ match, players }: GameProps): ReactElement {
+  const { t } = useTranslation(['common']);
   const player1Id = match.player1;
   const player2Id = match.player2;
   const player1 = players[player1Id!] || null;
@@ -99,7 +101,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
   return (
     <HobbitsPageFrame
       title={getTitle(player1, player2)}
-      buttonText="Zurück zu den Paarungen"
+      showButton
       contentDescription={getContentDescription(match, player1, player2)}
     >
       <MatchHeader player1={player1} player2={player2} />
@@ -121,19 +123,19 @@ export default function Game({ match, players }: GameProps): ReactElement {
               <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
             </MatchTypeContainer>
           </MatchesContainer>
-          <Hint>Klicke auf die Ergebnisse um die Partien auf lichess.org anzuschauen</Hint>
+          <Hint>{t('gameHint')}</Hint>
         </>
       )}
       <br />
       <br />
       <br />
       <Center>
-        <Button text="Zurück zu den Paarungen" target={routing.de.tournaments.hobbitInvitational.pairings} />
+        <Button text={t('backToPairings')} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
         {match.downloadLink && (
           <>
             <br />
             <br />
-            <Button text="Download .pgn" target={match.downloadLink} download />
+            <Button text={t('downloadGames')} target={match.downloadLink} download />
           </>
         )}
       </Center>
