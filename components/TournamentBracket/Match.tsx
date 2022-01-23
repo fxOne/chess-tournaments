@@ -1,5 +1,6 @@
 import { ReactElement } from 'react';
 import { Match as MatchInterface, Player } from '../../data/Interfaces';
+import Link from '../Link';
 import { calculatePoints } from './Calculations';
 import PlayerMatch, { height, width } from './PlayerMatch';
 
@@ -20,10 +21,12 @@ export default function Match({ match, player1, player2, x = 0, y = 0, getLinkUr
   return (
     <g id={`match-${match.id}`} transform={`translate(${x}, ${y})`}>
       {hasGames && (
-        <a href={getLinkUrl(match.id)}>
-          <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
-          <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={height} />
-        </a>
+        <Link href={getLinkUrl(match.id)}>
+          <a>
+            <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
+            <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={height} />
+          </a>
+        </Link>
       )}
       {!hasGames && (
         <>
