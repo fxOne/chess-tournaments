@@ -15,6 +15,7 @@ interface TournemantBracketProps {
 const Wrapper = styled.div`
   width: 100%;
   overflow-x: scroll;
+  font-size: 16px;
 `;
 
 export default function TournamentBracket({

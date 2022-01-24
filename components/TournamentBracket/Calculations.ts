@@ -2,7 +2,7 @@ import { Bracket, Match, Matches, MatchPredecessors, Player, Players } from '../
 import { matchHeight, matchWidth } from './Match';
 
 const spaceBetweenRows = 20;
-const spaceBetweenColumns = 50;
+const spaceBetweenColumns = 20;
 
 const heigthWithSpace = spaceBetweenRows + matchHeight;
 const widthWithSpace = spaceBetweenColumns + matchWidth;
