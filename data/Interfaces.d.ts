@@ -28,7 +28,7 @@ export interface Match {
 
 export type Matches = Record<number, Match>;
 
-export type PlayerTitle = 'GM' | 'IM' | 'FM';
+export type PlayerTitle = 'GM' | 'IM' | 'FM' | 'CM' | 'NM' | 'WGM';
 export type CountryCode = 'GER';
 export interface Player {
   name: string;
@@ -39,6 +39,7 @@ export interface Player {
   yearOfBirth?: number;
   lichessName?: string;
   countryCode?: CountryCode;
+  streamerUrl?: string;
 }
 
 export type Players = Record<number, Player>;

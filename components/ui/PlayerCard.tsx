@@ -48,9 +48,13 @@ const Label = styled.div`
   text-decoration: none;
 `;
 
-const LichessLink = styled.a`
+const StyledLink = styled.a`
   color: black;
 `;
+
+function getDisplayStreamerUrl(url: string): string {
+  return url.replace('https://', '').replace('www.', '');
+}
 
 export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
   return (
@@ -85,9 +89,16 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
           {player.lichessName && (
             <Label>
               <div>Lichess</div>
-              <LichessLink href={`https://lichess.org/@/${player.lichessName}`} target="_blank" rel="noreferrer">
-                <div>{player.lichessName}</div>{' '}
-              </LichessLink>
+              <StyledLink href={`https://lichess.org/@/${player.lichessName}`} target="_blank" rel="noreferrer">
+                <div>{player.lichessName}</div>
+              </StyledLink>
+            </Label>
+          )}
+          {player.streamerUrl && (
+            <Label>
+              <StyledLink href={player.streamerUrl} target="_blank" rel="noreferrer">
+                <div>{getDisplayStreamerUrl(player.streamerUrl)}</div>
+              </StyledLink>
             </Label>
           )}
         </InfoGrid>

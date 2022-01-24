@@ -7,6 +7,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Littleplotkin',
     name: 'Littleplotkin',
+    streamerUrl: 'https://www.twitch.tv/littleplotkin',
+    title: 'IM',
   },
   10: {
     elo: 2629,
@@ -21,6 +23,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Schieberspieler',
     name: 'Schieberspieler',
+    streamerUrl: 'https://www.twitch.tv/schieberspieler',
+    title: 'FM',
   },
   12: {
     elo: 2605,
@@ -28,6 +32,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Gameoverbro',
     name: 'Gameoverbro',
+    streamerUrl: 'https://www.twitch.tv/nmgameoverbro',
+    title: 'NM',
   },
   13: {
     elo: 2592,
@@ -35,6 +41,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Papadosor',
     name: 'Papadosor',
+    streamerUrl: 'https://www.twitch.tv/scaredlion94',
+    title: 'FM',
   },
   14: {
     elo: 2592,
@@ -42,6 +50,8 @@ export const players: Players = {
     image: null,
     lichessName: 'SashaGelman',
     name: 'SashaGelman',
+    streamerUrl: 'https://www.twitch.tv/alexandergelman',
+    title: 'IM',
   },
   15: {
     elo: 2574,
@@ -49,6 +59,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Mhandaman',
     name: 'Mhandaman',
+    streamerUrl: 'https://www.twitch.tv/orlandochesshouse',
+    title: 'NM',
   },
   16: {
     elo: 2556,
@@ -56,6 +68,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Mastertime',
     name: 'Mastertime',
+    streamerUrl: 'https://www.twitch.tv/alexgm96',
+    title: 'FM',
   },
   17: {
     elo: 2549,
@@ -63,6 +77,7 @@ export const players: Players = {
     image: null,
     lichessName: 'Slea',
     name: 'Slea',
+    streamerUrl: 'https://www.twitch.tv/Westcoastkaiser',
   },
   18: {
     elo: 2539,
@@ -70,6 +85,7 @@ export const players: Players = {
     image: null,
     lichessName: 'EnPassant81',
     name: 'EnPassant81',
+    streamerUrl: 'https://www.twitch.tv/marichess',
   },
   19: {
     elo: 2536,
@@ -77,6 +93,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Qeeqer',
     name: 'Qeeqer',
+    streamerUrl: 'https://www.twitch.tv/im_artur',
+    title: 'IM',
   },
   2: {
     elo: 2745,
@@ -84,6 +102,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Chesshobbits99',
     name: 'Chesshobbits99',
+    streamerUrl: 'https://www.twitch.tv/chesshobbits99',
+    title: 'IM',
   },
   20: {
     elo: 2511,
@@ -91,6 +111,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Parkour1',
     name: 'Parkour1',
+    streamerUrl: 'https://www.twitch.tv/Dirtydiamondta',
+    title: 'IM',
   },
   21: {
     elo: 2510,
@@ -98,6 +120,7 @@ export const players: Players = {
     image: null,
     lichessName: 'Ushkothebear',
     name: 'Ushkothebear',
+    streamerUrl: 'https://www.twitch.tv/blairchess',
   },
   22: {
     elo: 2474,
@@ -105,6 +128,8 @@ export const players: Players = {
     image: null,
     lichessName: 'IvanStankovic',
     name: 'IvanStankovic',
+    streamerUrl: 'https://www.twitch.tv/chess_dragons',
+    title: 'FM',
   },
   23: {
     elo: 2446,
@@ -112,6 +137,7 @@ export const players: Players = {
     image: null,
     lichessName: 'Zolpi',
     name: 'Zolpi',
+    streamerUrl: 'https://www.twitch.tv/vampirechicken',
   },
   24: {
     elo: 2435,
@@ -126,6 +152,8 @@ export const players: Players = {
     image: null,
     lichessName: 'SabinaFoisor',
     name: 'SabinaFoisor',
+    streamerUrl: 'https://www.twitch.tv/sabinafoisor',
+    title: 'WGM',
   },
   26: {
     elo: 2419,
@@ -133,6 +161,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Taktychenko',
     name: 'Taktychenko',
+    streamerUrl: 'https://www.twitch.tv/kacperpolok',
+    title: 'FM',
   },
   3: {
     elo: 2722,
@@ -140,6 +170,7 @@ export const players: Players = {
     image: null,
     lichessName: 'Houdinovic',
     name: 'Houdinovic',
+    streamerUrl: 'https://www.twitch.tv/houdinovic',
   },
   4: {
     elo: 2714,
@@ -147,12 +178,14 @@ export const players: Players = {
     image: null,
     lichessName: 'VB84',
     name: 'VB84',
+    streamerUrl: 'https://www.twitch.tv/belovchess',
+    title: 'GM',
   },
   5: {
     elo: 2700,
     id: 5,
     image: null,
-    lichessName: 'Juancruzarias',
+    //lichessName: 'Juancruzarias',
     name: 'Juancruzarias',
   },
   6: {
@@ -161,6 +194,8 @@ export const players: Players = {
     image: null,
     lichessName: 'Fastestmanalive',
     name: 'Fastestmanalive',
+    streamerUrl: 'https://www.youtube.com/channel/UCuA3OAGW-gDpHp4RWZa_Ybg/live',
+    title: 'IM',
   },
   7: {
     elo: 2684,
@@ -168,6 +203,7 @@ export const players: Players = {
     image: null,
     lichessName: 'MrKooshaj',
     name: 'MrKooshaj',
+    streamerUrl: 'https://www.twitch.tv/mrkooshachess',
   },
   8: {
     elo: 2664,
@@ -175,6 +211,8 @@ export const players: Players = {
     image: null,
     lichessName: 'TheBigGreek',
     name: 'TheBigGreek',
+    streamerUrl: 'https://www.twitch.tv/TheBigGreekSchach',
+    title: 'IM',
   },
   9: {
     elo: 2653,
@@ -182,5 +220,7 @@ export const players: Players = {
     image: null,
     lichessName: 'Papasi',
     name: 'Papasi',
+    streamerUrl: 'https://www.twitch.tv/PA_passionates',
+    title: 'CM',
   },
 };
