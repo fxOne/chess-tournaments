@@ -26,6 +26,7 @@ export default function Pairings(): ReactElement {
         players={players}
         matches={matches}
         getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
+        downloadFileName="lichessStreamerChampionship.png"
       />
       <br />
       <Hint>{t('pairingsHint')}</Hint>

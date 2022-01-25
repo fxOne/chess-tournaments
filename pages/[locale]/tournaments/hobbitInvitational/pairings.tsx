@@ -25,6 +25,7 @@ export default function Pairings(): ReactElement {
         players={players}
         matches={matches}
         getLinkUrl={routing.de.tournaments.hobbitInvitational.series.games}
+        downloadFileName="hobbitsInvitational.png"
       />
       <br />
       <Hint>Klicke auf eine Paarung mit Ergebnis um Details zu sehen</Hint>

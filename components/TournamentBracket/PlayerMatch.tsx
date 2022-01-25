@@ -14,7 +14,7 @@ const strokeWidth = 1;
 const heightWithStroke = height + 2 * strokeWidth;
 const textWidth = 200;
 const pointsWidth = 45;
-const titleWidth = 30;
+const titleWidth = 33;
 export const width = textWidth + pointsWidth;
 
 export default function PlayerMatch({ player, points, y = 0 }: PlayerMatchProps): ReactElement {
