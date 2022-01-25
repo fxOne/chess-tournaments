@@ -39,6 +39,10 @@ export const brackets: Bracket[][] = [
       predecessors: null,
     },
     {
+      matchId: 26,
+      predecessors: null,
+    },
+    {
       matchId: 4,
       predecessors: null,
     },
@@ -70,7 +74,7 @@ export const brackets: Bracket[][] = [
     },
     {
       matchId: 16,
-      predecessors: [8, null],
+      predecessors: [8, 26],
     },
     {
       matchId: 12,

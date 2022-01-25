@@ -29,12 +29,10 @@ const Content = styled.div`
 
 const InfoGrid = styled.div`
   font-size: 1rem;
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-column-gap: 1rem;
+  display: flex;
   margin-top: 1rem;
   width: 100%;
-  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 const Label = styled.div`
@@ -46,6 +44,7 @@ const Label = styled.div`
   border-radius: 1rem;
   padding: 0.25rem 0.5rem;
   text-decoration: none;
+  margin: 0.25rem;
 `;
 
 const StyledLink = styled.a`
@@ -53,7 +52,10 @@ const StyledLink = styled.a`
 `;
 
 function getDisplayStreamerUrl(url: string): string {
-  return url.replace('https://', '').replace('www.', '');
+  if (url.includes('youtube')) {
+    return 'Youtube';
+  }
+  return 'Twitch';
 }
 
 export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
@@ -96,6 +98,7 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
           )}
           {player.streamerUrl && (
             <Label>
+              <div>Stream</div>
               <StyledLink href={player.streamerUrl} target="_blank" rel="noreferrer">
                 <div>{getDisplayStreamerUrl(player.streamerUrl)}</div>
               </StyledLink>
