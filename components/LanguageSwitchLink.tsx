@@ -12,7 +12,7 @@ export default function LanguageSwitchLink({ children, locale }: React.PropsWith
 
   return (
     <Link href={href}>
-      <a>{children}</a>
+      <a hrefLang={locale}>{children}</a>
     </Link>
   );
 }

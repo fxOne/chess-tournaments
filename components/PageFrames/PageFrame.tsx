@@ -1,6 +1,6 @@
-import { ReactElement, ReactNode } from 'react';
-
 import Head from 'next/head';
+import { useRouter } from 'next/router';
+import { ReactElement, ReactNode } from 'react';
 import styled from 'styled-components';
 
 export interface PageFrameProps {
@@ -18,6 +18,10 @@ const PageContent = styled.div`
 `;
 
 export default function PageFrame({ children, contentDescription, title }: PageFrameProps): ReactElement {
+  const router = useRouter();
+  const targetLanguage = router.query.locale === 'en' ? 'de' : 'en';
+  const href = router.pathname.replace('[locale]', targetLanguage);
+
   let fullTitle = 'Chess Tournaments';
   if (title) {
     fullTitle = `${title} - Chess Tournaments`;
@@ -27,6 +31,8 @@ export default function PageFrame({ children, contentDescription, title }: PageF
       <Head>
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1" />
         <title>{fullTitle}</title>
+
+        <link rel="alternative" href={href} hrefLang={targetLanguage} />
 
         {/* Primary Meta Tags */}
         <meta name="title" content={fullTitle} />
