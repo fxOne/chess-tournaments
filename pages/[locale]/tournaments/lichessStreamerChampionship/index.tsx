@@ -65,17 +65,6 @@ export default function Home(): ReactElement {
 
         <Divider />
 
-        <FormRow
-          title={t('commentators')}
-          description={
-            <Trans i18nKey="lichessStreamerChampionship:index.commentators">
-              <a href={'https://www.twitch.tv/chesshobbits99'} target="_blank" rel="noreferrer"></a>
-            </Trans>
-          }
-        />
-
-        <Divider />
-
         <FormRow title={t('date')} description={t('lichessStreamerChampionship:index.date')} />
 
         <Divider />
