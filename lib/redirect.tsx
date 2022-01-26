@@ -15,7 +15,9 @@ export const useRedirect = (to = '') => {
       return;
     }
     if (detectedLng) {
-      languageDetector.cache?.(detectedLng, {});
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore: Incorrect types
+      languageDetector.cache?.(detectedLng);
     }
     router.replace('/' + detectedLng + to);
   });
