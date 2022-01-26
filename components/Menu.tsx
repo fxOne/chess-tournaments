@@ -1,7 +1,10 @@
+import { Globe } from 'lucide-react';
+import { useRouter } from 'next/router';
 import { ReactElement, useState } from 'react';
 import { useInView } from 'react-intersection-observer';
 import styled, { css } from 'styled-components';
 import { routing } from '../routing';
+import LanguageSwitchLink from './LanguageSwitchLink';
 import Link from './Link';
 import ContentContainer from './ui/ContentContainer';
 import Flex from './ui/Flex';
@@ -78,6 +81,23 @@ const HamburgerMenu = styled.img`
   vertical-align: middle;
 `;
 
+const LanguageContainer = styled.div`
+  position: absolute;
+  background-color: white;
+  color: black;
+  display: none;
+  padding: 0.3em;
+`;
+
+const LanguageWrapper = styled.div`
+  position: relative;
+  cursor: pointer;
+
+  &:hover ${LanguageContainer} {
+    display: block;
+  }
+`;
+
 interface MenuItem {
   link: string;
   text: string;
@@ -91,6 +111,7 @@ interface Props {
 export default function Menu({ onDark, menuItems }: Props): ReactElement {
   const [ref, inView, entry] = useInView();
   const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   return (
     <>
@@ -104,6 +125,12 @@ export default function Menu({ onDark, menuItems }: Props): ReactElement {
                   <img src="/images/logo.svg" alt="chess tournaments logo" height="60px" width="60px" />
                 </a>
               </Link>
+              <LanguageWrapper>
+                <Globe />
+                <LanguageSwitchLink locale={router.query.locale === 'en' ? 'de' : 'en'}>
+                  <LanguageContainer>{router.query.locale === 'en' ? 'Deutsch' : 'English'}</LanguageContainer>
+                </LanguageSwitchLink>
+              </LanguageWrapper>
               <MenuContainer>
                 {menuItems.map(({ text, link }) => (
                   <Link href={link} key={link}>
