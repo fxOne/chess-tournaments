@@ -1,20 +1,24 @@
-import { PlayerTitle as PlayerTitleInterface } from '../../data/Interfaces';
 import styled from 'styled-components';
+import { PlayerTitle as PlayerTitleInterface } from '../../data/Interfaces';
 
 interface TitleProps {
-  title: PlayerTitleInterface;
+  title?: PlayerTitleInterface;
   rightMargin?: boolean;
 }
 
 const titleColors = {
+  CM: '#d59020',
+  FM: '#d59020',
   GM: '#d59020',
-  IM: '#d52c20',
+  IM: '#d59020',
+  NM: '#d59020',
+  WGM: '#d59020',
 };
 
 const PlayerTitle = styled.tspan<TitleProps>`
-  color: ${({ title }) => titleColors[title] ?? 'black'};
+  color: ${({ title }) => (title && titleColors[title]) ?? 'black'};
   font-weight: bold;
-  font-size: 0.8em;
+  font-size: 0.9em;
   fill: currentColor;
   margin-right: ${({ rightMargin }) => (rightMargin ? '.5rem' : 'auto')};
 `;

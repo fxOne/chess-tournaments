@@ -1,0 +1,21 @@
+{
+  "gotoTournament": "Zum Turnier",
+  "aboutUs": "Über uns",
+  "imprint": "Impressum",
+  "pairings": "Paarungen",
+  "players": "Spieler",
+  "player": "Spieler",
+  "gotoPairings": "Zu den Paarungen",
+  "backToPairings": "Zurück zu den Paarungen",
+  "announcement": "Ausschreibung",
+  "venue": "Spielort",
+  "commentators": "Kommentatoren",
+  "date": "Datum",
+  "dispensingSystem": "Austragungssystem",
+  "averageRating": "Durchschnittliche Ratingzahl",
+  "pairingsHint": "Klicke auf eine Paarung mit Ergebnis um Details zu sehen",
+  "downloadAllGames": "Downloade alle Partien als .pgn",
+  "downloadGames": "Downloade Partien als .pgn",
+  "gameAnnotation": "Partiekommentierung",
+  "gameHint": "Klicke auf die Ergebnisse um die Partien auf lichess.org anzuschauen"
+}

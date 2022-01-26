@@ -3,6 +3,7 @@ import { Matches } from '../Interfaces';
 export const matches: Matches = {
   1: {
     date: '20.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game1.pgn',
     id: 1,
     player1: 1,
     player2: 2,
@@ -199,6 +200,7 @@ export const matches: Matches = {
   },
   10: {
     date: '14.02.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game10.pgn',
     id: 10,
     player1: 14,
     player2: 12,
@@ -379,6 +381,7 @@ export const matches: Matches = {
   },
   11: {
     date: '25.02.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game11.pgn',
     id: 11,
     player1: 7,
     player2: 6,
@@ -565,6 +568,7 @@ export const matches: Matches = {
   },
   12: {
     date: '07.03.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game12.pgn',
     id: 12,
     player1: 12,
     player2: 10,
@@ -720,6 +724,7 @@ export const matches: Matches = {
   },
   13: {
     date: '21.03.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game13.pgn',
     id: 13,
     player1: 7,
     player2: 12,
@@ -906,6 +911,7 @@ export const matches: Matches = {
   },
   2: {
     date: '15.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game2.pgn',
     id: 2,
     player1: 5,
     player2: 6,
@@ -1090,6 +1096,7 @@ export const matches: Matches = {
   },
   3: {
     date: '10.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game3.pgn',
     id: 3,
     player1: 3,
     player2: 4,
@@ -1255,6 +1262,7 @@ export const matches: Matches = {
   },
   4: {
     date: '17.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game4.pgn',
     id: 4,
     player1: 10,
     player2: 11,
@@ -1430,6 +1438,7 @@ export const matches: Matches = {
   },
   5: {
     date: '24.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game5.pgn',
     id: 5,
     player1: 12,
     player2: 13,
@@ -1603,6 +1612,7 @@ export const matches: Matches = {
   },
   6: {
     date: '31.01.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game6.pgn',
     id: 6,
     player1: 14,
     player2: 9,
@@ -1770,6 +1780,7 @@ export const matches: Matches = {
   },
   7: {
     date: '09.02.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game7.pgn',
     id: 7,
     player1: 7,
     player2: 2,
@@ -1956,6 +1967,7 @@ export const matches: Matches = {
   },
   8: {
     date: '04.02.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game8.pgn',
     id: 8,
     player1: 4,
     player2: 6,
@@ -2137,6 +2149,7 @@ export const matches: Matches = {
   },
   9: {
     date: '21.02.2021',
+    downloadLink: '/pgn/hobbitsInvitationals/game9.pgn',
     id: 9,
     player1: 10,
     player2: 8,

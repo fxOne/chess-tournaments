@@ -1,7 +1,7 @@
+import { ReactElement } from 'react';
 import { Player } from '../../data/Interfaces';
 import PlayerScore from '../ui/PlayerScore';
 import PlayerTitle from '../ui/PlayerTitle';
-import { ReactElement } from 'react';
 
 interface PlayerMatchProps {
   player: Player | null;
@@ -9,12 +9,12 @@ interface PlayerMatchProps {
   y?: number;
 }
 
-export const height = 40;
+export const height = 30;
 const strokeWidth = 1;
-const heightWithStroke = 40 + 2 * strokeWidth;
-const textWidth = 250;
+const heightWithStroke = height + 2 * strokeWidth;
+const textWidth = 200;
 const pointsWidth = 45;
-const titleWidth = 30;
+const titleWidth = 33;
 export const width = textWidth + pointsWidth;
 
 export default function PlayerMatch({ player, points, y = 0 }: PlayerMatchProps): ReactElement {

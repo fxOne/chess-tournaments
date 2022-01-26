@@ -23,18 +23,23 @@ export interface Match {
   player1: number | null;
   player2: number | null;
   videoUrl: string | null;
+  downloadLink: string | null;
 }
 
 export type Matches = Record<number, Match>;
 
-export type PlayerTitle = 'GM' | 'IM';
+export type PlayerTitle = 'GM' | 'IM' | 'FM' | 'CM' | 'NM' | 'WGM';
+export type CountryCode = 'GER';
 export interface Player {
   name: string;
   id: number;
-  title: PlayerTitle;
+  title?: PlayerTitle;
   elo: number;
   image: string | null;
-  yearOfBirth: number;
+  yearOfBirth?: number;
+  lichessName?: string;
+  countryCode?: CountryCode;
+  streamerUrl?: string;
 }
 
 export type Players = Record<number, Player>;

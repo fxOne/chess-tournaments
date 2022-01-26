@@ -1,8 +1,8 @@
-import DisplayPlayer from '../DisplayPlayer';
 import Image from 'next/image';
-import { Player } from '../../data/Interfaces';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
+import { Player } from '../../data/Interfaces';
+import DisplayPlayer from '../DisplayPlayer';
 
 interface PlayerCardProps {
   player: Player;
@@ -29,12 +29,10 @@ const Content = styled.div`
 
 const InfoGrid = styled.div`
   font-size: 1rem;
-  display: grid;
-  grid-template-columns: max-content max-content;
-  grid-column-gap: 1rem;
+  display: flex;
   margin-top: 1rem;
   width: 100%;
-  justify-content: center;
+  flex-wrap: wrap;
 `;
 
 const Label = styled.div`
@@ -45,7 +43,20 @@ const Label = styled.div`
   background-color: #fff;
   border-radius: 1rem;
   padding: 0.25rem 0.5rem;
+  text-decoration: none;
+  margin: 0.25rem;
 `;
+
+const StyledLink = styled.a`
+  color: black;
+`;
+
+function getDisplayStreamerUrl(url: string): string {
+  if (url.includes('youtube')) {
+    return 'Youtube';
+  }
+  return 'Twitch';
+}
 
 export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
   return (
@@ -65,14 +76,34 @@ export default function PlayerCard({ player }: PlayerCardProps): ReactElement {
       <Content>
         <DisplayPlayer player={player} />
         <InfoGrid>
-          <Label>
-            <div>Rating</div>
-            <div>{player.elo}</div>
-          </Label>
-          <Label>
-            <div>Jahrgang</div>
-            <div>{player.yearOfBirth}</div>
-          </Label>
+          {player.elo > 0 && (
+            <Label>
+              <div>Rating</div>
+              <div>{player.elo}</div>
+            </Label>
+          )}
+          {player.yearOfBirth && (
+            <Label>
+              <div>Jahrgang</div>
+              <div>{player.yearOfBirth}</div>
+            </Label>
+          )}
+          {player.lichessName && (
+            <Label>
+              <div>Lichess</div>
+              <StyledLink href={`https://lichess.org/@/${player.lichessName}`} target="_blank" rel="noreferrer">
+                <div>{player.lichessName}</div>
+              </StyledLink>
+            </Label>
+          )}
+          {player.streamerUrl && (
+            <Label>
+              <div>Stream</div>
+              <StyledLink href={player.streamerUrl} target="_blank" rel="noreferrer">
+                <div>{getDisplayStreamerUrl(player.streamerUrl)}</div>
+              </StyledLink>
+            </Label>
+          )}
         </InfoGrid>
       </Content>
     </Card>

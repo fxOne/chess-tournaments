@@ -1,18 +1,30 @@
 export const routing = {
   de: {
-    about: '/de/about',
-    imprint: '/de/imprint',
+    about: '/about',
+    imprint: '/imprint',
     tournaments: {
       hobbitInvitational: {
-        index: '/de/tournaments/hobbitInvitational',
-        pairings: '/de/tournaments/hobbitInvitational/pairings',
-        players: '/de/tournaments/hobbitInvitational/players',
+        index: '/tournaments/hobbitInvitational',
+        pairings: '/tournaments/hobbitInvitational/pairings',
+        players: '/tournaments/hobbitInvitational/players',
         series: {
           games(gameId: number): string {
-            return `/de/tournaments/hobbitInvitational/series/${gameId}`;
+            return `/tournaments/hobbitInvitational/series/${gameId}`;
+          },
+        },
+      },
+      index: '/tournaments',
+      lichessStreamerChampionship: {
+        index: '/tournaments/lichessStreamerChampionship',
+        pairings: '/tournaments/lichessStreamerChampionship/pairings',
+        players: '/tournaments/lichessStreamerChampionship/players',
+        series: {
+          games(gameId: number): string {
+            return `/tournaments/lichessStreamerChampionship/series/${gameId}`;
           },
         },
       },
     },
   },
+  index: '/',
 };
