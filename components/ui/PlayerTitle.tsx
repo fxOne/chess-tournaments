@@ -15,7 +15,7 @@ const titleColors = {
   WGM: '#d59020',
 };
 
-const PlayerTitle = styled.tspan<TitleProps>`
+const PlayerTitle = styled.span<TitleProps>`
   color: ${({ title }) => (title && titleColors[title]) ?? 'black'};
   font-weight: bold;
   font-size: 0.9em;

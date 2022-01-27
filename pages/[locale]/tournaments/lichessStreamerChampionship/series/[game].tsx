@@ -22,16 +22,15 @@ interface GameProps {
   players: Players;
 }
 
-export async function getStaticProps({
-  params,
-}: GetStaticPropsContext<{ game: string; locale: string }>): Promise<GetStaticPropsResult<GameProps>> {
-  const gameId = params?.game;
-
+export async function getStaticProps(
+  props: GetStaticPropsContext<{ game: string; locale: string }>,
+): Promise<GetStaticPropsResult<GameProps>> {
+  const gameId = props.params?.game;
   if (gameId) {
     const match = matches[+gameId];
 
     if (match) {
-      const i18nProps = await getI18nProps(params, ['common', 'lichessStreamerChampionship']);
+      const i18nProps = await getI18nProps(props, ['common']);
       return {
         props: { match, players, ...i18nProps },
       };
