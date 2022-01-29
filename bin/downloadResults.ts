@@ -77,8 +77,10 @@ function createSeries(gameResults: LichessGameResult[], p1: Player, p2: Player):
   const timeSeries = new Map<string, Game[]>();
 
   for (const gameResult of gameResults) {
-    const userIdWhite = gameResult.players.white.user.name === p1.lichessName ? p1.id : p2.id;
-    const userIdBlack = gameResult.players.black.user.name === p2.lichessName ? p2.id : p1.id;
+    const userIdWhite =
+      gameResult.players.white.user.name.toLowerCase() === p1.lichessName?.toLowerCase() ? p1.id : p2.id;
+    const userIdBlack =
+      gameResult.players.black.user.name.toLowerCase() === p2.lichessName?.toLowerCase() ? p2.id : p1.id;
     const game: Game = {
       lichessUrl: `https://lichess.org/${gameResult.id}`,
       result: getGameResult(gameResult),
@@ -127,9 +129,8 @@ async function init(): Promise<void> {
   for (const match of Object.values(matches)) {
     if (match.date && match.date !== 'unbekannt' && match.player1 && match.player2) {
       if (!existsSync(getFileName(match.id))) {
-        const date = dayjs(match.date, 'DD.MM.YYYY');
+        const date = dayjs(match.date, match.date.includes(':') ? 'DD.MM.YYYY HH:mm' : 'DD.MM.YYYY');
         //only import games before today
-        console.log();
         if (date.isBefore(dayjs().add(1, 'd'))) {
           const p1 = players[match.player1];
           const p2 = players[match.player2];

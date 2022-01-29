@@ -1,8 +1,9 @@
 import { Matches } from '../Interfaces';
+import { game7 } from './games/Game7';
 
 export const matches: Matches = {
   1: {
-    date: 'unbekannt',
+    date: '04.02.2022 19:00',
     downloadLink: null,
     id: 1,
     player1: 7,
@@ -60,7 +61,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 15,
     player1: 5,
-    player2: null,
+    player2: 13,
     series: [],
     videoUrl: null,
   },
@@ -191,7 +192,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   5: {
-    date: 'unbekannt',
+    date: '31.01.2022 12:30',
     downloadLink: null,
     id: 5,
     player1: 11,
@@ -209,12 +210,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   7: {
-    date: '29.01.2022',
+    date: '29.01.2022 16:00',
     downloadLink: null,
     id: 7,
     player1: 13,
     player2: 23,
-    series: [],
+    series: game7,
     videoUrl: null,
   },
   8: {
@@ -227,7 +228,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   9: {
-    date: 'unbekannt',
+    date: '30.01.2022 20:00',
     downloadLink: null,
     id: 9,
     player1: 15,
