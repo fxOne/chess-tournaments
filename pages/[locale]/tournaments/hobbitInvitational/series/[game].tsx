@@ -129,7 +129,7 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <br />
       <br />
       <Center>
-        <Button text={t('backToPairings')} target={routing.de.tournaments.lichessStreamerChampionship.pairings} />
+        <Button text={t('backToPairings')} target={routing.de.tournaments.hobbitInvitational.pairings} />
         {match.downloadLink && (
           <>
             <br />
