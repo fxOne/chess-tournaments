@@ -5,6 +5,24 @@
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 <url>
+  <loc>https://www.chess-tournaments.org/de/tournaments</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+  <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.chess-tournaments.org/en/tournaments"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/en/tournaments</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+  <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://www.chess-tournaments.org/de/tournaments"/>
+</url>
+<url>
   <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational</loc>
   <lastmod>2021-03-15T19:48:45+00:00</lastmod>
   <priority>1.00</priority>
@@ -78,5 +96,59 @@
   <loc>https://www.chess-tournaments.org/de/tournaments/hobbitInvitational/series/12</loc>
   <lastmod>2021-03-15T19:48:45+00:00</lastmod>
   <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>1.00</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship/players</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship/players"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship/players</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship/players"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship/pairings</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="en"
+               href="https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship/pairings"/>
+</url>
+<url>
+  <loc>https://www.chess-tournaments.org/en/tournaments/lichessStreamerChampionship/pairings</loc>
+  <lastmod>2021-01-29T12:00:00+00:00</lastmod>
+  <priority>0.80</priority>
+    <xhtml:link
+               rel="alternate"
+               hreflang="de"
+               href="https://www.chess-tournaments.org/de/tournaments/lichessStreamerChampionship/pairings"/>
 </url>
 </urlset>
