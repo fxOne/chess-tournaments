@@ -43,3 +43,32 @@ export interface Player {
 }
 
 export type Players = Record<number, Player>;
+
+export interface LichessGameResultPlayer {
+  user: {
+    name: string;
+    title?: string;
+    patron?: boolean;
+    id: string;
+  };
+  rating: number;
+  ratingDiff: number;
+}
+
+export interface LichessGameResult {
+  id: string;
+  rated: boolean;
+  createdAt: number;
+  lastMoveAt: number;
+  status: 'resigned' | 'draw' | 'stalemate';
+  players: {
+    black: LichessGameResultPlayer;
+    white: LichessGameResultPlayer;
+  };
+  winner?: 'black' | 'white';
+  clock: {
+    initial: number;
+    increment: number;
+    totalTime: number;
+  };
+}

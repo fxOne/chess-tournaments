@@ -11,9 +11,11 @@
     "lint:eslint:fix": "eslint --fix ./",
     "lint:css": "stylelint '**/*.{ts,tsx}'",
     "downloadGames": "ts-node bin/downloadGames",
+    "downloadResults": "ts-node bin/downloadResults",
     "prepare": "husky install"
   },
   "dependencies": {
+    "dayjs": "^1.10.7",
     "dom-to-image": "^2.6.0",
     "lucide-react": "^0.16.28",
     "next": "12.0.8",

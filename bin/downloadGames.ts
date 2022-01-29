@@ -1,11 +1,9 @@
-import { Game, Series } from '../data/Interfaces';
-
-/* eslint-disable @typescript-eslint/no-var-requires */
-import fetch from 'node-fetch';
-import { matches } from '../data/hobbitsInvitational/Games';
-import path from 'path';
-import { players } from '../data/hobbitsInvitational/Players';
 import { writeFileSync } from 'fs';
+import fetch from 'node-fetch';
+import path from 'path';
+import { matches } from '../data/hobbitsInvitational/Games';
+import { players } from '../data/hobbitsInvitational/Players';
+import { Game, Series } from '../data/Interfaces';
 
 const baseUrl = 'https://lichess.org/';
 const targetFolder = path.join(__dirname, '../public/pgn/hobbitsInvitationals');
