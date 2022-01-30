@@ -2,6 +2,7 @@ import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import { Match } from '../../data/Interfaces';
+import DateTime from '../DateTime';
 import Flex from '../ui/Flex';
 
 interface Props {
@@ -53,7 +54,9 @@ export default function MatchDetails({ match }: Props): ReactElement {
             />
           </svg>
         </Icon>
-        <div>{match.date}</div>
+        <div>
+          <DateTime dateTime={match.date} />
+        </div>
       </Flex>
 
       {match.videoUrl && (

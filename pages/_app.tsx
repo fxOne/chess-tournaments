@@ -1,7 +1,15 @@
+import dayjs from 'dayjs';
+import customParseFormat from 'dayjs/plugin/customParseFormat';
+import timezone from 'dayjs/plugin/timezone';
+import utc from 'dayjs/plugin/utc';
 import { appWithTranslation } from 'next-i18next';
 import { AppProps } from 'next/app';
 import { ReactElement } from 'react';
 import { createGlobalStyle, ThemeProvider } from 'styled-components';
+
+dayjs.extend(customParseFormat);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const GlobalStyle = createGlobalStyle`
   body {
