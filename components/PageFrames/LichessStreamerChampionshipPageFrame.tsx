@@ -54,6 +54,10 @@ export default function LichessStreamerChampionshipPageFrame({
             text: t('players'),
           },
           {
+            link: routing.de.tournaments.lichessStreamerChampionship.bracket,
+            text: t('bracket'),
+          },
+          {
             link: routing.de.tournaments.lichessStreamerChampionship.pairings,
             text: t('pairings'),
           },

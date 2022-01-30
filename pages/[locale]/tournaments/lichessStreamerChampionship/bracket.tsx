@@ -1,8 +1,10 @@
 import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
-import TournamentPairings from '../../../../components/Pairings/TournamentPairings';
+import TournamentBracket from '../../../../components/TournamentBracket/TournamentBracket';
 import Center from '../../../../components/ui/Center';
+import Hint from '../../../../components/ui/Hint';
+import { brackets } from '../../../../data/lichessStreamerChampionship/Brackets';
 import { matches } from '../../../../data/lichessStreamerChampionship/Games';
 import { players } from '../../../../data/lichessStreamerChampionship/Players';
 import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
@@ -16,14 +18,19 @@ export default function Pairings(): ReactElement {
   return (
     <LichessStreamerChampionshipPageFrame
       title={t('pairings')}
-      contentDescription={t('lichessStreamerChampionship:pairings.contentDescription')}
+      contentDescription={t('lichessStreamerChampionship:bracket.contentDescription')}
       extendedContainer
     >
-      <TournamentPairings
+      <TournamentBracket
+        brackets={brackets}
         players={players}
         matches={matches}
         getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
+        downloadFileName="lichessStreamerChampionship.png"
       />
+      <br />
+      <Hint>{t('pairingsHint')}</Hint>
+      <br />
       <br />
       <Center>
         {/*<Button

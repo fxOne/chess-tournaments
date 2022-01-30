@@ -15,6 +15,7 @@ export const routing = {
       },
       index: '/tournaments',
       lichessStreamerChampionship: {
+        bracket: '/tournaments/lichessStreamerChampionship/bracket',
         index: '/tournaments/lichessStreamerChampionship',
         pairings: '/tournaments/lichessStreamerChampionship/pairings',
         players: '/tournaments/lichessStreamerChampionship/players',

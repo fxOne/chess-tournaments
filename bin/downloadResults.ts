@@ -7,6 +7,7 @@ import { Game, LichessGameResult } from '../data/Interfaces';
 import { Player } from '../data/Interfaces.d';
 import { matches } from '../data/lichessStreamerChampionship/Games';
 import { players } from '../data/lichessStreamerChampionship/Players';
+import { parseDate } from '../lib/Dates';
 
 dayjs.extend(customParseFormat);
 
@@ -129,7 +130,7 @@ async function init(): Promise<void> {
   for (const match of Object.values(matches)) {
     if (match.date && match.date !== 'unbekannt' && match.player1 && match.player2) {
       if (!existsSync(getFileName(match.id))) {
-        const date = dayjs(match.date, match.date.includes(':') ? 'DD.MM.YYYY HH:mm' : 'DD.MM.YYYY');
+        const date = parseDate(match.date);
         //only import games before today
         if (date.isBefore(dayjs().add(1, 'd'))) {
           const p1 = players[match.player1];

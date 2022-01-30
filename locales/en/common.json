@@ -1,10 +1,12 @@
 {
   "gotoTournament": "To the tournament",
+  "gotoGame": "To the games",
   "aboutUs": "About us",
   "imprint": "Imprint",
   "pairings": "Pairings",
   "players": "Players",
   "player": "Player",
+  "bracket": "Bracket",
   "gotoPairings": "To the pairings",
   "backToPairings": "Back to pairings",
   "announcement": "Announcement",
