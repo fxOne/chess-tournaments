@@ -1,5 +1,7 @@
 import { Matches } from '../Interfaces';
+import { game5 } from './games/Game5';
 import { game7 } from './games/Game7';
+import { game9 } from './games/Game9';
 
 export const matches: Matches = {
   1: {
@@ -43,7 +45,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 13,
     player1: 3,
-    player2: null,
+    player2: 11,
     series: [],
     videoUrl: null,
   },
@@ -79,7 +81,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 17,
     player1: null,
-    player2: null,
+    player2: 15,
     series: [],
     videoUrl: null,
   },
@@ -197,7 +199,7 @@ export const matches: Matches = {
     id: 5,
     player1: 11,
     player2: 21,
-    series: [],
+    series: game5,
     videoUrl: null,
   },
   6: {
@@ -233,7 +235,7 @@ export const matches: Matches = {
     id: 9,
     player1: 15,
     player2: 25,
-    series: [],
+    series: game9,
     videoUrl: null,
   },
 };
