@@ -13,6 +13,8 @@ interface TournemantBracketProps {
   players: Players;
   getLinkUrl(id: number): string;
   downloadFileName: string;
+  bracketWidth?: string;
+  bracketHeight?: string;
 }
 const OuterWrapper = styled.div`
   position: relative;
@@ -35,6 +37,8 @@ export default function TournamentBracket({
   players,
   getLinkUrl,
   downloadFileName,
+  bracketHeight,
+  bracketWidth,
 }: TournemantBracketProps): ReactElement {
   const { bracketPositions, height, lines, width } = useMemo(() => {
     const bracketPositions = calculateBracketPositions(brackets, matches, players);
@@ -48,7 +52,13 @@ export default function TournamentBracket({
   return (
     <OuterWrapper>
       <Wrapper>
-        <svg width={width} height={height} ref={ref} xmlns="http://www.w3.org/2000/svg">
+        <svg
+          width={bracketWidth}
+          height={bracketHeight}
+          ref={ref}
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox={`0 0 ${width} ${height}`}
+        >
           <g>
             {[...bracketPositions.values()].map(({ match, player1, player2, x, y }) => {
               return (

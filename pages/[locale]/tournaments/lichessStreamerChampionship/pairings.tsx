@@ -3,6 +3,7 @@ import { ReactElement } from 'react';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import TournamentPairings from '../../../../components/Pairings/TournamentPairings';
 import Center from '../../../../components/ui/Center';
+import { brackets } from '../../../../data/lichessStreamerChampionship/Brackets';
 import { matches } from '../../../../data/lichessStreamerChampionship/Games';
 import { players } from '../../../../data/lichessStreamerChampionship/Players';
 import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
@@ -22,6 +23,7 @@ export default function Pairings(): ReactElement {
       <TournamentPairings
         players={players}
         matches={matches}
+        brackets={brackets}
         getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
       />
       <br />
