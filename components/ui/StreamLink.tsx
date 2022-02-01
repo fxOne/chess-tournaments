@@ -8,7 +8,8 @@ const StyledLink = styled.a`
 
 interface StreamLinkProps {
   streamLink: string;
-  fallbackName: string;
+  fallbackName?: string;
+  showName?: boolean;
 }
 
 function getTwitchName(streamLink: string): string | undefined {
@@ -16,20 +17,14 @@ function getTwitchName(streamLink: string): string | undefined {
   return parts.pop();
 }
 
-export default function StreamLink({ streamLink, fallbackName }: StreamLinkProps): ReactElement {
+export default function StreamLink({ streamLink, fallbackName, showName }: StreamLinkProps): ReactElement {
   const isTwitch = streamLink.includes('twitch');
   return (
     <StyledLink href={streamLink} target="_blank" rel="noreferrer">
-      {!isTwitch && (
-        <>
-          <Youtube size="18" /> {fallbackName}
-        </>
-      )}
-      {isTwitch && (
-        <>
-          <Twitch size="18" /> {getTwitchName(streamLink) || fallbackName}
-        </>
-      )}
+      {!isTwitch && <Youtube size="18" />}
+      {isTwitch && <Twitch size="18" />}
+      {!isTwitch && showName && <>{fallbackName}</>}
+      {isTwitch && showName && <>{getTwitchName(streamLink) || fallbackName}</>}
     </StyledLink>
   );
 }

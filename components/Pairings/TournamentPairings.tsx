@@ -1,19 +1,17 @@
 import dayjs from 'dayjs';
 import { ReactElement, useMemo } from 'react';
-import { Bracket, Match, Matches, Players } from '../../data/Interfaces';
+import { Match, Matches, Players } from '../../data/Interfaces';
 import { parseDate } from '../../lib/Dates';
-import TournamentBracket from '../TournamentBracket/TournamentBracket';
 import { Divider } from '../ui/Divider';
 import Pairing from './Pairing';
 
 interface PairingProps {
-  brackets: Bracket[][];
   matches: Matches;
   players: Players;
   getLinkUrl(id: number): string;
 }
 
-export default function TournamentPairings({ matches, getLinkUrl, players, brackets }: PairingProps): ReactElement {
+export default function TournamentPairings({ matches, getLinkUrl, players }: PairingProps): ReactElement {
   const [before, after] = useMemo(() => {
     const matchList = Object.values(matches);
     const filteredList = matchList.filter(
@@ -38,14 +36,6 @@ export default function TournamentPairings({ matches, getLinkUrl, players, brack
 
   return (
     <div>
-      <TournamentBracket
-        brackets={brackets}
-        players={players}
-        matches={matches}
-        getLinkUrl={getLinkUrl}
-        downloadFileName="lichessStreamerChampionship.png"
-        bracketHeight="300px"
-      />
       {after.map((match) => (
         <Pairing key={match.id} getLinkUrl={getLinkUrl} match={match} players={players} />
       ))}

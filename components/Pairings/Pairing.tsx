@@ -1,11 +1,11 @@
 import { Calendar } from 'lucide-react';
 import { useTranslation } from 'next-i18next';
+import Link from 'next/link';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import { Match, Players } from '../../data/Interfaces';
 import DateTime from '../DateTime';
 import { calculateSeries } from '../ResultTable/Calculations';
-import Button from '../ui/Button';
 import PlayerContainer from './PlayerContainer';
 
 const Wrapper = styled.div`
@@ -13,19 +13,16 @@ const Wrapper = styled.div`
 `;
 const DateLine = styled.div`
   text-align: center;
+  margin-bottom: 5px;
 `;
 const PlayerWrapper = styled.div`
-  flex: 1;
+  width: 100%;
   display: flex;
-  justify-content: center;
 `;
 
 const VsContainer = styled.div`
-  margin: 0 1.5rem;
+  margin: 0 0.5em;
   color: #aaa;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 `;
 const GameButton = styled.div`
   width: 250px;
@@ -58,11 +55,12 @@ export default function Pairing({ match, players, getLinkUrl }: PairingProps): R
       </DateLine>
       <GameContainer>
         <PlayerWrapper>
-          <PlayerContainer player={player1} result={resultPlayer1} isWinner={resultPlayer1 > resultPlayer2} />
-          <VsContainer>VS</VsContainer>
+          <PlayerContainer player={player1} result={resultPlayer1} isWinner={resultPlayer1 > resultPlayer2} left />
+          <VsContainer>vs</VsContainer>
           <PlayerContainer player={player2} result={resultPlayer2} isWinner={resultPlayer2 > resultPlayer1} />
         </PlayerWrapper>
-        <GameButton>{hasGames && <Button text={t('gotoGame')} target={getLinkUrl(match.id)} />}</GameButton>
+
+        <GameButton>{hasGames && <Link href={getLinkUrl(match.id)}>{t('gotoGame')}</Link>}</GameButton>
       </GameContainer>
     </Wrapper>
   );
