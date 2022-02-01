@@ -47,15 +47,11 @@ export default function LichessStreamerChampionshipPageFrame({
         menuItems={[
           {
             link: routing.de.tournaments.lichessStreamerChampionship.index,
-            text: t('lichessStreamerChampionship:tournamentNameShort'),
+            text: t('overview'),
           },
           {
             link: routing.de.tournaments.lichessStreamerChampionship.players,
             text: t('players'),
-          },
-          {
-            link: routing.de.tournaments.lichessStreamerChampionship.bracket,
-            text: t('bracket'),
           },
           {
             link: routing.de.tournaments.lichessStreamerChampionship.pairings,
