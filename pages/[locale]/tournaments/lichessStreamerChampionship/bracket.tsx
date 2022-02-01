@@ -1,5 +1,6 @@
 import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
+import TabContent from '../../../../components/Container/TabContent';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
 import TournamentBracket from '../../../../components/TournamentBracket/TournamentBracket';
 import Center from '../../../../components/ui/Center';
@@ -21,24 +22,39 @@ export default function Pairings(): ReactElement {
       contentDescription={t('lichessStreamerChampionship:bracket.contentDescription')}
       extendedContainer
     >
-      <TournamentBracket
-        brackets={brackets}
-        players={players}
-        matches={matches}
-        getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
-        downloadFileName="lichessStreamerChampionship.png"
-      />
-      <br />
-      <Hint>{t('pairingsHint')}</Hint>
-      <br />
-      <br />
-      <Center>
-        {/*<Button
+      <TabContent
+        tabs={[
+          {
+            isActive: false,
+            link: routing.de.tournaments.lichessStreamerChampionship.pairings,
+            name: t('pairings'),
+          },
+          {
+            isActive: true,
+            link: routing.de.tournaments.lichessStreamerChampionship.bracket,
+            name: t('bracket'),
+          },
+        ]}
+      >
+        <TournamentBracket
+          brackets={brackets}
+          players={players}
+          matches={matches}
+          getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
+          downloadFileName="lichessStreamerChampionship.png"
+        />
+        <br />
+        <Hint>{t('pairingsHint')}</Hint>
+        <br />
+        <br />
+        <Center>
+          {/*<Button
           text={t('downloadAllGames')}
           target="/pgn/lichessStreamerChampionship/lichessStreamerChampionship.pgn"
           download
         />*/}
-      </Center>
+        </Center>
+      </TabContent>
     </LichessStreamerChampionshipPageFrame>
   );
 }
