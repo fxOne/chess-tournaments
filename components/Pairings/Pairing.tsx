@@ -9,13 +9,13 @@ import { calculateSeries } from '../ResultTable/Calculations';
 import PlayerContainer from './PlayerContainer';
 
 interface WrapperProps {
-  smallHight?: boolean;
+  noDate?: boolean;
 }
 
 const Wrapper = styled.div<WrapperProps>`
-  margin: ${({ smallHight }) => (smallHight ? '0.5em 1em' : '1.5em 1em')};
+  margin: ${({ noDate }) => (noDate ? '0.5em 1em' : '1.5em 1em')};
   @media screen and (max-width: 620px) {
-    margin: 1.5em 1em;
+    margin: ${({ noDate }) => (noDate ? '2.5em 1em' : '1.5em 1em')};
   }
 `;
 const DateLine = styled.div`
@@ -58,10 +58,10 @@ interface PairingProps {
   match: Match;
   players: Players;
   getLinkUrl(id: number): string;
-  smallHight?: boolean;
+  noDate?: boolean;
 }
 
-export default function Pairing({ match, players, getLinkUrl, smallHight }: PairingProps): ReactElement {
+export default function Pairing({ match, players, getLinkUrl, noDate }: PairingProps): ReactElement {
   const { t } = useTranslation(['common']);
   const player1: Player | null = match.player1 ? players[match.player1] : null;
   const player2: Player | null = match.player2 ? players[match.player2] : null;
@@ -72,7 +72,7 @@ export default function Pairing({ match, players, getLinkUrl, smallHight }: Pair
   const resultPlayer2 = player2 ? calculateSeries(match.series, player2.id) : 0;
 
   return (
-    <Wrapper smallHight={smallHight}>
+    <Wrapper noDate={noDate}>
       {match.date !== 'unbekannt' && (
         <DateLine>
           <Calendar size={18} /> <DateTime dateTime={match.date} />
