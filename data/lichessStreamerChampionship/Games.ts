@@ -5,7 +5,7 @@ import { game9 } from './games/Game9';
 
 export const matches: Matches = {
   1: {
-    date: '04.02.2022 19:00',
+    date: '2022-02-04 19:00',
     downloadLink: null,
     id: 1,
     player1: 7,
@@ -194,7 +194,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   5: {
-    date: '31.01.2022 12:30',
+    date: '2022-01-31 12:30',
     downloadLink: null,
     id: 5,
     player1: 11,
@@ -212,7 +212,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   7: {
-    date: '29.01.2022 16:00',
+    date: '2022-01-29 16:00',
     downloadLink: null,
     id: 7,
     player1: 13,
@@ -221,7 +221,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   8: {
-    date: 'unbekannt',
+    date: '2022-02-03 18:00',
     downloadLink: null,
     id: 8,
     player1: 14,
@@ -230,7 +230,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   9: {
-    date: '30.01.2022 20:00',
+    date: '2022-01-30 20:00',
     downloadLink: null,
     id: 9,
     player1: 15,

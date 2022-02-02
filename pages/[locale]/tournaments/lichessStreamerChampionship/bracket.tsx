@@ -2,8 +2,10 @@ import { useTranslation } from 'next-i18next';
 import { ReactElement } from 'react';
 import TabContent from '../../../../components/Container/TabContent';
 import LichessStreamerChampionshipPageFrame from '../../../../components/PageFrames/LichessStreamerChampionshipPageFrame';
-import TournamentPairings from '../../../../components/Pairings/TournamentPairings';
+import TournamentBracket from '../../../../components/TournamentBracket/TournamentBracket';
 import Center from '../../../../components/ui/Center';
+import Hint from '../../../../components/ui/Hint';
+import { brackets } from '../../../../data/lichessStreamerChampionship/Brackets';
 import { matches } from '../../../../data/lichessStreamerChampionship/Games';
 import { players } from '../../../../data/lichessStreamerChampionship/Players';
 import { getStaticPaths, makeStaticProps } from '../../../../lib/getStatic';
@@ -17,28 +19,33 @@ export default function Pairings(): ReactElement {
   return (
     <LichessStreamerChampionshipPageFrame
       title={t('pairings')}
-      contentDescription={t('lichessStreamerChampionship:pairings.contentDescription')}
+      contentDescription={t('lichessStreamerChampionship:bracket.contentDescription')}
       extendedContainer
     >
       <TabContent
         tabs={[
           {
-            isActive: true,
+            isActive: false,
             link: routing.de.tournaments.lichessStreamerChampionship.pairings,
             name: t('pairings'),
           },
           {
-            isActive: false,
+            isActive: true,
             link: routing.de.tournaments.lichessStreamerChampionship.bracket,
             name: t('bracket'),
           },
         ]}
       >
-        <TournamentPairings
+        <TournamentBracket
+          brackets={brackets}
           players={players}
           matches={matches}
           getLinkUrl={routing.de.tournaments.lichessStreamerChampionship.series.games}
+          downloadFileName="lichessStreamerChampionship.png"
         />
+        <br />
+        <Hint>{t('pairingsHint')}</Hint>
+        <br />
         <br />
         <Center>
           {/*<Button

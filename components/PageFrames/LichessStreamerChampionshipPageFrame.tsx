@@ -47,7 +47,7 @@ export default function LichessStreamerChampionshipPageFrame({
         menuItems={[
           {
             link: routing.de.tournaments.lichessStreamerChampionship.index,
-            text: t('lichessStreamerChampionship:tournamentNameShort'),
+            text: t('overview'),
           },
           {
             link: routing.de.tournaments.lichessStreamerChampionship.players,

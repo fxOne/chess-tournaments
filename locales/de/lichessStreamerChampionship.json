@@ -1,16 +1,16 @@
 {
-  "tournamentName": "Lichess Streamer Championship 2022",
-  "tournamentNameShort": "Lichess Streamer Championship",
+  "bracket.contentDescription": "Turnierbaum des Turniers Lichess Streamer Championship",
   "index.contentDescription": "Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den ChessHobbits99.",
-  "index.introduction1": "Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den",
-  "index.introduction2": "Chesshobbits99 ist ein Twitch Kanal von den Schachspielern IM Adrian Gschnitzer und FM Marco Riehle.",
-  "index.venue": "Die Partien werden auf dem Twitch Kanal der jeweiligen Spieler gestreamt und auf <1>lichess.org</1> ausgetragen.",
   "index.date": "Beginnend ab dem 29.01.2022. Die Partien finden je nachdem wie die Spieler Zeit haben statt.",
   "index.dispensingSystem1": "Eliminierung Turnier mit jeweils 3 Runden:",
   "index.dispensingSystem2": "70 Minuten 5 Minuten + 1 Sekunde pro Zug",
   "index.dispensingSystem3": "50 Minuten 3 Minuten + 1 Sekunde pro Zug",
   "index.dispensingSystem4": "30 Minuten 1 Minuten + 1 Sekunde pro Zug",
   "index.dispensingSystem5": "Die laufende Partie nach Ablauf der Zeit zählt mit. Sieger mit den meisten Punkten kommt weiter.",
+  "index.introduction1": "Das Lichess Streamer Championship 2022 ist ein Einladungsturnier für Internationale Streamer von den",
+  "index.introduction2": "Chesshobbits99 ist ein Twitch Kanal von den Schachspielern IM Adrian Gschnitzer und FM Marco Riehle.",
+  "index.venue": "Die Partien werden auf dem Twitch Kanal der jeweiligen Spieler gestreamt und auf <1>lichess.org</1> ausgetragen.",
+  "pairings.contentDescription": "Paarungen des Turniers Lichess Streamer Championship",
   "players.contentDescription": "Teilnehmerliste des Lichess Streamer Championship",
-  "pairings.contentDescription": "Paarungen des Turniers Lichess Streamer Championship"
+  "tournamentName": "Lichess Streamer Championship 2022"
 }
