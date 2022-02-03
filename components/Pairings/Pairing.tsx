@@ -42,6 +42,7 @@ const VsContainer = styled.div`
 const GameButton = styled.div`
   width: 200px;
   text-align: center;
+  flex-shrink: 0;
   @media screen and (max-width: 620px) {
     width: 100%;
   }
