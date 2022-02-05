@@ -51,16 +51,16 @@ export default function TournamentPairings({ matches, getLinkUrl, players }: Pai
       {after.map((match) => (
         <Pairing key={match.id} getLinkUrl={getLinkUrl} match={match} players={players} />
       ))}
-      {((before.length && after.length) || undatedList.length > 0) && <Divider />}
       {undatedList.length > 0 && (
         <>
+          {Boolean(after.length) && <Divider />}
           <DateLine>TBD</DateLine>
           {undatedList.map((match) => (
             <Pairing key={match.id} getLinkUrl={getLinkUrl} match={match} players={players} noDate />
           ))}
-          {after.length && <Divider />}
         </>
       )}
+      {Boolean(before.length || undatedList.length) && <Divider />}
       {before.map((match) => (
         <Pairing key={match.id} getLinkUrl={getLinkUrl} match={match} players={players} />
       ))}

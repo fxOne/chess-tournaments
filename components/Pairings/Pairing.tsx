@@ -1,10 +1,10 @@
 import { Calendar } from 'lucide-react';
 import { useTranslation } from 'next-i18next';
-import Link from 'next/link';
 import { ReactElement } from 'react';
 import styled from 'styled-components';
 import { Match, Player, Players } from '../../data/Interfaces';
 import DateTime from '../DateTime';
+import Link from '../Link';
 import { calculateSeries } from '../ResultTable/Calculations';
 import PlayerContainer from './PlayerContainer';
 
