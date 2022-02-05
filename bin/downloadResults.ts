@@ -1,5 +1,7 @@
 import dayjs from 'dayjs';
 import customParseFormat from 'dayjs/plugin/customParseFormat';
+import timezone from 'dayjs/plugin/timezone';
+import utc from 'dayjs/plugin/utc';
 import { existsSync, writeFileSync } from 'fs';
 import fetch from 'node-fetch';
 import path from 'path';
@@ -10,6 +12,8 @@ import { players } from '../data/lichessStreamerChampionship/Players';
 import { parseDate } from '../lib/Dates';
 
 dayjs.extend(customParseFormat);
+dayjs.extend(utc);
+dayjs.extend(timezone);
 
 const tournamentName = 'lichessStreamerChampionship';
 //const tournamentName = 'hobbitsInvitational';

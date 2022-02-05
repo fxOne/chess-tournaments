@@ -219,6 +219,7 @@ export const players: Players = {
     lichessName: 'MrKooshaj',
     name: 'MrKooshaj',
     streamerUrl: 'https://www.twitch.tv/mrkooshachess',
+    title: 'CM',
   },
   8: {
     elo: 2664,
