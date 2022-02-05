@@ -81,11 +81,28 @@ function getTitle(player1: Player | null, player2: Player | null): string {
   return '';
 }
 
+function getPlayerContentDescription(player: Player, result: number, resultLeft = false): string {
+  let description = '';
+  if (resultLeft) {
+    description += `(${result}) `;
+  }
+  if (player.title) {
+    description += `${player.title} `;
+  }
+  description += `${player.name}`;
+  if (!resultLeft) {
+    description += ` (${result})`;
+  }
+  return description;
+}
+
 function getContentDescription(match: Match, player1: Player | null, player2: Player | null): string {
   if (player1 && player2) {
     const resultPlayer1 = calculateSeries(match.series, player1.id);
     const resultPlayer2 = calculateSeries(match.series, player2.id);
-    return `${player1.title} ${player1.name} (${resultPlayer1}) - (${resultPlayer2}) ${player2.title} ${player2.name}`;
+    const p1Description = getPlayerContentDescription(player1, resultPlayer1);
+    const p2Description = getPlayerContentDescription(player2, resultPlayer2, true);
+    return `${p1Description} - ${p2Description}`;
   }
   return '';
 }
