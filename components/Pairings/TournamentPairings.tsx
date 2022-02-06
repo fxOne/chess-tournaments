@@ -34,7 +34,7 @@ export default function TournamentPairings({ matches, getLinkUrl, players }: Pai
     const now = dayjs().add(-3, 'h');
     for (const match of datedList) {
       const matchDate = parseDate(match.date);
-      if (matchDate.isBefore(now)) {
+      if (match.series.length > 0 || matchDate.isBefore(now)) {
         before.push(match);
       } else {
         after.push(match);
