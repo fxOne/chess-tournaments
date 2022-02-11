@@ -53,7 +53,7 @@ function convertResultsToObject(s: string): LichessGameResult[] {
 }
 
 async function fetchGameResults(p1: Player, p2: Player, date: dayjs.Dayjs): Promise<LichessGameResult[]> {
-  const since = date.unix() * 1000;
+  const since = date.add(-1, 'H').unix() * 1000;
   const until = date.add(1, 'd').unix() * 1000;
   const response = await fetch(
     `${baseUrl}games/user/${p1.lichessName}?moves=false&vs=${p2.lichessName}&since=${since}&until=${until}`,
