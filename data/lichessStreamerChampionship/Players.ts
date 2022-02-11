@@ -52,7 +52,7 @@ export const players: Players = {
     image: '/images/players/SashaGelman.jpg',
     lichessName: 'SashaGelman',
     name: 'SashaGelman',
-    streamerUrl: 'https://www.twitch.tv/alexandergelman',
+    streamerUrl: 'https://www.youtube.com/channel/UCzRZ8iCtmqf6VyiCrZLcdWg/live',
     title: 'IM',
   },
   15: {
