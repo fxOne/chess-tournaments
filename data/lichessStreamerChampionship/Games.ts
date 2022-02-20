@@ -1,5 +1,6 @@
 import { Matches } from '../Interfaces';
 import { game1 } from './games/Game1';
+import { game10 } from './games/Game10';
 import { game2 } from './games/Game2';
 import { game5 } from './games/Game5';
 import { game6 } from './games/Game6';
@@ -23,7 +24,7 @@ export const matches: Matches = {
     id: 10,
     player1: 16,
     player2: 26,
-    series: [],
+    series: game10,
     videoUrl: null,
   },
   11: {
@@ -93,7 +94,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     downloadLink: null,
     id: 18,
-    player1: null,
+    player1: 26,
     player2: 8,
     series: [],
     videoUrl: null,
