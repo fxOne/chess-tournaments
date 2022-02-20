@@ -65,12 +65,12 @@ export const players: Players = {
     title: 'NM',
   },
   16: {
-    elo: 2556,
+    elo: 2384,
     id: 16,
-    image: '/images/players/Mastertime.jpg',
-    lichessName: 'Mastertime',
-    name: 'Mastertime',
-    streamerUrl: 'https://www.twitch.tv/alexgm96',
+    image: '/images/players/Polstastisch.png',
+    lichessName: 'Polstastisch',
+    name: 'Polstastisch',
+    streamerUrl: 'https://www.twitch.tv/polstastisch',
     title: 'FM',
   },
   17: {
