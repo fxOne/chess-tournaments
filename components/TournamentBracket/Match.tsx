@@ -30,8 +30,8 @@ export default function Match({ match, player1, player2, x = 0, y = 0, getLinkUr
       )}
       {!hasGames && (
         <>
-          <PlayerMatch player={player1} points={calculatePoints(match, player1?.id)} />
-          <PlayerMatch player={player2} points={calculatePoints(match, player2?.id)} y={height} />
+          <PlayerMatch player={player1} points={match.resultPlayer1 || null} />
+          <PlayerMatch player={player2} points={match.resultPlayer2 || null} y={height} />
         </>
       )}
     </g>

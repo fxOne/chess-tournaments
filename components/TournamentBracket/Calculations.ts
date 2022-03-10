@@ -153,20 +153,21 @@ export function calculateSvgSize(brackets: MatchPositionList): Size {
   return { height, width };
 }
 
-export function calculatePoints(match: Match, playerId?: number): number | null {
-  let result: number | null = null;
+export function calculatePoints(match: Match, playerId?: number): string | null {
+  let result: string | null = null;
 
   if (playerId && match.series.length) {
-    result = 0;
+    let points = 0;
     for (const serie of match.series) {
       for (const game of serie.games) {
         if (game.userIdWhite === playerId) {
-          result += game.result;
+          points += game.result;
         } else if (game.userIdBlack === playerId) {
-          result += 1 - game.result;
+          points += 1 - game.result;
         }
       }
     }
+    result = points.toString();
   }
 
   return result;

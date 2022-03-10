@@ -5,7 +5,7 @@ import PlayerTitle from '../ui/PlayerTitle';
 
 interface PlayerMatchProps {
   player: Player | null;
-  points: number | null;
+  points: string | null;
   y?: number;
 }
 

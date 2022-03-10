@@ -26,9 +26,12 @@ export default function TournamentPairings({ matches, getLinkUrl, players }: Pai
     const datedList = matchList.filter(
       ({ player1, player2, date }) => player1 && player2 && date && date !== 'unbekannt',
     );
-    const undatedList = matchList.filter(
-      ({ player1, player2, date }) => (player1 || player2) && date && date === 'unbekannt',
-    );
+    const undatedList = matchList
+      .filter(
+        ({ player1, player2, date, resultPlayer1, resultPlayer2 }) =>
+          (player1 || player2) && date && date === 'unbekannt' && !resultPlayer1 && !resultPlayer2,
+      )
+      .sort((a, b) => a.id - b.id);
     const before: Match[] = [];
     const after: Match[] = [];
     const now = dayjs().add(-3, 'h');

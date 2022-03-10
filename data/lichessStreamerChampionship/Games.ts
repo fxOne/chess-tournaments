@@ -1,6 +1,7 @@
 import { Matches } from '../Interfaces';
 import { game1 } from './games/Game1';
 import { game10 } from './games/Game10';
+import { game12 } from './games/Game12';
 import { game2 } from './games/Game2';
 import { game5 } from './games/Game5';
 import { game6 } from './games/Game6';
@@ -37,12 +38,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   12: {
-    date: 'unbekannt',
+    date: '2022-03-09 21:00',
     downloadLink: null,
     id: 12,
-    player1: null,
+    player1: 10,
     player2: 2,
-    series: [],
+    series: game12,
     videoUrl: null,
   },
   13: {
@@ -122,7 +123,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 20,
     player1: null,
-    player2: null,
+    player2: 2,
     series: [],
     videoUrl: null,
   },
@@ -195,6 +196,8 @@ export const matches: Matches = {
     id: 4,
     player1: 10,
     player2: 20,
+    resultPlayer1: '+',
+    resultPlayer2: '-',
     series: [],
     videoUrl: null,
   },
