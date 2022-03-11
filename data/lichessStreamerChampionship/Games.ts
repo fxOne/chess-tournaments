@@ -3,6 +3,7 @@ import { game1 } from './games/Game1';
 import { game10 } from './games/Game10';
 import { game12 } from './games/Game12';
 import { game2 } from './games/Game2';
+import { game3 } from './games/Game3';
 import { game5 } from './games/Game5';
 import { game6 } from './games/Game6';
 import { game7 } from './games/Game7';
@@ -33,7 +34,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 11,
     player1: 1,
-    player2: null,
+    player2: 9,
     series: [],
     videoUrl: null,
   },
@@ -182,12 +183,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   3: {
-    date: 'unbekannt',
+    date: '2022-03-06 14:00',
     downloadLink: null,
     id: 3,
     player1: 9,
     player2: 19,
-    series: [],
+    series: game3,
     videoUrl: null,
   },
   4: {
