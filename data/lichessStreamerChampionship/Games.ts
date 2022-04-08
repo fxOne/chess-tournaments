@@ -2,6 +2,8 @@ import { Matches } from '../Interfaces';
 import { game1 } from './games/Game1';
 import { game10 } from './games/Game10';
 import { game12 } from './games/Game12';
+import { game15 } from './games/Game15';
+import { game17 } from './games/Game17';
 import { game2 } from './games/Game2';
 import { game3 } from './games/Game3';
 import { game5 } from './games/Game5';
@@ -62,16 +64,18 @@ export const matches: Matches = {
     id: 14,
     player1: 12,
     player2: 4,
+    resultPlayer1: '+',
+    resultPlayer2: '-',
     series: [],
     videoUrl: null,
   },
   15: {
-    date: 'unbekannt',
+    date: '2022-02-21 16:00',
     downloadLink: null,
     id: 15,
     player1: 5,
     player2: 13,
-    series: [],
+    series: game15,
     videoUrl: null,
   },
   16: {
@@ -84,12 +88,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   17: {
-    date: 'unbekannt',
+    date: '2022-04-03 14:00',
     downloadLink: null,
     id: 17,
     player1: 17,
     player2: 15,
-    series: [],
+    series: game17,
     videoUrl: null,
   },
   18: {
@@ -106,7 +110,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 19,
     player1: null,
-    player2: null,
+    player2: 5,
     series: [],
     videoUrl: null,
   },
@@ -133,7 +137,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 21,
     player1: null,
-    player2: null,
+    player2: 15,
     series: [],
     videoUrl: null,
   },
@@ -142,7 +146,7 @@ export const matches: Matches = {
     downloadLink: null,
     id: 22,
     player1: null,
-    player2: null,
+    player2: 12,
     series: [],
     videoUrl: null,
   },
