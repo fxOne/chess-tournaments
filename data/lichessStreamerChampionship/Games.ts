@@ -97,7 +97,7 @@ export const matches: Matches = {
     videoUrl: null,
   },
   18: {
-    date: 'unbekannt',
+    date: '2022-04-14 17:00',
     downloadLink: null,
     id: 18,
     player1: 26,
