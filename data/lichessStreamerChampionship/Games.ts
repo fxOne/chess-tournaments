@@ -4,6 +4,7 @@ import { game10 } from './games/Game10';
 import { game12 } from './games/Game12';
 import { game15 } from './games/Game15';
 import { game17 } from './games/Game17';
+import { game18 } from './games/Game18';
 import { game2 } from './games/Game2';
 import { game3 } from './games/Game3';
 import { game5 } from './games/Game5';
@@ -55,6 +56,8 @@ export const matches: Matches = {
     id: 13,
     player1: 3,
     player2: 11,
+    resultPlayer1: '-',
+    resultPlayer2: '+',
     series: [],
     videoUrl: null,
   },
@@ -102,7 +105,7 @@ export const matches: Matches = {
     id: 18,
     player1: 26,
     player2: 8,
-    series: [],
+    series: game18,
     videoUrl: null,
   },
   19: {
@@ -136,7 +139,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     downloadLink: null,
     id: 21,
-    player1: null,
+    player1: 11,
     player2: 15,
     series: [],
     videoUrl: null,
@@ -145,7 +148,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     downloadLink: null,
     id: 22,
-    player1: null,
+    player1: 8,
     player2: 12,
     series: [],
     videoUrl: null,
