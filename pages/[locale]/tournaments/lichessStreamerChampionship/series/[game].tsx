@@ -123,21 +123,27 @@ export default function Game({ match, players }: GameProps): ReactElement {
       <MatchHeader player1={player1} player2={player2} />
       <MatchResult player1={player1} player2={player2} series={match.series} />
       <MatchDetails match={match} />
-      {player1 && player2 && match.series.length === 3 && (
+      {player1 && player2 && match.series.length && (
         <>
           <MatchesContainer>
-            <MatchTypeContainer>
-              <Header>5 + 1</Header>
-              <ResultTable player1={player1} player2={player2} serie={match.series[0]} />
-            </MatchTypeContainer>{' '}
-            <MatchTypeContainer>
-              <Header>3 + 1</Header>
-              <ResultTable player1={player1} player2={player2} serie={match.series[1]} />
-            </MatchTypeContainer>{' '}
-            <MatchTypeContainer>
-              <Header>1 + 1</Header>
-              <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
-            </MatchTypeContainer>
+            {match.series.length > 0 && (
+              <MatchTypeContainer>
+                <Header>5 + 1</Header>
+                <ResultTable player1={player1} player2={player2} serie={match.series[0]} />
+              </MatchTypeContainer>
+            )}
+            {match.series.length > 1 && (
+              <MatchTypeContainer>
+                <Header>3 + 1</Header>
+                <ResultTable player1={player1} player2={player2} serie={match.series[1]} />
+              </MatchTypeContainer>
+            )}
+            {match.series.length > 2 && (
+              <MatchTypeContainer>
+                <Header>1 + 1</Header>
+                <ResultTable player1={player1} player2={player2} serie={match.series[2]} />
+              </MatchTypeContainer>
+            )}
           </MatchesContainer>
           <Hint>{t('gameHint')}</Hint>
         </>

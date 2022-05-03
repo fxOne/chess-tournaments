@@ -1,11 +1,13 @@
 import { Matches } from '../Interfaces';
 import { game1 } from './games/Game1';
 import { game10 } from './games/Game10';
+import { game11 } from './games/Game11';
 import { game12 } from './games/Game12';
 import { game15 } from './games/Game15';
 import { game17 } from './games/Game17';
 import { game18 } from './games/Game18';
 import { game2 } from './games/Game2';
+import { game26 } from './games/Game26';
 import { game3 } from './games/Game3';
 import { game5 } from './games/Game5';
 import { game6 } from './games/Game6';
@@ -33,12 +35,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   11: {
-    date: 'unbekannt',
+    date: '2022-04-12 17:45',
     downloadLink: null,
     id: 11,
     player1: 1,
     player2: 9,
-    series: [],
+    series: game11,
     videoUrl: null,
   },
   12: {
@@ -86,7 +88,9 @@ export const matches: Matches = {
     downloadLink: null,
     id: 16,
     player1: 14,
-    player2: null,
+    player2: 6,
+    resultPlayer1: '-',
+    resultPlayer2: '+',
     series: [],
     videoUrl: null,
   },
@@ -112,7 +116,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     downloadLink: null,
     id: 19,
-    player1: null,
+    player1: 9,
     player2: 5,
     series: [],
     videoUrl: null,
@@ -130,7 +134,7 @@ export const matches: Matches = {
     date: 'unbekannt',
     downloadLink: null,
     id: 20,
-    player1: null,
+    player1: 6,
     player2: 2,
     series: [],
     videoUrl: null,
@@ -181,12 +185,12 @@ export const matches: Matches = {
     videoUrl: null,
   },
   26: {
-    date: 'unbekannt',
+    date: '2022-02-27 14:00',
     downloadLink: null,
     id: 26,
     player1: 27,
     player2: 6,
-    series: [],
+    series: game26,
     videoUrl: null,
   },
   3: {
